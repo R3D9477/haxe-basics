@@ -1,7 +1,0 @@
--main Main
--cp Source
--neko Bin/Main.n
-
---next
--cmd cd Bin
--cmd neko Main.n
