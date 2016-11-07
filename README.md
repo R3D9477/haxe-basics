@@ -1,6 +1,6 @@
 # haxe-basics
 
-1. Generic
+[1. Generic](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic)
 
 	1.1. Simple data types and basic operators
 		1.1.1. Simple data types (int, float, string, bool, datetime)
