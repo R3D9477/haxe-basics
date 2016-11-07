@@ -52,8 +52,8 @@ Contain:<br/>
 
 [4. Filesystem](https://github.com/r3d9u11/haxe-basics/tree/master/4%20-%20FileSystem)<br/>
 
-[4.1. Text file: writing, reading](https://github.com/r3d9u11/haxe-basics/tree/master/4%20-%20FileSystem/4.1%20-%20Edit%20text%20file)<br/>
-[4.2. File operations: copy, delete, move/rename, attributes reading](https://github.com/r3d9u11/haxe-basics/tree/master/4%20-%20FileSystem/4.2%20-%20Operations%20with%20files)<br/>
+[4.1. Edit text file](https://github.com/r3d9u11/haxe-basics/tree/master/4%20-%20FileSystem/4.1%20-%20Edit%20text%20file)<br/>
+[4.2. Operations with files](https://github.com/r3d9u11/haxe-basics/tree/master/4%20-%20FileSystem/4.2%20-%20Operations%20with%20files)<br/>
 [4.3. Operations with directories: create, delete, move/rename, read the contents of a directory](https://github.com/r3d9u11/haxe-basics/tree/master/4%20-%20FileSystem/4.3%20-%20Operations%20with%20directories)<br/>
 
 5. Networking
