@@ -22,20 +22,20 @@
 [1.2.8. An associative array (Map type)](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.2%20-%20Data%20sets%20and%20operations%20with%20them/1.2.8%20-%20Map)<br/>
 [1.2.9. Additional functions and class Lambda](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.2%20-%20Data%20sets%20and%20operations%20with%20them/1.2.9%20-%20Additional%20functions%20and%20class%20Lambda)<br/>
 
-	1.3. Custom data types and OOP
-		1.3.1. Enumerations
-		1.3.2. Data Structures: anonymous and with declared type
-		1.3.3. Classes: constructor, destructor, fields, properties, methods, and access modifiers
-		1.3.4. Classes: static class members (static access modifier)
-		1.3.5. Classes: inline access modifiers, dynamic, override
-		1.3.6. Classes: inheritance and multiple inheritance implementation
-		1.3.7. Classes: inheritance and multiple inheritance of interfaces
-		1.3.8. Classes: parametrizirovanye types and class members
-		1.3.9. Abstractions: Ad binding to class, operator overloading
+[1.3. Custom data types and OOP](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.3%20-%20Custom%20data%20types%20and%20OOP)<br/>
+[1.3.1. Enumerations](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.3%20-%20Custom%20data%20types%20and%20OOP/1.3.1%20-%20Enumerations)<br/>
+[1.3.2. Data Structures: anonymous and with declared type](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.3%20-%20Custom%20data%20types%20and%20OOP/1.3.2%20-%20Data%20Structures%2C%20anonymous%20and%20with%20declared%20type)<br/>
+[1.3.3. Classes: constructor, destructor, fields, properties, methods, and access modifiers](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.3%20-%20Custom%20data%20types%20and%20OOP/1.3.3%20-%20Classes.%20Constructor%2C%20destructor%2C%20fields%2C%20properties%2C%20methods%2C%20and%20access%20modifiers)<br/>
+[1.3.4. Classes: static class members (static access modifier)](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.3%20-%20Custom%20data%20types%20and%20OOP/1.3.4%20-%20Classes.%20Static%20class%20members%20(static%20access%20modifier))<br/>
+[1.3.5. Classes: inline access modifiers, dynamic, override](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.3%20-%20Custom%20data%20types%20and%20OOP/1.3.5%20-%20Classes.%20Inline%20access%20modifiers%2C%20dynamic%2C%20override)<br/>
+[1.3.6. Classes: inheritance and multiple inheritance implementation](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.3%20-%20Custom%20data%20types%20and%20OOP/1.3.6%20-%20Classes.%20Inheritance%20and%20multiple%20inheritance%20implementation)<br/>
+[1.3.7. Classes: inheritance and multiple inheritance of interfaces](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.3%20-%20Custom%20data%20types%20and%20OOP/1.3.7%20-%20Classes.%20Inheritance%20and%20multiple%20inheritance%20of%20interfaces)<br/>
+[1.3.8. Classes: parametrizirovanye types and class members](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.3%20-%20Custom%20data%20types%20and%20OOP/1.3.8%20-%20Classes.%20Parametrized%20types%20and%20class%20members)<br/>
+[1.3.9. Abstractions: Ad binding to class, operator overloading](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.3%20-%20Custom%20data%20types%20and%20OOP/1.3.9%20-%20Abstractions.%20Ad%20binding%20to%20class%2C%20operator%20overloading)<br/>
 
-	1.4. Operations with data types and metaprogramming
-		1.4.1. Class Type
-		1.4.2. Class Reflect
+[1.4. Operations with data types and metaprogramming](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.4%20-%20Operations%20with%20data%20types%20and%20metaprogramming)<br/>
+[1.4.1. Class Type](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.4%20-%20Operations%20with%20data%20types%20and%20metaprogramming/1.4.1%20-%20Class%20Type)<br/>
+[1.4.2. Class Reflect](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.4%20-%20Operations%20with%20data%20types%20and%20metaprogramming/1.4.2%20-%20Class%20Reflect)<br/>
 
 2. Data stream
 
