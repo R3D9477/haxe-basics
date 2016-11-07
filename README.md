@@ -50,11 +50,11 @@ Contain:<br/>
 [3.2. Write a text ASCII file](https://github.com/r3d9u11/haxe-basics/tree/master/3%20-%20Data%20stream/3.2%20-%20Write%20a%20text%20ASCII%20file)<br/>
 [3.3. Write a binary file](https://github.com/r3d9u11/haxe-basics/tree/master/3%20-%20Data%20stream/3.3%20-%20Write%20a%20binary%20file)<br/>
 
-4. Basic operations with filesystem
+[4. Filesystem](https://github.com/r3d9u11/haxe-basics/tree/master/4%20-%20FileSystem)<br/>
 
-	4.1. Text file: writing, reading
-	4.2. File operations: copy, delete, move/rename, attributes reading
-	4.3. Operations with directories: create, delete, move/rename, read the contents of a directory
+[4.1. Text file: writing, reading](https://github.com/r3d9u11/haxe-basics/tree/master/4%20-%20FileSystem/4.1%20-%20Edit%20text%20file)<br/>
+[4.2. File operations: copy, delete, move/rename, attributes reading](https://github.com/r3d9u11/haxe-basics/tree/master/4%20-%20FileSystem/4.2%20-%20Operations%20with%20files)<br/>
+[4.3. Operations with directories: create, delete, move/rename, read the contents of a directory](https://github.com/r3d9u11/haxe-basics/tree/master/4%20-%20FileSystem/4.3%20-%20Operations%20with%20directories)<br/>
 
 5. Networking
 
