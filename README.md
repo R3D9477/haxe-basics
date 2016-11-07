@@ -3,13 +3,13 @@
 [1. Generic](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic)
 
 [1.1. Simple data types and basic operators](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.1%20-%20Simple%20data%20types%20and%20basic%20operators)<br/>
-[1.1.1. Simple data types (int, float, string, bool, datetime)](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.1%20-%20Simple%20data%20types%20and%20basic%20operators/1.1.1%20-%20Simple%20data%20types%20(int%2C%20float%2C%20string%2C%20bool))
-[1.1.2. Date and time (-)](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.1%20-%20Simple%20data%20types%20and%20basic%20operators/1.1.2%20-%20Date%20and%20time)
-[1.1.3. Comparison operator and boolean operations](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.1%20-%20Simple%20data%20types%20and%20basic%20operators/1.1.3%20-%20Comparison%20operator%20and%20boolean%20operations)
-[1.1.4. Branching mechanisms: if and switch statements](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.1%20-%20Simple%20data%20types%20and%20basic%20operators/1.1.4%20-%20Branching%20mechanisms%2C%20if%20and%20switch%20statements)
-[1.1.5. Converting simple data types](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.1%20-%20Simple%20data%20types%20and%20basic%20operators/1.1.5%20-%20Converting%20simple%20data%20types)
-[1.1.6. Loops: for and while statements](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.1%20-%20Simple%20data%20types%20and%20basic%20operators/1.1.6%20-%20Loops%2C%20for%20and%20while%20statements)
-[1.1.7. Operations with numbers and class Math](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.1%20-%20Simple%20data%20types%20and%20basic%20operators/1.1.7%20-%20Operations%20with%20numbers%20and%20class%20Math)
+[1.1.1. Simple data types (int, float, string, bool, datetime)](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.1%20-%20Simple%20data%20types%20and%20basic%20operators/1.1.1%20-%20Simple%20data%20types%20(int%2C%20float%2C%20string%2C%20bool))<br/>
+[1.1.2. Date and time (-)](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.1%20-%20Simple%20data%20types%20and%20basic%20operators/1.1.2%20-%20Date%20and%20time)<br/>
+[1.1.3. Comparison operator and boolean operations](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.1%20-%20Simple%20data%20types%20and%20basic%20operators/1.1.3%20-%20Comparison%20operator%20and%20boolean%20operations)<br/>
+[1.1.4. Branching mechanisms: if and switch statements](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.1%20-%20Simple%20data%20types%20and%20basic%20operators/1.1.4%20-%20Branching%20mechanisms%2C%20if%20and%20switch%20statements)<br/>
+[1.1.5. Converting simple data types](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.1%20-%20Simple%20data%20types%20and%20basic%20operators/1.1.5%20-%20Converting%20simple%20data%20types)<br/>
+[1.1.6. Loops: for and while statements](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.1%20-%20Simple%20data%20types%20and%20basic%20operators/1.1.6%20-%20Loops%2C%20for%20and%20while%20statements)<br/>
+[1.1.7. Operations with numbers and class Math](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.1%20-%20Simple%20data%20types%20and%20basic%20operators/1.1.7%20-%20Operations%20with%20numbers%20and%20class%20Math)<br/>
 
 	1.2. Data sets and operations with them
 		1.2.1. One-dimensional arrays
