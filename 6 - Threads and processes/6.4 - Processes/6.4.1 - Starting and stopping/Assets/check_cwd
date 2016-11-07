@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "text_InHomeDir" >> ./check.txt

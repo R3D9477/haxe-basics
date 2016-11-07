@@ -1,0 +1,7 @@
+-main Main
+-cp Source
+-js Bin/Main.js
+
+--next
+-cmd cd Bin
+-cmd node Main.js

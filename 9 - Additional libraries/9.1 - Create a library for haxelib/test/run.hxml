@@ -1,0 +1,8 @@
+-main Main
+-cp Source
+-lib useless_lib
+-neko Bin/Main.n
+
+--next
+-cmd cd Bin
+-cmd neko Main.n

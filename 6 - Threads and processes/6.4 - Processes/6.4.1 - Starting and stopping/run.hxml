@@ -1,0 +1,8 @@
+-main Main
+-cp Source
+-neko Bin/Main.n
+-cmd cp Assets/* Bin/
+
+--next
+-cmd cd Bin
+-cmd neko Main.n

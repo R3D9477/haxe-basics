@@ -1,0 +1,8 @@
+-main Main
+-cp Source
+-resource Assets/hello_message.txt@welcome
+-neko Bin/Main.n
+
+--next
+-cmd cd Bin
+-cmd neko Main.n

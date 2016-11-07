@@ -1,0 +1,8 @@
+-main Main
+-cp Source
+-lib bindx2
+-neko Bin/Main.n
+
+--next
+-cmd cd Bin
+-cmd neko Main.n

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+cd ./Lib/src
+rm -rf ../obj
+mkdir ../obj
+gcc -c -Wall -Werror -fpic foo.c -o ../obj/foo.o
+rm -rf ../bin
+mkdir ../bin
+gcc -shared -o ../bin/libfoo.so ../obj/foo.o
+
+cd ../..
+rm -rf ./Export
+haxe build.hxml
+
+neko Export/linux64/neko/bin/Main.n

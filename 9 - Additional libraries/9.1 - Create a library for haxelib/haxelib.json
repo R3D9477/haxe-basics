@@ -1,0 +1,22 @@
+{
+	"name": "useless_lib",
+	"url": "https://github.com/user/useless_lib",
+	
+	"license": "MIT",
+	"version": "1.0.0",
+	
+	"releasenote": "Initial release, everything is working correctly.",
+	"description": "This library is useless in the same way on every platform.",
+	
+	"tags": [
+		"cross",
+		"useless"
+	],
+	"contributors": [
+	
+	],
+	
+	"dependencies": {
+	
+	}
+}

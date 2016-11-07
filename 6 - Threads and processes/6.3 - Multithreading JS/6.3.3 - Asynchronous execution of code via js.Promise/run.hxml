@@ -1,0 +1,13 @@
+-cp Source
+-js Bin/WorkerScript.js
+WorkerScript
+
+--next
+-main Main
+-cp Source
+-js Bin/Main.js
+-cmd cp Assets/* Bin/
+
+--next
+-cmd cd Bin
+-cmd xdg-open index.html
