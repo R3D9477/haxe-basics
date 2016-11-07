@@ -1,8 +1,8 @@
 # haxe-basics
 
-[1. Generic](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic)__
+[1. Generic](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic)
 
-[1.1. Simple data types and basic operators](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.1%20-%20Simple%20data%20types%20and%20basic%20operators)__
+[1.1. Simple data types and basic operators](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.1%20-%20Simple%20data%20types%20and%20basic%20operators)<br/>
 [1.1.1. Simple data types (int, float, string, bool, datetime)](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.1%20-%20Simple%20data%20types%20and%20basic%20operators/1.1.1%20-%20Simple%20data%20types%20(int%2C%20float%2C%20string%2C%20bool))
 [1.1.2. Date and time (-)](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.1%20-%20Simple%20data%20types%20and%20basic%20operators/1.1.2%20-%20Date%20and%20time)
 [1.1.3. Comparison operator and boolean operations](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.1%20-%20Simple%20data%20types%20and%20basic%20operators/1.1.3%20-%20Comparison%20operator%20and%20boolean%20operations)
