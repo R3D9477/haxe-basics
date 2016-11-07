@@ -107,8 +107,8 @@ Contain:<br/>
 [8.7.2. Using a C dynamic library](https://github.com/r3d9u11/haxe-basics/tree/master/8%20-%20Some%20features%20of%20language/8.7%20-%20Plug-ins%2C%20extensions%2C%20external%20modules%20and%20dynamic%20libraries/8.7.2%20-%20Using%20a%20C%20dynamic%20library)<br/>
 [8.7.2.1. Implementation of C-FFI regular means (library C-format: *.ndll)](https://github.com/r3d9u11/haxe-basics/tree/master/8%20-%20Some%20features%20of%20language/8.7%20-%20Plug-ins%2C%20extensions%2C%20external%20modules%20and%20dynamic%20libraries/8.7.2%20-%20Using%20a%20C%20dynamic%20library/8.7.2.1%20-%20Implementation%20of%20C-FFI%20regular%20means)<br/>
 [8.7.2.2. Implementation of C-FFI through ffi library (hx-ffi) http://lib.haxe.org/p/ffi/ (library C-format: *.dll, *.so)](https://github.com/r3d9u11/haxe-basics/tree/master/8%20-%20Some%20features%20of%20language/8.7%20-%20Plug-ins%2C%20extensions%2C%20external%20modules%20and%20dynamic%20libraries/8.7.2%20-%20Using%20a%20C%20dynamic%20library/8.7.2.2%20-%20Implementation%20of%20C-FFI%20through%20ffi%20library%20(hx-ffi))<br/>
-[8.7.3. Using .NET class libraries (*.dll)(-)<br/>
-[8.7.4. Using JavaScript modules (*.js)(-)<br/>
+8.7.3. Using .NET class libraries (*.dll)(-)<br/>
+8.7.4. Using JavaScript modules (*.js)(-)<br/>
 
 [9. Additional libraries](https://github.com/r3d9u11/haxe-basics/tree/master/9%20-%20Additional%20libraries)<br/>
 
