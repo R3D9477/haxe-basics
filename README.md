@@ -11,16 +11,16 @@
 [1.1.6. Loops: for and while statements](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.1%20-%20Simple%20data%20types%20and%20basic%20operators/1.1.6%20-%20Loops%2C%20for%20and%20while%20statements)<br/>
 [1.1.7. Operations with numbers and class Math](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.1%20-%20Simple%20data%20types%20and%20basic%20operators/1.1.7%20-%20Operations%20with%20numbers%20and%20class%20Math)<br/>
 
-	1.2. Data sets and operations with them
-		1.2.1. One-dimensional arrays
-		1.2.2. Multidimensional arrays
-		1.2.3. The heterogeneous array
-		1.2.4. Array Operations
-		1.2.5. Vetor (type Vector)
-		1.2.6. List (List type)
-		1.2.7. Stack (Type GenericStack)
-		1.2.8. An associative array (Map type)
-		1.2.9. Additional functions and class Lambda
+[1.2. Data sets and operations with them](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.2%20-%20Data%20sets%20and%20operations%20with%20them)<br/>
+[1.2.1. One-dimensional arrays](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.2%20-%20Data%20sets%20and%20operations%20with%20them/1.2.1%20-%20One-dimensional%20arrays)<br/>
+[1.2.2. Multidimensional arrays](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.2%20-%20Data%20sets%20and%20operations%20with%20them/1.2.2%20-%20Multidimensional%20arrays)<br/>
+[1.2.3. The heterogeneous array](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.2%20-%20Data%20sets%20and%20operations%20with%20them/1.2.3%20-%20The%20heterogeneous%20array)<br/>
+[1.2.4. Array Operations](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.2%20-%20Data%20sets%20and%20operations%20with%20them/1.2.4%20-%20Array%20operations)<br/>
+[1.2.5. Vetor (type Vector)](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.2%20-%20Data%20sets%20and%20operations%20with%20them/1.2.5%20-%20Vector)<br/>
+[1.2.6. List (List type)](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.2%20-%20Data%20sets%20and%20operations%20with%20them/1.2.6%20-%20List)<br/>
+[1.2.7. Stack (Type GenericStack)](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.2%20-%20Data%20sets%20and%20operations%20with%20them/1.2.7%20-%20GenericStack)<br/>
+[1.2.8. An associative array (Map type)](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.2%20-%20Data%20sets%20and%20operations%20with%20them/1.2.8%20-%20Map)<br/>
+[1.2.9. Additional functions and class Lambda](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.2%20-%20Data%20sets%20and%20operations%20with%20them/1.2.9%20-%20Additional%20functions%20and%20class%20Lambda)<br/>
 
 	1.3. Custom data types and OOP
 		1.3.1. Enumerations
