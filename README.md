@@ -58,78 +58,78 @@ Contain:<br/>
 
 [5. Networking](https://github.com/r3d9u11/haxe-basics/tree/master/5%20-%20Network)
 
-	5.1. Sockets: A simple client-server application
-	5.2. HTTP: request sending and response handling
-	5.3. HaXe Remoting
+[5.1. Sockets: A simple client-server application](https://github.com/r3d9u11/haxe-basics/tree/master/5%20-%20Network/5.1%20-%20Sockets.%20A%20simple%20client-server%20application)<br/>
+[5.2. HTTP: request sending and response handling](https://github.com/r3d9u11/haxe-basics/tree/master/5%20-%20Network/5.2%20-%20HTTP.%20Request%20sending%20and%20response%20handling)<br/>
+[5.3. HaXe Remoting](https://github.com/r3d9u11/haxe-basics/tree/master/5%20-%20Network/5.3%20-%20Remoting)<br/>
 
-6. Threads and processes
+[6. Threads and processes](https://github.com/r3d9u11/haxe-basics/tree/master/6%20-%20Threads%20and%20processes)<br/>
 
-	6.1. Multithreading with C++ and Neko targets
-		6.1.1. Simple Feed
-		6.1.2. Exchanging messages between threads
-		6.1.3. Using the data queue with multiple threads: class Queue 
-		6.1.4. Sending simple values between threads: class Mutex
+[6.1. Multithreading with C++ and Neko targets](https://github.com/r3d9u11/haxe-basics/tree/master/6%20-%20Threads%20and%20processes/6.1%20-%20Multithreading%20CPP%20and%20Neko)<br/>
+[6.1.1. Simple Feed](https://github.com/r3d9u11/haxe-basics/tree/master/6%20-%20Threads%20and%20processes/6.1%20-%20Multithreading%20CPP%20and%20Neko/6.1.1%20-%20Simple%20Feed)<br/>
+[6.1.2. Exchanging messages between threads](https://github.com/r3d9u11/haxe-basics/tree/master/6%20-%20Threads%20and%20processes/6.1%20-%20Multithreading%20CPP%20and%20Neko/6.1.2%20-%20Exchanging%20messages%20between%20threads)<br/>
+[6.1.3. Using the data queue with multiple threads: class Queue](https://github.com/r3d9u11/haxe-basics/tree/master/6%20-%20Threads%20and%20processes/6.1%20-%20Multithreading%20CPP%20and%20Neko/6.1.3%20-%20Using%20the%20data%20queue%20with%20multiple%20threads.%20Class%20Queue)<br/>
+[6.1.4. Sending simple values between threads: class Mutex](https://github.com/r3d9u11/haxe-basics/tree/master/6%20-%20Threads%20and%20processes/6.1%20-%20Multithreading%20CPP%20and%20Neko/6.1.4%20-%20Sending%20simple%20values%20between%20threads.%20Class%20Mutex)<br/>
 
-	6.2. Multithreading with C# target
-		6.2.1. Simple Feed
+[6.2. Multithreading with C# target](https://github.com/r3d9u11/haxe-basics/tree/master/6%20-%20Threads%20and%20processes/6.2%20-%20Multithreading%20CS)<br/>
+[6.2.1. Simple Feed](https://github.com/r3d9u11/haxe-basics/tree/master/6%20-%20Threads%20and%20processes/6.2%20-%20Multithreading%20CS/6.2.1%20-%20Simple%20Feed)<br/>
 
-	6.3. Multithreading with JS target
-		6.3.1. Asynchronous execution of code via haxe.Timer
-		6.3.2. Asynchronous execution of code via js.html.Worker
-		6.3.3. Asynchronous execution of code via js.Promise
+[6.3. Multithreading with JS target](https://github.com/r3d9u11/haxe-basics/tree/master/6%20-%20Threads%20and%20processes/6.3%20-%20Multithreading%20JS)<br/>
+[6.3.1. Asynchronous execution of code via haxe.Timer](https://github.com/r3d9u11/haxe-basics/tree/master/6%20-%20Threads%20and%20processes/6.3%20-%20Multithreading%20JS/6.3.1%20-%20Asynchronous%20execution%20of%20code%20via%20haxe.Timer)<br/>
+[6.3.2. Asynchronous execution of code via js.html.Worker](https://github.com/r3d9u11/haxe-basics/tree/master/6%20-%20Threads%20and%20processes/6.3%20-%20Multithreading%20JS/6.3.2%20-%20Asynchronous%20execution%20of%20code%20via%20js.html.Worker)<br/>
+[6.3.3. Asynchronous execution of code via js.Promise](https://github.com/r3d9u11/haxe-basics/tree/master/6%20-%20Threads%20and%20processes/6.3%20-%20Multithreading%20JS/6.3.3%20-%20Asynchronous%20execution%20of%20code%20via%20js.Promise)<br/>
 
-	6.4. Processes
-		6.4.1. Starting and stopping
-		6.4.2. Pending completion of the process and the redirection of stdout (-)
-		6.4.3. Data exchanging between processe (-)
-		6.4.4. A simple client-server application using an external web server (-)
+[6.4. Processes](https://github.com/r3d9u11/haxe-basics/tree/master/6%20-%20Threads%20and%20processes/6.4%20-%20Processes)<br/>
+[6.4.1. Starting and stopping](https://github.com/r3d9u11/haxe-basics/tree/master/6%20-%20Threads%20and%20processes/6.4%20-%20Processes/6.4.1%20-%20Starting%20and%20stopping)<br/>
+6.4.2. Pending completion of the process and the redirection of stdout (-)<br/>
+6.4.3. Data exchanging between processe (-)<br/>
+6.4.4. A simple client-server application using an external web server (-)<br/>
 
-7. Unit tests
+[7. Unit tests](https://github.com/r3d9u11/haxe-basics/tree/master/7%20-%20Unit%20tests)<br/>
 
-	7.1. Creating and running a simple unit test: class haxe.unit.TestCase and haxe.unit.TestRunner
-	7.2. Methods of setup and tearDown class haxe.unit.TestCase
+[7.1. Creating and running a simple unit test: class haxe.unit.TestCase and haxe.unit.TestRunner](https://github.com/r3d9u11/haxe-basics/tree/master/7%20-%20Unit%20tests/7.1%20-%20Creating%20and%20running%20a%20simple%20unit%20test:%20class%20haxe.unit.TestCase%20and%20haxe.unit.TestRunner)<br/>
+[7.2. Methods of setup and tearDown class haxe.unit.TestCase](https://github.com/r3d9u11/haxe-basics/tree/master/7%20-%20Unit%20tests/7.2%20-%20Methods%20of%20setup%20and%20tearDown%20class%20haxe.unit.TestCase)<br/>
 
-8. Some features of language
+[8. Some features of language](https://github.com/r3d9u11/haxe-basics/tree/master/8%20-%20Some%20features%20of%20language)<br/>
 
-	8.1. Conditional compilation (Preprocessor)
-	8.2. Metadata
-	8.3. Static type extension
-	8.4. Packages and import
-	8.5. External resources
+[8.1. Conditional compilation (Preprocessor)](https://github.com/r3d9u11/haxe-basics/tree/master/8%20-%20Some%20features%20of%20language/8.1%20-%20Conditional%20compilation%20(Preprocessor))<br/>
+[8.2. Metadata](https://github.com/r3d9u11/haxe-basics/tree/master/8%20-%20Some%20features%20of%20language/8.2%20-%20Metadata)<br/>
+[8.3. Static type extension](https://github.com/r3d9u11/haxe-basics/tree/master/8%20-%20Some%20features%20of%20language/8.3%20-%20Static%20type%20extension)<br/>
+[8.4. Packages and import](https://github.com/r3d9u11/haxe-basics/tree/master/8%20-%20Some%20features%20of%20language/8.4%20-%20Packages%20and%20import)<br/>
+[8.5. External resources](https://github.com/r3d9u11/haxe-basics/tree/master/8%20-%20Some%20features%20of%20language/8.5%20-%20External%20resources)<br/>
 
-	8.6. Macros (???)
-		8.6.1. Initialization macros (macro from the command line)
-		8.6.2. Automatic insertion of resources
-		8.6.3. Simultaneous use of macros and static extensions
+[8.6. Macros](https://github.com/r3d9u11/haxe-basics/tree/master/8%20-%20Some%20features%20of%20language/8.6%20-%20Macros)<br/>
+[8.6.1. Initialization macros (macro from the command line)](https://github.com/r3d9u11/haxe-basics/tree/master/8%20-%20Some%20features%20of%20language/8.6%20-%20Macros/8.6.1%20-%20Initialization%20macros%20(macro%20from%20the%20command%20line))<br/>
+[8.6.2. Automatic insertion of resources](https://github.com/r3d9u11/haxe-basics/tree/master/8%20-%20Some%20features%20of%20language/8.6%20-%20Macros/8.6.2%20-%20Automatic%20insertion%20of%20resources)<br/>
+[8.6.3. Simultaneous use of macros and static extensions](https://github.com/r3d9u11/haxe-basics/tree/master/8%20-%20Some%20features%20of%20language/8.6%20-%20Macros/8.6.3%20-%20Simultaneous%20use%20of%20macros%20and%20static%20extensions)<br/>
 
-	8.7. Plug-ins, extensions, external modules and dynamic libraries
-		8.7.1. Using pre-compiled NekoVM modules (*.n)
-		8.7.2. Using a C dynamic library
-			8.7.2.1. Implementation of C-FFI regular means (library C-format: *.ndll)
-			8.7.2.2. Implementation of C-FFI through ffi library (hx-ffi) http://lib.haxe.org/p/ffi/ (library C-format: *.dll, *.so)
-		8.7.3. Using .NET class libraries (*.dll)
-		8.7.4. Using JavaScript modules (*.js)
+[8.7. Plug-ins, extensions, external modules and dynamic libraries](https://github.com/r3d9u11/haxe-basics/tree/master/8%20-%20Some%20features%20of%20language/8.7%20-%20Plug-ins%2C%20extensions%2C%20external%20modules%20and%20dynamic%20libraries)<br/>
+[8.7.1. Using pre-compiled NekoVM modules (*.n)](https://github.com/r3d9u11/haxe-basics/tree/master/8%20-%20Some%20features%20of%20language/8.7%20-%20Plug-ins%2C%20extensions%2C%20external%20modules%20and%20dynamic%20libraries/8.7.1%20-%20Using%20pre-compiled%20NekoVM-modules)<br/>
+[8.7.2. Using a C dynamic library](https://github.com/r3d9u11/haxe-basics/tree/master/8%20-%20Some%20features%20of%20language/8.7%20-%20Plug-ins%2C%20extensions%2C%20external%20modules%20and%20dynamic%20libraries/8.7.2%20-%20Using%20a%20C%20dynamic%20library)<br/>
+[8.7.2.1. Implementation of C-FFI regular means (library C-format: *.ndll)](https://github.com/r3d9u11/haxe-basics/tree/master/8%20-%20Some%20features%20of%20language/8.7%20-%20Plug-ins%2C%20extensions%2C%20external%20modules%20and%20dynamic%20libraries/8.7.2%20-%20Using%20a%20C%20dynamic%20library/8.7.2.1%20-%20Implementation%20of%20C-FFI%20regular%20means)<br/>
+[8.7.2.2. Implementation of C-FFI through ffi library (hx-ffi) http://lib.haxe.org/p/ffi/ (library C-format: *.dll, *.so)](https://github.com/r3d9u11/haxe-basics/tree/master/8%20-%20Some%20features%20of%20language/8.7%20-%20Plug-ins%2C%20extensions%2C%20external%20modules%20and%20dynamic%20libraries/8.7.2%20-%20Using%20a%20C%20dynamic%20library/8.7.2.2%20-%20Implementation%20of%20C-FFI%20through%20ffi%20library%20(hx-ffi))<br/>
+[8.7.3. Using .NET class libraries (*.dll)(-)<br/>
+[8.7.4. Using JavaScript modules (*.js)(-)<br/>
 
-9. Additional libraries
+[9. Additional libraries](https://github.com/r3d9u11/haxe-basics/tree/master/9%20-%20Additional%20libraries)<br/>
 
-	9.1. Create a library for haxelib
+[9.1. Create a library for haxelib](https://github.com/r3d9u11/haxe-basics/tree/master/9%20-%20Additional%20libraries/9.1%20-%20Create%20a%20library%20for%20haxelib)<br/>
 
-	9.2. Data binding and library BindX2
-		9.2.1. Data binding code and class bindx.Bind
-		9.2.2. Arbitrary data binding expression and class bindx.BindExt
+[9.2. Data binding and library BindX2](https://github.com/r3d9u11/haxe-basics/tree/master/9%20-%20Additional%20libraries/9.2%20-%20Data%20binding%20and%20library%20BindX2)<br/>
+[9.2.1. Data binding code and class bindx.Bind](https://github.com/r3d9u11/haxe-basics/tree/master/9%20-%20Additional%20libraries/9.2%20-%20Data%20binding%20and%20library%20BindX2/9.2.1%20-%20Data%20binding%20code%20and%20class%20bindx.Bind)<br/>
+[9.2.2. Arbitrary data binding expression and class bindx.BindExt](https://github.com/r3d9u11/haxe-basics/tree/master/9%20-%20Additional%20libraries/9.2%20-%20Data%20binding%20and%20library%20BindX2/9.2.2%20-%20Arbitrary%20data%20binding%20expression%20and%20class%20bindx.BindExt)<br/>
 
-	9.3. Graphic and library OpenFL
-		9.3.1. A blank window
-		9.3.2. Window settings (-)
-		9.3.3. Draw sqare (-)
-		9.3.4. Draw shape (-)
-		9.3.5. Mouse and keyboard events (-)
-		9.3.6. Custom sprite (-)
-		9.3.7. Load Custom sprite from NekoVM module
+[9.3. Graphic and library OpenFL](https://github.com/r3d9u11/haxe-basics/tree/master/9%20-%20Additional%20libraries/9.3%20-%20Graphic%20and%20library%20OpenFL)<br/>
+[9.3.1. A blank window](https://github.com/r3d9u11/haxe-basics/tree/master/9%20-%20Additional%20libraries/9.3%20-%20Graphic%20and%20library%20OpenFL/9.3.1%20-%20A%20blank%20window)<br/>
+9.3.2. Window settings (-)
+9.3.3. Draw sqare (-)
+9.3.4. Draw shape (-)
+9.3.5. Mouse and keyboard events (-)
+9.3.6. Custom sprite (-)
+9.3.7. Load Custom sprite from NekoVM module
 
-	9.4. Graphical user interface and library StablexUI
-		9.4.1. Dynamic button handler
-		9.4.2. XML handler Button
-		9.4.3. XML button with a dynamic processor
+[9.4. Graphical user interface and library StablexUI](https://github.com/r3d9u11/haxe-basics/tree/master/9%20-%20Additional%20libraries/9.4%20-%20Graphical%20user%20interface%20and%20library%20StablexUI)<br/>
+[9.4.1. Dynamic button handler](https://github.com/r3d9u11/haxe-basics/tree/master/9%20-%20Additional%20libraries/9.4%20-%20Graphical%20user%20interface%20and%20library%20StablexUI/9.4.1%20-%20Dynamic%20button%20handler)<br/>
+[9.4.2. XML handler Button](https://github.com/r3d9u11/haxe-basics/tree/master/9%20-%20Additional%20libraries/9.4%20-%20Graphical%20user%20interface%20and%20library%20StablexUI/9.4.2%20-%20XML%20handler%20Button)<br/>
+[9.4.3. XML button with a dynamic processor](https://github.com/r3d9u11/haxe-basics/tree/master/9%20-%20Additional%20libraries/9.4%20-%20Graphical%20user%20interface%20and%20library%20StablexUI/9.4.3%20-%20XML%20button%20with%20a%20dynamic%20processor)<br/>
 
-	9.5. Native dialogs and library Systools (-)
+9.5. Native dialogs and library Systools (-)
