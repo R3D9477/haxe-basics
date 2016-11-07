@@ -1,6 +1,6 @@
 # haxe-basics
 
-[1. Generic](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic)
+[1. Generic](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic)<br/>
 
 [1.1. Simple data types and basic operators](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.1%20-%20Simple%20data%20types%20and%20basic%20operators)<br/>
 [1.1.1. Simple data types (int, float, string, bool, datetime)](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.1%20-%20Simple%20data%20types%20and%20basic%20operators/1.1.1%20-%20Simple%20data%20types%20(int%2C%20float%2C%20string%2C%20bool))<br/>
@@ -37,28 +37,28 @@
 [1.4.1. Class Type](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.4%20-%20Operations%20with%20data%20types%20and%20metaprogramming/1.4.1%20-%20Class%20Type)<br/>
 [1.4.2. Class Reflect](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.4%20-%20Operations%20with%20data%20types%20and%20metaprogramming/1.4.2%20-%20Class%20Reflect)<br/>
 
-2. Data stream
+[2. Data serialization](https://github.com/r3d9u11/haxe-basics/tree/master/2%20-%20Data%20serialization)<br/>
 
-	2.1. Standard IO stream
-	2.2. Write a text ASCII file
-	2.3. Write a binary file
+[2.1. Processing XML](https://github.com/r3d9u11/haxe-basics/tree/master/2%20-%20Data%20serialization/2.1%20-%20Precessing%20JSON)<br/>
+[2.2. Processing JSON](https://github.com/r3d9u11/haxe-basics/tree/master/2%20-%20Data%20serialization/2.2%20-%20Precessing%20XML)<br/>
 
-3. Basic operations with filesystem
+3. Data stream
 
-	3.1. Text file: writing, reading
-	3.2. File operations: copy, delete, move/rename, attributes reading
-	3.3. Operations with directories: create, delete, move/rename, read the contents of a directory
+	3.1. Standard IO stream
+	3.2. Write a text ASCII file
+	3.3. Write a binary file
 
-4. Networking
+4. Basic operations with filesystem
 
-	4.1. Sockets: A simple client-server application
-	4.2. HTTP: request sending and response handling
-	4.3. HaXe Remoting
+	4.1. Text file: writing, reading
+	4.2. File operations: copy, delete, move/rename, attributes reading
+	4.3. Operations with directories: create, delete, move/rename, read the contents of a directory
 
-5. Data serialization
+5. Networking
 
-	5.1. Processing XML
-	5.2. Processing JSON
+	5.1. Sockets: A simple client-server application
+	5.2. HTTP: request sending and response handling
+	5.3. HaXe Remoting
 
 6. Threads and processes
 
