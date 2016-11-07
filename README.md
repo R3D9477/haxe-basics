@@ -56,7 +56,7 @@ Contain:<br/>
 [4.2. Operations with files](https://github.com/r3d9u11/haxe-basics/tree/master/4%20-%20FileSystem/4.2%20-%20Operations%20with%20files)<br/>
 [4.3. Operations with directories: create, delete, move/rename, read the contents of a directory](https://github.com/r3d9u11/haxe-basics/tree/master/4%20-%20FileSystem/4.3%20-%20Operations%20with%20directories)<br/>
 
-5. Networking
+[5. Networking](https://github.com/r3d9u11/haxe-basics/tree/master/5%20-%20Network)
 
 	5.1. Sockets: A simple client-server application
 	5.2. HTTP: request sending and response handling
