@@ -1,5 +1,7 @@
 # haxe-basics
 
+Contain:<br/>
+
 [1. Generic](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic)<br/>
 
 [1.1. Simple data types and basic operators](https://github.com/r3d9u11/haxe-basics/tree/master/1%20-%20Generic/1.1%20-%20Simple%20data%20types%20and%20basic%20operators)<br/>
@@ -42,11 +44,11 @@
 [2.1. Processing XML](https://github.com/r3d9u11/haxe-basics/tree/master/2%20-%20Data%20serialization/2.1%20-%20Precessing%20JSON)<br/>
 [2.2. Processing JSON](https://github.com/r3d9u11/haxe-basics/tree/master/2%20-%20Data%20serialization/2.2%20-%20Precessing%20XML)<br/>
 
-3. Data stream
+[3. Data stream](https://github.com/r3d9u11/haxe-basics/tree/master/3%20-%20Data%20stream)<br/>
 
-	3.1. Standard IO stream
-	3.2. Write a text ASCII file
-	3.3. Write a binary file
+[3.1. Standard IO stream](https://github.com/r3d9u11/haxe-basics/tree/master/3%20-%20Data%20stream/3.1%20-%20Standard%20IO%20stream)<br/>
+[3.2. Write a text ASCII file](https://github.com/r3d9u11/haxe-basics/tree/master/3%20-%20Data%20stream/3.2%20-%20Write%20a%20text%20ASCII%20file)<br/>
+[3.3. Write a binary file](https://github.com/r3d9u11/haxe-basics/tree/master/3%20-%20Data%20stream/3.3%20-%20Write%20a%20binary%20file)<br/>
 
 4. Basic operations with filesystem
 
