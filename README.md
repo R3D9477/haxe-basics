@@ -95,6 +95,7 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
        * [9.2.2 - Arbitrary data binding expression and class bindx.BindExt](./9 - Additional libraries/9.2 - Data binding and library BindX2/9.2.2 - Arbitrary data binding expression and class bindx.BindExt)
      * [9.3 - Graphic and library OpenFL](./9 - Additional libraries/9.3 - Graphic and library OpenFL)
        * [9.3.1 - A blank window](./9 - Additional libraries/9.3 - Graphic and library OpenFL/9.3.1 - A blank window)
+       * [9.3.7 - Load the custom sprite from the NekoVM module](./9 - Additional libraries/9.3 - Graphic and library OpenFL/9.3.7 - Load the custom sprite from the NekoVM module)
      * [9.4 - Graphical user interface and library StablexUI](./9 - Additional libraries/9.4 - Graphical user interface and library StablexUI)
        * [9.4.1 - Dynamic button handler](./9 - Additional libraries/9.4 - Graphical user interface and library StablexUI/9.4.1 - Dynamic button handler)
        * [9.4.2 - XML handler Button](./9 - Additional libraries/9.4 - Graphical user interface and library StablexUI/9.4.2 - XML handler Button)
