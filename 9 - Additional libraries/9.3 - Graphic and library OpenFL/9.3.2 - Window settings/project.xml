@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="Main" package="com.project.Main" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="Main" />
+	
+	<window width="640" height="480" background="0xFFFFFF" fps="60" />
+	<window width="0" height="0" if="html5 || flash" />
+	
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+	<haxelib name="actuate" />
+	<haxelib name="stablexui" />
+		
+	<icon path="Assets/openfl.svg" />
+</project>
