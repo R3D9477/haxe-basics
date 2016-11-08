@@ -11,7 +11,7 @@ Contain:<br/>
      * [1.1.1 - Simple data types (int, float, string, bool)](./1 - Generic/1.1 - Simple data types and basic operators/1.1.1 - Simple data types (int, float, string, bool))
      * [1.1.2 - Date and time](./1 - Generic/1.1 - Simple data types and basic operators/1.1.2 - Date and time)
        * [1.1.2.1 - Class Date](./1 - Generic/1.1 - Simple data types and basic operators/1.1.2 - Date and time/1.1.2.1 - Class Date)
-       * [1.1.2.2 - Additional functionality and class DateTools](./1 - Generic/1.1 - Simple data types and basic operators/1.1.2 - Date and time/1.1.2.2 - Additional functionality and class DateTools)
+        * [1.1.2.2 - Additional functionality and class DateTools](./1 - Generic/1.1 - Simple data types and basic operators/1.1.2 - Date and time/1.1.2.2 - Additional functionality and class DateTools)
      * [1.1.3 - Comparison operator and boolean operations](./1 - Generic/1.1 - Simple data types and basic operators/1.1.3 - Comparison operator and boolean operations)
      * [1.1.4 - Branching mechanisms, if and switch statements](./1 - Generic/1.1 - Simple data types and basic operators/1.1.4 - Branching mechanisms, if and switch statements)
      * [1.1.5 - Converting simple data types](./1 - Generic/1.1 - Simple data types and basic operators/1.1.5 - Converting simple data types)
