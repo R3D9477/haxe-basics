@@ -1,6 +1,6 @@
 # haxe-basics
 
-Haxe-Basics is the collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
+The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
 
 <hr/>
 
