@@ -13,7 +13,7 @@ typedef MyData = {
 class Main {
 	public static function main () {
 		trace("--------------------------------------------------------------");
-		trace('--- JSON: Строка -> Объект (тип) ---');
+		trace('--- JSON: parse struct from json-string ---');
 		
 		var s = '{
 			"name": "Haxe",
@@ -33,7 +33,7 @@ class Main {
 		trace("o2.rating: " + Reflect.field(o2, "rating"));
 		
 		trace("--------------------------------------------------------------");
-		trace('--- JSON: Объект -> Строка ---');
+		trace('--- JSON: struct to string ---');
 		
 		var o3:MyData = {
 			"name": "HaXe Lang",
@@ -42,6 +42,6 @@ class Main {
 		
 		trace(o3);
 		
-		trace("Преобразование данных в строку JSON: " + haxe.Json.stringify(o3));
+		trace("Convert data to json-string: " + haxe.Json.stringify(o3));
 	}
 }
