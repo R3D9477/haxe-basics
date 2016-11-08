@@ -17,7 +17,7 @@ class Main {
 	}
 	
 	public static function main () {
-		//----------------------------------------------------------------------
+		trace("--------------------------------------------------------------");
 		trace("--- Create new xml node ---");
 		
 		var xml:Xml = Xml.createElement("root");
@@ -31,7 +31,7 @@ class Main {
 		var xmlChild = xml.firstChild(); // get first child node of root
 		showNode(xmlChild); // show information of selected node
 		
-		//----------------------------------------------------------------------
+		trace("--------------------------------------------------------------");
 		trace("--- Parse xml-string ---");
 		
 		var str:String = "<user name='Ken'>Value of node named 'Ken'</user>";

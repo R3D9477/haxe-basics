@@ -5,7 +5,7 @@ package;
 
 class Main {
 	public static function main () {
-		//----------------------------------------------------------------------
+		trace("--------------------------------------------------------------");
 		trace("--- Read element's information with xml-fast ---");
 		
 		var str:String = "
@@ -36,7 +36,7 @@ class Main {
 		for(p in phone.nodes.number)
 			trace(p.innerData);
 		
-		//----------------------------------------------------------------------
+		trace("--------------------------------------------------------------");
 		trace("--- Show text of element (if contained) with xml-fast ---");
 		
 		str = "
