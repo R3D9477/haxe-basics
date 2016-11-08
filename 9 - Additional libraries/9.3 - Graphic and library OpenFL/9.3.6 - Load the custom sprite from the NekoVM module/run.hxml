@@ -1,4 +1,0 @@
--cmd cd CustomSprite
--cmd haxe compile.hxml
--cmd cd ../TestApp
--cmd openfl test project.xml linux -64 -neko

@@ -10,16 +10,28 @@ class Main extends Sprite {
 	public function new () {
 		super();
 		
+		var img:Shape;
+		
+		// draw line
+		
+		img = new Shape();
+		
+		img.graphics.lineStyle(1, 0xFF00FF, 1);
+		img.graphics.moveTo(10, 10);
+		img.graphics.lineTo(70, 20);
+		
+		super.addChild(img);
+		
 		// draw square
 		
-		var img:Shape = new Shape();
+		img = new Shape();
 		
 		img.graphics.beginFill(0xFF0000);
 		img.graphics.drawRect(0, 0, 25, 25);
 		img.graphics.endFill();
 		
 		img.x = 10;
-		img.y = 10;
+		img.y = 20;
 		
 		super.addChild(img);
 		
