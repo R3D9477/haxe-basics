@@ -1,10 +1,9 @@
-# haxe-basics
+haxe-basics
+=========================
 
 The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
 
-<hr/>
-
-Contain:<br/>
+#### Contain:<br/>
 
  * [1 - Generic](./1 - Generic)
    * [1.1 - Simple data types and basic operators](./1 - Generic/1.1 - Simple data types and basic operators)
