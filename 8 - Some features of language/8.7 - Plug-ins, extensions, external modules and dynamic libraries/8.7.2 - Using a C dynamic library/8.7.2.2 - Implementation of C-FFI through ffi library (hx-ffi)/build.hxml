@@ -1,4 +1,0 @@
--main Main
--cp Source
--lib ffi
--neko Export/linux64/neko/bin/Main.n

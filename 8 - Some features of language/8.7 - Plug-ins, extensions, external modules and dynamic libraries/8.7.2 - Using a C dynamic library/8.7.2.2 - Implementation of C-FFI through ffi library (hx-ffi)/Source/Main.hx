@@ -2,7 +2,7 @@ package;
 
 import ffi.lib.EasyLibrary;
 
-@:lib("Lib/bin/libfoo.so")
+@:lib("libfoo.so")
 class Foo extends EasyLibrary {
 	public function set_k (v:Int) : Int;
 	public function get_k () : Int;
