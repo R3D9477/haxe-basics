@@ -88,7 +88,7 @@ Contain:<br/>
      * [8.7.1 - Using pre-compiled NekoVM-modules](./8 - Some features of language/8.7 - Plug-ins, extensions, external modules and dynamic libraries/8.7.1 - Using pre-compiled NekoVM-modules)
      * [8.7.2 - Using a C dynamic library](./8 - Some features of language/8.7 - Plug-ins, extensions, external modules and dynamic libraries/8.7.2 - Using a C dynamic library)
        * [8.7.2.1 - Implementation of C-FFI regular means](./8 - Some features of language/8.7 - Plug-ins, extensions, external modules and dynamic libraries/8.7.2 - Using a C dynamic library/8.7.2.1 - Implementation of C-FFI regular means)
-       * [8.7.2.2 - Implementation of C-FFI through ffi library (hx-ffi)](./8 - Some features of language/8.7 - Plug-ins, extensions, external modules and dynamic libraries/8.7.2 - Using a C dynamic library/8.7.2.2 - Implementation of C-FFI through ffi library (hx-ffi))
+        * [8.7.2.2 - Implementation of C-FFI through ffi library (hx-ffi)](./8 - Some features of language/8.7 - Plug-ins, extensions, external modules and dynamic libraries/8.7.2 - Using a C dynamic library/8.7.2.2 - Implementation of C-FFI through ffi library (hx-ffi))
  * [9 - Additional libraries](./9 - Additional libraries)
      * [9.1 - Create a library for haxelib](./9 - Additional libraries/9.1 - Create a library for haxelib)
      * [9.2 - Data binding and library BindX2](./9 - Additional libraries/9.2 - Data binding and library BindX2)
