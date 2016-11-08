@@ -1,5 +1,9 @@
 # haxe-basics
 
+Haxe-Basics is the collection of easy samples and hellowords for [Haxe](http://haxe.org/).
+
+<hr/>
+
 Contain:<br/>
 
  * [1 - Generic](./1 - Generic)
