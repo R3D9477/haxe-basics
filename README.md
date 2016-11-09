@@ -8,7 +8,7 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
  * [1 - Generic](./1_Generic)
    * [1.1 - Simple data types and basic operators](./1_Generic/1.1_SimpleDataTypes)
      * [1.1.1 - Simple data types (int, float, string, bool)](./1_Generic/1.1_SimpleDataTypes/1.1.1_SimpleDataTypes/Source/Main.hx)
-     * [1.1.2 - Date and time](./1_Generic/1.1_SimpleDataTypes/1.1.2_DateTime/Source/Main.hx)
+     * [1.1.2 - Date and time](./1_Generic/1.1_SimpleDataTypes/1.1.2_DateTime)
        * [1.1.2.1 - Class Date](./1_Generic/1.1_SimpleDataTypes/1.1.2_DateTime/1.1.2.1_Date/Source/Main.hx)
         * [1.1.2.2 - Additional functionality and class DateTools](./1_Generic/1.1_SimpleDataTypes/1.1.2_DateTime/1.1.2.2_DateTools/Source/Main.hx)
      * [1.1.3 - Comparison operator and boolean operations](./1_Generic/1.1_SimpleDataTypes/1.1.3_ComparisonAndBoolean/Source/Main.hx)
