@@ -104,7 +104,7 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
        * [9.5.7 - Application with several windows](./9_AdditionalLibraries/9.5_OpenFL/9.5.7_MultiwindowApplication/Source/Main.hx)
        * [9.5.8 - Load the custom sprite from compiled NekoVM module (*.n)](./9_AdditionalLibraries/9.5_OpenFL/9.5.8_SpriteFromNekoVMmodule)
      * [9.6 - Graphical user interface and library StablexUI](./9_AdditionalLibraries/9.6_StablexUI)
-       * [9.6.1 - Button declared in Haxe with handler declared in Haxe](./9_AdditionalLibraries/9.6_StablexUI/9.6.1_ButtonWithHandler/Source/Main.hx)
+       * [9.6.1 - Button with handler declared in Haxe](./9_AdditionalLibraries/9.6_StablexUI/9.6.1_ButtonWithHandler/Source/Main.hx)
        * [9.6.2 - Button declared in Haxe with handler declared in Xml](./9_AdditionalLibraries/9.6_StablexUI/9.6.2_ButtonWithXmlHandler/Source/Main.hx)
        * [9.6.3 - Button declared in Xml with handler declared in Haxe](./9_AdditionalLibraries/9.6_StablexUI/9.6.3_XmlButtonWithHandler/Source/Main.hx)
      * [9.7 - Native dialogs and library Systools](.)
