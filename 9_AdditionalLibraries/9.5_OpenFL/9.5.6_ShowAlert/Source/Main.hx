@@ -6,6 +6,6 @@ class Main extends openfl.display.Sprite {
 	public function new () {
 		super();
 		
-		//this.stage.application.window.alert("asdasdasd", "sssss");
+		this.stage.application.window.alert("My Message Title", "This is my test message!");
 	}
 }
