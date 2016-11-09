@@ -99,7 +99,7 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
        * [9.5.2 - Window settings](./9_AdditionalLibraries/9.5_OpenFL/9.5.2_WindowSettings/Source/Main.hx)
        * [9.5.3 - Draw 2D-shape](./9_AdditionalLibraries/9.5_OpenFL/9.5.3_DrawShape/Source/Main.hx)
        * [9.5.4 - Draw text](./9_AdditionalLibraries/9.5_OpenFL/9.5.4_DrawText/Source/Main.hx)
-       * [9.5.7 - Load the custom sprite from the NekoVM module](./9_AdditionalLibraries/9.5_OpenFL/9.5.7_SpriteFromNekoVMmodule/Source/Main.hx)
+       * [9.5.7 - Load the custom sprite from the NekoVM module](./9_AdditionalLibraries/9.5_OpenFL/9.5.7_SpriteFromNekoVMmodule)
      * [9.6 - Graphical user interface and library StablexUI](./9_AdditionalLibraries/9.6_StablexUI)
        * [9.6.1 - Dynamic button handler](./9_AdditionalLibraries/9.6_StablexUI/9.6.1_ButtonWithHandler/Source/Main.hx)
        * [9.6.2 - Xml handler Button](./9_AdditionalLibraries/9.6_StablexUI/9.6.2_ButtonWithXmlHandler/Source/Main.hx)
