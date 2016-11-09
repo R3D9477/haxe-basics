@@ -1,0 +1,16 @@
+CustomSprite
+
+-cp Source
+
+-lib lime
+-lib openfl
+-lib actuate
+-lib hscript
+
+-D lime-cairo
+-D lime-opengl
+
+--macro allowPackage("flash")
+--remap flash:openfl
+
+-neko Bin/CustomSprite.n
