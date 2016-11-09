@@ -1,5 +1,8 @@
 package;
 
+// http://api.openfl.org/openfl/text/TextField.html
+// http://api.openfl.org/openfl/display/SimpleButton.html
+
 class Main extends openfl.display.Sprite {
 	public function new () {
 		super();
