@@ -1,25 +1,53 @@
 package;
 
-// http://api.openfl.org/openfl/display/Application.html
-// http://api.openfl.org/lime/app/WindowConfig.html
-// http://api.openfl.org/openfl/display/Window.html
+// http://api.openfl.org/openfl/events/MouseEvent.html
+// http://api.openfl.org/openfl/events/KeyboardEvent.html
 
 class Main extends openfl.display.Sprite {
+	private var coord:openfl.text.TextField;
+	private var label:openfl.text.TextField;
+	
 	public function new () {
 		super();
 		
-		var c = this.stage.window.config;
-		trace(c.title);
-		c.title = "adasdasd";
+		this.coord = new openfl.text.TextField();
+		this.coord.width = 250;
+		this.coord.x = 10;
+		this.coord.y = 10;
+		this.addChild(coord);
 		
-		trace(this.stage.application.windows.length);
-		trace(this.stage.application.window == this.stage.application.windows[0]);
+		this.stage.addEventListener(openfl.events.MouseEvent.MOUSE_MOVE, this.onMouseMove);
+		this.stage.addEventListener(openfl.events.MouseEvent.CLICK, this.onMouseClick);
 		
-		this.stage.application.window.alert("asdasdasd", "sssss");
+		this.label = new openfl.text.TextField();
+		this.label.width = 250;
+		this.label.x = 10;
+		this.label.y = 30;
+		this.addChild(label);
 		
-		//var w = new openfl.display.Window(c);
-		//w.create(this.stage.application);
-		//lime.system.System.embed (null, 800, 600, "null");
-		//openfl.Lib.current.stage.dispatchEvent (new openfl.events.FullScreenEvent (openfl.events.FullScreenEvent.FULL_SCREEN, false, false, true, true));
+		this.stage.addEventListener(openfl.events.KeyboardEvent.KEY_DOWN, this.onKeyDown);
+		this.stage.addEventListener(openfl.events.KeyboardEvent.KEY_UP, this.onKeyUp);
+	}
+	
+	private function onMouseMove (evt:openfl.events.MouseEvent) : Void {
+		this.coord.text = 'stageX: ${evt.stageX}, stageY: ${evt.stageY}';
+	}
+	
+	private function onMouseClick (evt:openfl.events.MouseEvent) : Void {
+		this.label.text = 'Mouse left button clicked';
+	}
+	
+	private function onKeyDown (evt:openfl.events.KeyboardEvent) : Void {
+		this.label.text = 'Pressed key: ${evt.keyCode}';
+		this.stage.color = 0xFF0000;
+	}
+	
+	private function onKeyUp (evt:openfl.events.KeyboardEvent) : Void {
+		if (evt.keyCode < 70)
+			this.stage.color = 0xFFFFFF;
+		else if (evt.keyCode < 80)
+			this.stage.color = 0x00FFFF;
+		else
+			this.stage.color = 0x0000FF;
 	}
 }

@@ -28,6 +28,6 @@ class Main extends Sprite {
 		field.x = 20;
 		field.y = 10;
 		
-		super.addChild(field);
+		this.addChild(field);
 	}
 }

@@ -20,7 +20,7 @@ class Main extends Sprite {
 		img.graphics.moveTo(10, 10);
 		img.graphics.lineTo(70, 20);
 		
-		super.addChild(img);
+		this.addChild(img);
 		
 		// draw square
 		
@@ -33,7 +33,7 @@ class Main extends Sprite {
 		img.x = 10;
 		img.y = 20;
 		
-		super.addChild(img);
+		this.addChild(img);
 		
 		// draw circle
 		
@@ -46,7 +46,7 @@ class Main extends Sprite {
 		img.x = 100;
 		img.y = 25;
 		
-		super.addChild(img);
+		this.addChild(img);
 		
 		// draw triangle
 		
@@ -67,6 +67,6 @@ class Main extends Sprite {
 		img.x = 25;
 		img.y = 50;
 		
-		super.addChild(img);
+		this.addChild(img);
 	}
 }
