@@ -90,7 +90,7 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
  * [9 - Additional libraries](./9_AdditionalLibraries)
      * [9.1 - Create a library for haxelib](./9_AdditionalLibraries/9.1_Haxelib)
      * [9.2 - Xml and library haxe-xpath](.)
-     * [9.3 - C-FFI and library hx-ffi](.)
+     * [9.3 - C-FFI and library hx-ffi](./9_AdditionalLibraries/9.3_HxFFI)
      * [9.4 - Data binding and library BindX2](./9_AdditionalLibraries/9.4_BindX2)
        * [9.4.1 - Data binding code and class bindx.Bind](./9_AdditionalLibraries/9.4_BindX2/9.4.1_bindx.Bind)
        * [9.4.2 - Arbitrary data binding expression and class bindx.BindExt](./9_AdditionalLibraries/9.4_BindX2/9.4.2_bindx.BindExt)
