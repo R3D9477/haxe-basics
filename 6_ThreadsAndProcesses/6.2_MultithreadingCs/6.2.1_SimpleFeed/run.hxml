@@ -1,0 +1,7 @@
+-main Main
+-cp Source
+-cs Bin
+
+--next
+-cmd cd Bin
+-cmd mono Main.exe
