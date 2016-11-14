@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<project>
-	<meta title="Main Window" package="" version="1.0.0" company="" />
-	<app main="Main" path="Export" file="TestApp" />
-	
-	<source path="Source" />
-	
-	<haxelib name="openfl" />
-</project>
