@@ -38,7 +38,7 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
      * [1.3.9 - Abstractions. Ad binding to class, operator overloading](./1_Generic/1.3_CustomDataTypes/1.3.9_Abstractions/Source/Main.hx)
    * [1.4 - Operations with data types and metaprogramming](./1_Generic/1.4_Metaprogramming)
      * [1.4.1 - Class Type](./1_Generic/1.4_Metaprogramming/1.4.1_Type/Source/Main.hx)
-     * [1.4.2 - Class Reflect](./1_Generic/1.4_Metaprogramming/1.4.2_Reflect/Source/Main.hx)
+     * [1.4.2 - Class Reflect](./1_Generic/1.4_Metaprogramming/1.4.2_Reflect)
        * [1.4.2.1 - Access to fields of class at runtime](./1_Generic/1.4_Metaprogramming/1.4.2_Reflect/1.4.2.1_AccessToClsFields/Source/Main.hx)
         * [1.4.2.2 - Modify methods of class at runtime](./1_Generic/1.4_Metaprogramming/1.4.2_Reflect/1.4.2.2_RTClsMod/Source/Main.hx)
  * [2 - Data serialization](./2_DataSerialization)
