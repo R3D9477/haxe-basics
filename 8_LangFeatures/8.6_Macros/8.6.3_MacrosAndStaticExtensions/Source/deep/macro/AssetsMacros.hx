@@ -19,21 +19,21 @@ class AssetsMacros {
 	#if macro
 		static var TEXT = ["txt"];
 		
-		// Название мета тега
+		// Name of meta tag
 		inline static function getMetaName(type:AssetType) {
 			return switch (type) {
 				case AText: ":text";
 			}
 		}
 	
-		// комплексный тип
+		// Complex type
 		inline static function getComplexType(type:AssetType):ComplexType {
 			return switch (type) {
 				case AText: macro : String;
 			}
 		}
 	
-		// Базовый тип
+		// Base type
 		inline static function getKind(type:ComplexType):TypeDefKind {
 			return switch (type) {
 				case TPath(p):

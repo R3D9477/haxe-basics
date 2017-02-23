@@ -15,15 +15,15 @@ import bindx.IBindable;
 
 class Main {
 	public static function main () {
-		var bc = new BndClass();		
+		var bc = new BndClass();
 		BindExt.exprTo("OUTVALUE is '" + bc.in_value + "' with some additional data", bc.out_value);
 		
 		bc.in_value = "new_str";
 		trace("out_value: " + bc.out_value);
-
+		
 		bc.in_value = "new_str2";
 		trace("out_value: " + bc.out_value);
-
+		
 		bc.in_value = "new_str3";
 		trace("out_value: " + bc.out_value);
 	}

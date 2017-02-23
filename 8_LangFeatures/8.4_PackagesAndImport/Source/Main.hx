@@ -2,42 +2,42 @@
 
 package;
 
-import my.pack.C; // Импорт единственного типа из модуля
-import my.strPack.StringUtils; // Импорт единственного типа из модуля
-import my.pack2.*; // Импорт по маске
+import my.pack.C; // Import a single type of module
+import my.strPack.StringUtils; // Import a single type of module
+import my.pack2.*; // Import types by mask
 
 class C2 extends C {
 	public function new () { 
 		super(); 
-		trace("Конструктор класса C2"); 
+		trace("Constructor of class C2"); 
 	}
-
+	
 	public override function method (e : E) {
-		trace("my.strPack.StringUtils.double: " + StringUtils.double("<Опция " + e + ">")); // метод StringUtils.double из пакета my.strPack
+		trace("my.strPack.StringUtils.double: " + StringUtils.double("<Option " + e + ">")); // method StringUtils.double from package my.strPack
 	}
 }
 
 class Main {
 	public static function main () {
 		//----------------------------------------------------------------------
-		trace("--- Класс C из пакета my.pack (импорт единственного типа из модуля) ---");
+		trace("--- Class C from package my.pack (Import a single type of module) ---");
 		
 		var c : C = new C();
 		c.method(E.opA);
 		c.method(E.opB);
 		c.method(E.opC);
-
+		
 		//----------------------------------------------------------------------
-		trace("--- Класс C2 из главного исходника Main.hx (импорт единственного типа из модуля) ---");
-
+		trace("--- Class C2 from main source Main.hx (Import a single type of module) ---");
+		
 		var c2 : C2 = new C2();
 		c2.method(E.opA);
 		c2.method(E.opB);
 		c2.method(E.opC);
-
+		
 		//----------------------------------------------------------------------
-		trace("--- Доступ к классам пакета my.pack2 (импорт по маске) ---");
-
+		trace("--- Access to classes from package my.pack2 (Import types by mask) ---");
+		
 		CL1.method();
 		CL2.method();
 		CL3.method();

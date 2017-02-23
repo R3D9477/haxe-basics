@@ -9,5 +9,5 @@ import deep.macro.AssetsMacros;
 class Main  {
 	static function main() {
 		trace(Assets.HelloMessage);
-	}	
+	}
 }

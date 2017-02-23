@@ -8,10 +8,10 @@ enum E {
 
 class C {
 	public function new () { 
-		trace("Конструктор класса C"); 
+		trace("Constructor of class C"); 
 	}
 	
 	public function method (e : E) { 
-		trace("Опция: " + e); 
+		trace("Option: " + e); 
 	}
 }
