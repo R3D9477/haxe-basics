@@ -3,7 +3,7 @@ package;
 class Main {
 	public static function main () {
 		//----------------------------------------------------------------------
-		trace('--- Двумерный массив с двумя строками ---');
+		trace('--- TWO-DIMENSIONAL ARRAY WITH TWO ROWS ---');
 		
 		var a : Array<Array<Int>> = [ [], [] ]; // x, y
 		a[0][0] = 0;
@@ -14,9 +14,9 @@ class Main {
 		a[1][2] = 12;
 		trace(a[0]);
 		trace(a[1]);
-
+		
 		//----------------------------------------------------------------------
-		trace('--- Трёхмерный массив с двумя строками ---');
+		trace('--- THREE-DIMENSIONAL ARRAY WITH TWO ROWS ---');
 		
 		var b : Array<Array<Array<Int>>> = [ [ [], [] ], [ [], [] ] ]; // x, y, z
 		b[0][0][0] = 0;

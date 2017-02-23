@@ -10,42 +10,42 @@ enum Color {
 class Main {
 	public static function main () {
 		//----------------------------------------------------------------------
-		trace("--- Перечисления ---");
+		trace("--- ENUMERATIONS ---");
 		
 		// http://old.haxe.org/ref/enums?lang=ru
 		// http://haxe.org/manual/types-enum-instance.html
 		// http://haxe.org/manual/types-enum-using.html
-
+		
 		var clr1 = Color.Green;
 		
 		switch (clr1)
 		{
 			case Color.Green:
-				trace("Зелёный");
+				trace("Green");
 			case Color.Red:
-				trace("Красный");
+				trace("Red");
 			case Color.Blue:
-				trace("Синий");
+				trace("Blue");
 			case Color.Rgb:
-				trace("Кастом");
+				trace("Custom");
 			default:
-				trace("Неизвестный");
+				trace("Unknown");
 		}
-
+		
 		var clr2 = Color.Rgb(10, 11, 12);
-
+		
 		switch (clr2)
 		{
 			case Color.Green:
-				trace("Зелёный");
+				trace("Green");
 			case Color.Red:
-				trace("Красный");
+				trace("Red");
 			case Color.Blue:
-				trace("Синий");
+				trace("Blue");
 			case Color.Rgb(r, g, b):
-				trace("Кастом: " + r + g + b);
+				trace("Custom: " + r + g + b);
 			default:
-				trace("Неизвестный");
+				trace("Unknown");
 		}
 	}
 }

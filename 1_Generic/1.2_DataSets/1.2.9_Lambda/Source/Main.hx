@@ -5,48 +5,49 @@ using Lambda;
 class Main {
 	public static function main () {
 		//----------------------------------------------------------------------
-		trace('--- Новый массив ---');
+		trace('--- MAKE A NEW ARRA OF STEINGS ---');
 		
 		var words = ['car', 'boat', 'cat', 'frog'];
 		trace(words);
-
+		
 		//----------------------------------------------------------------------
-		trace('--- Массив пуст? ---');
+		trace('--- ARRAY IS EMPTY? ---');
 		
 		trace(words.empty());
-
+		
 		//----------------------------------------------------------------------
-		trace('--- Количество элементов ---');
+		trace('--- LENGTH OF ARRAY ---');
 		
 		trace(words.count());
-
+		
 		//----------------------------------------------------------------------
-		trace('--- Находится ли элемент boat в массиве? ---');
+		trace('--- WHETHER THE ARRAY CONTAIN ELEMENT "boat"? ---');
 		
 		trace(words.has('boat'));
-
+		
 		//----------------------------------------------------------------------
-		trace('--- Находится ли элемент FROG в массиве? ---');
+		trace('--- WHETHER THE ARRAY CONTAIN ELEMENT "FROG"? ---');
+		trace('a custom function for searching of the element');
 		
 		trace(words.exists(function(word) { return word.toUpperCase() == 'FROG'; }));
-
+		
 		//----------------------------------------------------------------------
-		trace('--- Применение фильтра ---');
+		trace('--- FILTERING OF THE LIST ---');
 		
 		trace(words.filter(function(word) { return word.length == 3; }));
-
+		
 		//----------------------------------------------------------------------
-		trace('--- Изменение каждого элемента ---');
+		trace('--- CHANGE THE REPRESENTATION OF THE ELEMENTS ---');
 		
 		trace(words.map(function(word) { return word.toUpperCase(); }));
-
+		
 		//----------------------------------------------------------------------
-		trace('--- Поиск элемента, начинающегося на букву c ---');
+		trace('--- SEARCH ELEMENTS WHO BEGINS FROM "c" ---');
 		
 		trace(words.find(function(word) { return word.substr(0, 1) == 'c'; }));
-
+		
 		//----------------------------------------------------------------------
-		trace('--- Индекс элемента cat ---');
+		trace('--- INDEX OF THE ELEMENT "cat" ---');
 		
 		trace(words.indexOf('cat'));
 	}

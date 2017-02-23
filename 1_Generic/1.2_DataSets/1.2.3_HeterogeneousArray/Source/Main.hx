@@ -3,9 +3,9 @@ package;
 class Main {
 	public static function main () {
 		//----------------------------------------------------------------------
-		trace('--- Массив с разными типами ячеек ---');
+		trace('--- HETEROHENEOUS ARRAY ---');
 		
-		var a : Array<Dynamic> = [1, 'два', 3.14];
+		var a : Array<Dynamic> = [1, 'two', 3.14]; // items of array have a three different types: int, string and float
 		trace(a);
 	}
 }

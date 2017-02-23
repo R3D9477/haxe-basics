@@ -3,7 +3,7 @@ package;
 class Main {
 	public static function main () {
 		//----------------------------------------------------------------------
-		trace('--- Декларативный синтаксис ---');
+		trace('--- DECLARATIVE SYNTAX ---');
 		
 		var a = ['abc', 'def', 'jhi'];
 		trace(a);
@@ -16,16 +16,16 @@ class Main {
 		trace(b);
 		
 		//----------------------------------------------------------------------
-		trace('--- Использование конструктора new ---');
+		trace('--- KEYWORD new AND USING THE CONSTRUCTOR  ---');
 		
-		var c = new Array();
+		var c = new Array(); // https://haxe.org/manual/expression-new.html
 		c.push(1);
 		c.push(2);
 		c.push(3);
 		trace(c);
 		
 		//----------------------------------------------------------------------
-		trace('--- Техника "умного" объявления ---');
+		trace('--- TECHNIQUE OF THE "SMART" DECLARATION ---');
 		
 		i = 0;
 		var d = [while(i < 10) i++];

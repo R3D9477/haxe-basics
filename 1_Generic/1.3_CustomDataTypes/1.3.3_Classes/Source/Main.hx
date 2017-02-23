@@ -1,42 +1,42 @@
 package;
 
-// Класс: поля, конструктор без параметров
+// Class: fields, constructor without parameters
 class User_v1 {
-	// Поля
+	// Fields
 	public var name: String;
 	public var age: Int;
 	public var weight: Float;
 	
-	// Конструктор без параметров
+	// Constructor without parameters
 	public function new () { }
 }
 
-// Класс: поля, конструктор с параметрами и методом toString для представления ввиде строки
+// Class: fields, constructor with parameters and one method "toString" for representation as string
 class User_v2 {
-	// Поля
+	// Fields
 	public var name: String;
 	public var age: Int;
 	public var weight: Float;
 	
-	// Конструктор с параметрами
+	// Constructor with parameters
 	public function new (name, age, weight) {
 		this.name = name;
 		this.age = age;
 		this.weight = weight;
 	}
 	
-	// Метод преставления класса ввиде строки
-	public function toString() {
-		return "Пользователь " + this.name + " имеет возраст " + this.age + " лет(год) и вес в " + this.weight + " кг.";
+	// Method "toString" for representation as string
+	public function toString () {
+		return "Age of user " + this.name + " is " + this.age + " year(s) and weight " + this.weight + " kg.";
 	}
 }
 
-// Класс: поля, свойства, конструктор с параметрами, метод toString для представления ввиде строки и другие методы
+// Class: fields, properties, constructor with parameters, method "toString" for representation as string
 class User_v3 {
-	// Поля
+	// Fields
 	private var age: Int;
 	
-	// Свойства
+	// Properties
 	// http://old.haxe.org/ref/properties?lang=ru
 	
 	public var Weight(default, default): Float;
@@ -54,44 +54,44 @@ class User_v3 {
 		else {
 			this.age = age;
 		}
-
+		
 		return this.age;
 	}
 	
-	// Конструктор с параметрами
+	// Constructor with parameters
 	public function new (name, age, weight) {
 		this.Name = name;
 		this.Age = age;
 		this.Weight = weight;
 	}
 	
-	// Метод преставления класса ввиде строки
+	// Method "toString" for representation as string
 	public function toString() {
-		return "Пользователь " + this.Name + " имеет возраст " + this.Age + " лет(год) и вес в " + this.Weight + " кг.";
+		return "Age of user " + this.Name + " is " + this.Age + " year(s) and weight " + this.Weight + " kg.";
 	}
 }
 
 class Main {
 	public static function main () {
 		//----------------------------------------------------------------------
-		trace("--- Класс: поля, конструктор без параметров, метод toString ---");
-
+		trace("--- Class: fields, constructor without parameters ---");
+		
 		var u1 : User_v1 = new User_v1();
-		u1.name = "Eugene";
+		u1.name = "Jane";
 		u1.age = 26;
 		u1.weight = 76.3;
 		trace(u1);
-
+		
 		//----------------------------------------------------------------------
-		trace("--- Класс: поля, конструктор с параметрами, метод toString ---");
-
-		var u2 : User_v2 = new User_v2("Jora", 30, 106.5);
+		trace("--- Class: fields, constructor with parameters and one method toString for representation as string ---");
+		
+		var u2 : User_v2 = new User_v2("Mike", 30, 106.5);
 		trace(u2);
-
+		
 		//----------------------------------------------------------------------
-		trace("--- Класс: поля, свойства, конструктор с параметрами, метод toString ---");
-
-		var u3 : User_v3 = new User_v3("Жэка", 26, 76);
+		trace("--- Class: fields, properties, constructor with parameters, method toString for representation as string ---");
+		
+		var u3 : User_v3 = new User_v3("Oliver", 26, 76);
 		trace(u3);
 		
 		u3.Name = "UserName";

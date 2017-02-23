@@ -39,7 +39,7 @@ class Main {
 		var a = 1;
 		var b = 2;
 		var c = mid(a, b);
-
+		
 		trace(test()); // original
 		test = function() { return "new"; }
 		trace(test()); // new

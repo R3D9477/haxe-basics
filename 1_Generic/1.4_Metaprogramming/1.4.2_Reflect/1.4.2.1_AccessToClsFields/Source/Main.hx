@@ -11,7 +11,7 @@ class A {
 	public function func () {
 		trace("Вызов метода func класса A");
 	}
-
+	
 	public function func1 (a : Int, b : Int) {
 		trace("Вызов метода func1 класса A arg: " + a + " + " + b + " = " + (a + b));
 		return a + b;

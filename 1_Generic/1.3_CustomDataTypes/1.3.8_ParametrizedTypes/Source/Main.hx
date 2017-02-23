@@ -15,10 +15,10 @@ class A<T> {
 	
 	public function equals (op2 : A<T>) {
 		if ((this.value1 == op2.value1) && (this.value2 == op2.value2)) {
-			trace("Значения равны");
+			trace("Values is equal");
 		}
 		else {
-			trace("Значения не равны!");
+			trace("Values is not equal!");
 		}
 	}
 }

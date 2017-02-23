@@ -1,31 +1,31 @@
 package;
 
 class A {
-	// Динамическое поле
+	// Dynamic field (the method of the object)
 	public var i : Int;
-	// Статическое поле
+	// Static field (the method of the class)
 	public static var j : Int;
-
+	
 	public function new () { }
-
-	// Динамический метод
-	public function M1 () { trace("Динамический метод: " + this.i); }
-	// Статический метод
-	public static function M2 () { trace("Статический метод: " + A.j); }
+	
+	// Dynamic method
+	public function M1 () { trace("Dynamic method: " + this.i); }
+	// Static mathod
+	public static function M2 () { trace("Static mathod: " + A.j); }
 }
 
 class Main {
 	public static function main () {
 		//----------------------------------------------------------------------
-		trace("--- Доступ к динамическому полю и вызов динамического метода ---");
+		trace("--- Access to the dynamic field and dynamic method ---");
 		
 		var a : A = new A();
 		a.i = 12;
 		a.M1();
-
+		
 		//----------------------------------------------------------------------
-		trace("--- Доступ к статическому полю и вызов статического метода ---");
-
+		trace("--- Access to the static field and static method ---");
+		
 		A.j = 433;
 		A.M2();
 	}

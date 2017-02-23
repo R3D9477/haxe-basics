@@ -5,71 +5,71 @@ package;
 
 class A {
 	public function new () {
-		trace("Конструктор класса A");
+		trace("Custructor of the class A");
 	}
 	
 	public function func () {
-		trace("Вызов метода func класса A");
+		trace("Call method 'func' of the class A");
 	}
-
+	
 	public function func2 () {
-		trace("Вызов метода func2 класса A");
+		trace("Call method 'func2' of the class A");
 	}
-
+	
 	public function func3 () {
-		trace("Вызов метода func3 класса A");
+		trace("Call method 'func3' of the class A");
 	}
 }
 
 class Main {
 	public static function main () {
 		//----------------------------------------------------------------------
-		trace("--- Объявление переменных ---");
-
+		trace("--- Make a some variables ---");
+		
 		var a = new A();
 		var b = { one: 1, two: 2.2, three: "three" };
 		var c = 1;
 		var d = 2.2;
-		var e = "строка...";
+		var e = "string...";
 		
 		//----------------------------------------------------------------------
-		trace("--- Получить типы переменных ---");
-
-		trace("тип a: " + Type.typeof(a));
-		trace("тип a.func: " + Type.typeof(a.func));
-		trace("тип b: " + Type.typeof(b));
-		trace("тип c: " + Type.typeof(c));
-		trace("тип d: " + Type.typeof(d));
-		trace("тип e: " + Type.typeof(e));
-
+		trace("--- Get types of the variables ---");
+		
+		trace("type of the a: " + Type.typeof(a));
+		trace("type of the a.func: " + Type.typeof(a.func));
+		trace("type of the b: " + Type.typeof(b));
+		trace("type of the c: " + Type.typeof(c));
+		trace("type of the d: " + Type.typeof(d));
+		trace("type of the e: " + Type.typeof(e));
+		
 		//----------------------------------------------------------------------
-		trace("--- Получить наименования типов переменных ---");
-
-		trace("Наименование типа a: " + Type.getClassName(Type.getClass(a)));
-		trace("Наименование типа b: " + Type.getClassName(Type.getClass(b)));
-		trace("Наименование типа c: " + Type.getClassName(Type.getClass(c)));
-		trace("Наименование типа d: " + Type.getClassName(Type.getClass(d)));
-		trace("Наименование типа e: " + Type.getClassName(Type.getClass(e)));
-
+		trace("--- Get names of ther classes of variables ---");
+		
+		trace("Name of class of the variable a: " + Type.getClassName(Type.getClass(a)));
+		trace("Name of class of the variable b: " + Type.getClassName(Type.getClass(b)));
+		trace("Name of class of the variable c: " + Type.getClassName(Type.getClass(c)));
+		trace("Name of class of the variable d: " + Type.getClassName(Type.getClass(d)));
+		trace("Name of class of the variable e: " + Type.getClassName(Type.getClass(e)));
+		
 		//----------------------------------------------------------------------
-		trace("--- Получить наименование классов типов переменных ---");
-
-		trace("a является типом A: " + Std.is(a, A));
-		trace("b является типом Int: " + Std.is(b, Int));
-		trace("c является как типом Int: " + Std.is(c, Int));
-		trace("c является как типом Float: " + Std.is(c, Float));
-		trace("d является типом Int: " + Std.is(d, Int));
-		trace("d является типом Float: " + Std.is(d, Float));
-		trace("e является типом String: " + Std.is(e, String));
-
+		trace("--- Compare types of the variables ---");
+		
+		trace("Type of the variable a is A: " + Std.is(a, A));
+		trace("Type of the variable b is Int: " + Std.is(b, Int));
+		trace("Type of the variable c is Int: " + Std.is(c, Int));
+		trace("Type of the variable c is Float: " + Std.is(c, Float));
+		trace("Type of the variable d is Int: " + Std.is(d, Int));
+		trace("Type of the variable d is Float: " + Std.is(d, Float));
+		trace("Type of the variable e is String: " + Std.is(e, String));
+		
 		//----------------------------------------------------------------------
-		trace("--- Создание экземпляра объекта по наименованию типа ---");
-
+		trace("--- Make object by a name of the class ---");
+		
 		var a2 = Type.createInstance(Type.resolveClass("A"), []);
 		a2.func();
-
+		
 		//----------------------------------------------------------------------
-		trace("--- Список методов эклемпляра объекта класса A ---");
+		trace("--- List of methods of object of the class A ---");
 		
 		var aFields = Type.getInstanceFields(Type.resolveClass("A"));
 		
