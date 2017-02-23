@@ -7,7 +7,7 @@ class Main {
 	public static function main() {
 		Toolkit.init();
 		
-		var main:Component = ComponentMacros.buildComponent("Assets/Xml/UI.xml");
-		Screen.instance.addComponent(main);
+		var ui:Component = ComponentMacros.buildComponent("Assets/Xml/UI.xml");
+		Screen.instance.addComponent(ui);
 	}
 }
