@@ -3,7 +3,7 @@ package;
 class Main {
 	public static function main () {
 		//----------------------------------------------------------------------
-		trace('--- Вывод данных через стандартный поток ---');
+		trace('--- Output data via standard data stream ---');
 		
 		// http://api.haxe.org/haxe/io/Output.html
 		var stdout = Sys.stdout();
@@ -21,7 +21,7 @@ class Main {
 		stdout.writeString("\n");
 		
 		//----------------------------------------------------------------------
-		trace('--- Ввод данных через стандартный поток ---');
+		trace('--- Input data via standard data stream ---');
 		
 		// http://api.haxe.org/haxe/io/Input.html
 		// http://api.haxe.org/haxe/io/Input.html#readUntil

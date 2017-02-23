@@ -13,45 +13,45 @@ import sys.FileSystem;
 class Main {
 	public static function main () {
 		//----------------------------------------------------------------------
-		trace('--- Операции с директориями ---');
-
+		trace('--- Operations with directories ---');
+		
 		FileSystem.createDirectory("NewDir");
-
+		
 		if (FileSystem.exists("NewDir")) {
-			trace("Папка NewDir была создана");
+			trace("The directory NewDir was created");
 		}
 		else {
-			trace("Папка NewDir не была создана");
+			trace("The directory NewDir was not created");
 		}
-
+		
 		if (FileSystem.isDirectory("NewDir")) {
-			trace("NewDir является директорией");
+			trace("The object NewDir is directory");
 		}
 		else {
-			trace("NewDir не является директорией");
+			trace("The object NewDir is not directory");
 		}
-
+		
 		FileSystem.createDirectory("NewDir/dir1");
 		File.saveContent("NewDir/file1.txt", "test");
 		File.saveContent("NewDir/file2.txt", "test");
 		
 		var dirObjects = FileSystem.readDirectory("NewDir");
-		trace("Содержимое папки NewDir: " + dirObjects);
-
+		trace("Directory NewDir contain: " + dirObjects);
+		
 		FileSystem.deleteDirectory("NewDir/dir1");
-
+		
 		if (FileSystem.exists("NewDir/dir1")) {
-			trace("Папка NewDir/dir1 не была удалена");
+			trace("Directory NewDir/dir1 was not deleted");
 		}
 		else {
-			trace("Папка NewDir/dir1 была создана");
+			trace("Папка NewDir/dir1 was successfully deleted");
 		}
-
+		
 		dirObjects = FileSystem.readDirectory("NewDir");
-		trace("Содержимое папки NewDir: " + dirObjects);
-
+		trace("Directory NewDir contain: " + dirObjects);
+		
 		FileSystem.rename("NewDir", "DIR");
 		dirObjects = FileSystem.readDirectory("DIR");
-		trace("Содержимое папки DIR: " + dirObjects);
+		trace("Directory Dir contain: " + dirObjects);
 	}
 }

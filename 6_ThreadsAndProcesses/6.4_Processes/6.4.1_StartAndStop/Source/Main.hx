@@ -7,7 +7,7 @@ import sys.io.Process;
 
 class Main {
 	static function main () {
-		var p = new Process("ls", ["/home/r3d9u11", "-l"]);
+		var p = new Process("ls", ["/home/username", "-l"]);
 		
 		trace("exitcode: " + p.exitCode());
 		trace("process id: " + p.getPid());
@@ -21,7 +21,7 @@ class Main {
 		
 		trace("stdout:\n" + stdout);
 		p.close(); // close the process I/O
-
+		
 		// change work_dir
 		p = new Process("./check_cwd", []);
 	}

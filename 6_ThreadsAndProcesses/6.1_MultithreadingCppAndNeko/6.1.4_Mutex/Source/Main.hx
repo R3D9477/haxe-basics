@@ -16,42 +16,42 @@ package;
 class ShareData {
 	public var value:Int;
 	public var Value (get, set):Int;
-
+	
 	private var mutex:Mutex;
 	
 	public function new () {
-		mutex = new Mutex ();	
+		mutex = new Mutex ();
 	}
 	
 	private function get_Value ():Int {
 		mutex.acquire ();
 		var result = value;
 		mutex.release ();
-		return result;	
+		return result;
 	}
 	
 	private function set_Value (newValue:Int):Int {
 		mutex.acquire ();
 		value = newValue;
 		mutex.release ();
-		return newValue;	
-	}	
+		return newValue;
+	}
 }
 
 class Main {
-	private static function setValue ():Void {		
+	private static function setValue ():Void {
 		var data = Thread.readMessage (true);
-		data.value = 100;		
+		data.value = 100;
 	}
-		
-	private static function retrieveValue ():Void {		
+	
+	private static function retrieveValue ():Void {
 		var data = Thread.readMessage (true);
-		trace ("The value is " + data.value);		
+		trace ("The value is " + data.value);
 	}
-
+	
 	public static function main () {
 		//----------------------------------------------------------------------
-		trace('--- Совместное использование объекта между потоками ---');
+		trace('--- Sharing an object between threads ---');
 		
 		var data = new ShareData ();
 		

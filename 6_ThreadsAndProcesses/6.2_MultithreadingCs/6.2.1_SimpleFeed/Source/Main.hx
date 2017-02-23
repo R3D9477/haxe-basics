@@ -19,17 +19,17 @@ class Main {
 	
 	public static function main () {
 		//----------------------------------------------------------------------
-		trace('--- Два простых потока ---');
+		trace('--- Two simple threads ---');
 		
 		var ts : ThreadStart = threadFunction;
-        var thread1 = new Thread(ts);
+		var thread1 = new Thread(ts);
 		thread1.Start();
-        
+		
 		for (i in 1...10) {
 			trace("Thread 1");
 			Sys.sleep(0.5);
 		}
-
+		
 		thread1.Abort();
 	}
 }

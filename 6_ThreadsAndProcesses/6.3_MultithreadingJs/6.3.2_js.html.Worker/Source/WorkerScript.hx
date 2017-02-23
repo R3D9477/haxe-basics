@@ -5,7 +5,7 @@ class WorkerScript
 	public static function __init__() {
 	   untyped __js__("onmessage = WorkerScript.prototype.messageHandler");
 	}
-
+	
 	public function messageHandler(event) {
 		switch event.data {
 			// Do whatever...

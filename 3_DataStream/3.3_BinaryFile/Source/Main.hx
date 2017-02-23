@@ -7,7 +7,7 @@ class Main {
 		var f_name = "binary_file.dat";
 		
 		//----------------------------------------------------------------------
-		trace("--- Запись бинарного файла ---");
+		trace("--- Write to binary file ---");
 		
 		var f_out = File.write(f_name, true);
 		f_out.writeInt16(101);
@@ -17,7 +17,7 @@ class Main {
 		f_out.close();
 		
 		//----------------------------------------------------------------------
-		trace("--- Чтение бинарного файла ---");
+		trace("--- Read from binary file ---");
 		
 		var f_in = File.read(f_name, true);
 		var int16Val = f_in.readInt16();

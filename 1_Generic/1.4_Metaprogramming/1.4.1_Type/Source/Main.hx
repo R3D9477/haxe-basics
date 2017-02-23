@@ -35,12 +35,12 @@ class Main {
 		//----------------------------------------------------------------------
 		trace("--- Get types of the variables ---");
 		
-		trace("type of the a: " + Type.typeof(a));
-		trace("type of the a.func: " + Type.typeof(a.func));
-		trace("type of the b: " + Type.typeof(b));
-		trace("type of the c: " + Type.typeof(c));
-		trace("type of the d: " + Type.typeof(d));
-		trace("type of the e: " + Type.typeof(e));
+		trace("Type of the a: " + Type.typeof(a));
+		trace("Type of the a.func: " + Type.typeof(a.func));
+		trace("Type of the b: " + Type.typeof(b));
+		trace("Type of the c: " + Type.typeof(c));
+		trace("Type of the d: " + Type.typeof(d));
+		trace("Type of the e: " + Type.typeof(e));
 		
 		//----------------------------------------------------------------------
 		trace("--- Get names of ther classes of variables ---");

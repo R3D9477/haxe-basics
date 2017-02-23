@@ -13,20 +13,20 @@ package;
 class Main {
 	public static function threadFunction (): Void {
 		var main = Thread.readMessage (true);
-
+		
 		while (true) {
 			var numeric = Thread.readMessage (true);
 			main.sendMessage (numeric * 10);
 		}
 	}
-
+	
 	public static function main () {
 		//----------------------------------------------------------------------
-		trace('--- Обмен данными между потоками ---');
+		trace('--- Exchange data between threads ---');
 		
 		var thread = Thread.create (threadFunction);
 		thread.sendMessage (Thread.current ());
-
+		
 		for (i in 0...10) {
 			thread.sendMessage (i);
 			trace (i + " * 10 = " + Thread.readMessage (true));

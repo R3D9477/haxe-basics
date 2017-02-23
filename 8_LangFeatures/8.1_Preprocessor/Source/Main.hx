@@ -4,52 +4,52 @@ class Main {
 	public static function main () {
 		// http://old.haxe.org/ref/conditionals
 		// http://haxe.org/manual/lf-condition-compilation.html
-
+		
 		var i : Int;
 		
 		#if cpp
-			// Код, специфичный для платформы C++
+			// Specific code for C++ target
 			i = 1;
-			trace("Выбрана платформа C++");
+			trace("Selected C++ target");
 		#elseif cs
-			// Код, специфичный для платформы CSharp
+			// Specific code for C# target
 			i = 2;
-			trace("Выбрана платформа CSharp");
+			trace("Selected CSharp target");
 		#elseif js
-			// Код, специфичный для платформы JavaScript
+			// Specific code for JavaScript target
 			i = 3;
-			trace("Выбрана платформа JavaScript");
+			trace("Selected JavaScript target");
 		#elseif neko
-			// Код, специфичный для платформы Neko
+			// Specific code for Neko target
 			i = 4;
-			trace("Выбрана платформа Neko");
+			trace("Selected Neko target");
 		#else 
-			#error  // отобразит ошибку "Нет реализации для данной платформы"
-			#error "Произвольный Текст Ошибки" // отобразит ошибку "Произвольный Текст Ошибки"
+			#error  // will display "Haven't realization for target platform"
+			#error "Custom error" // will display "Custom error"
 			i = -1;
-			trace("Выбрана неизвестная платформа");
+			trace("Selected unknown target");
 		#end
-
-		trace("Значение i: " + i);
-
+		
+		trace("Value of i: " + i);
+		
 		#if debug
-			trace("Включена отладочная информация для всех платформ");
-
+			trace("Debugging information included for all targets");
+			
 			#if (debug_level > 3)
-				trace("Уровень отладки: " + 3);
+				trace("Debugging level: " + 3);
 			#else
-				trace("Cлишком низкий уровень отладки");
+				trace("Debugging level is too low");
 			#end
 		#end
-
+		
 		#if (neko && mydebug)
-			trace("Включена отладочная информация для платформы Neko");
+			trace("Debugging information included for Neko target");
 		#end
-
+		
 		#if (haxe_ver >= 3.2)
-			trace("Версия HaXe >= 3.2");
+			trace("Version of Haxe >= 3.2");
 		#else
-			trace("Версия HaXe < 3.2");
+			trace("Version of Haxe < 3.2");
 		#end
 	}
 }

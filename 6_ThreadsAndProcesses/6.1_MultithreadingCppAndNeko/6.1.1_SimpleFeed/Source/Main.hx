@@ -20,7 +20,7 @@ class Main {
 	
 	public static function main () {
 		//----------------------------------------------------------------------
-		trace('--- Два простых потока ---');
+		trace('--- Two simple threads ---');
 		
 		var thread = Thread.create (threadFunction);
 		

@@ -12,7 +12,7 @@ import haxe.rtti.Meta;
 	@values(-1,100) public var x : Int;
 	
 	@broken @:noCompletion static function method() { }
-
+	
 	public function new() { }
 }
 
@@ -26,9 +26,9 @@ class Main {
 		
 		// { broken => null }
 		trace(Meta.getStatics(A).method);
-
+		
 		// [-1,100]
 		var m = haxe.rtti.Meta.getFields(A);
-        trace(m.x.values);
+		trace(m.x.values);
 	}
 }

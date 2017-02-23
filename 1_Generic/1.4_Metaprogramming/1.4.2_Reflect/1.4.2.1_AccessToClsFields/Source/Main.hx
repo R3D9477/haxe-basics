@@ -5,15 +5,15 @@ package;
 
 class A {
 	public function new () {
-		trace("Конструктор класса A");
+		trace("Constructor of the class A");
 	}
 	
 	public function func () {
-		trace("Вызов метода func класса A");
+		trace("Call method 'func' of the class A");
 	}
 	
 	public function func1 (a : Int, b : Int) {
-		trace("Вызов метода func1 класса A arg: " + a + " + " + b + " = " + (a + b));
+		trace("Call method 'func1' of the class A with arguments: " + a + " + " + b + " = " + (a + b));
 		return a + b;
 	}
 }
@@ -21,64 +21,64 @@ class A {
 class Main {
 	public static function main () {
 		//----------------------------------------------------------------------
-		trace("--- Объявление структуры с анонимным типом ---");
+		trace("--- Make anonymous structure ---");
 		
-		var a = { one: 1, two: 2.2, three: "три", four: { one: "число один" } };
+		var a = { one: 1, two: 2.2, three: "три", four: { one: "number one" } };
 		trace(a);
-
+		
 		//----------------------------------------------------------------------
-		trace("--- Проверка наличия поля объекта a по наименованию ---");
-
-		trace("a содержит поле 'one': " + Reflect.hasField(a, "one"));
-		trace("a содержит поле 'five': " + Reflect.hasField(a, "five"));
-
+		trace("--- Check availability of the field by name ---");
+		
+		trace("The object 'a' contains 'one': " + Reflect.hasField(a, "one"));
+		trace("The object 'a' contains 'five': " + Reflect.hasField(a, "five"));
+		
 		//----------------------------------------------------------------------
-		trace("--- Отображение всех полей объекта a ---");
+		trace("--- Display all fields of object 'a' ---");
 		
 		for(aField in Reflect.fields(a)) {
 			trace("a." + aField + " = " + Reflect.field(a, aField));
 		}
-
+		
 		//----------------------------------------------------------------------
-		trace("--- Копирование объекта a ---");
+		trace("--- Copy object 'a' ---");
 		
 		var b = Reflect.copy(a);
 		trace(b);
-
+		
 		//----------------------------------------------------------------------
-		trace("--- Отображение всех полей объекта b ---");
+		trace("--- Display all fields of object 'b' ---");
 		
 		for(bField in Reflect.fields(b)) {
 			trace("b." + bField + " = " + Reflect.field(b, bField));
 		}
-
-		//----------------------------------------------------------------------
-		trace("--- Изменение объекта a ---");
 		
-		a.two = 2.2222; // не повлияет на копию объекта
-		a.three = "ТРИ"; // не повлияет на копию объекта
-		a.four.one = "ЧИСЛО ОДИН"; // повлияет на копию объекта
-
 		//----------------------------------------------------------------------
-		trace("--- Отображение всех полей объекта a после изменения ---");
+		trace("--- Change object 'a' ---");
+		
+		a.two = 2.2222; // not affect the copy 'b' of the object 'a'
+		a.three = "THREE"; // not affect the copy 'b' of the object 'a'
+		a.four.one = "NUMBER ONE"; // affect the copy 'b' of the object 'a'!!!
+		
+		//----------------------------------------------------------------------
+		trace("--- Display all fields of object 'a' after changing ---");
 		
 		for(aField in Reflect.fields(a)) {
 			trace("a." + aField + " = " + Reflect.field(a, aField));
 		}
-
+		
 		//----------------------------------------------------------------------
-		trace("--- Отображение всех полей объекта b после изменения объекта a ---");
+		trace("--- Display all fields of object 'b' after changing object 'a' ---");
 		
 		for(bField in Reflect.fields(b)) {
 			trace("b." + bField + " = " + Reflect.field(b, bField));
 		}
-
+		
 		//----------------------------------------------------------------------
-		trace("--- Вызов методов экземпляра объекта по наименованию ---");
-
+		trace("--- Call method of object by name ---");
+		
 		var c = new A();
-
+		
 		Reflect.callMethod(c, Reflect.field(c, "func"), []);
-		trace("Результат вызова метода c.func1: " + Reflect.callMethod(c, Reflect.field(c, "func1"), [1, 2]));
+		trace("Result of method 'c.func1': " + Reflect.callMethod(c, Reflect.field(c, "func1"), [1, 2]));
 	}
 }

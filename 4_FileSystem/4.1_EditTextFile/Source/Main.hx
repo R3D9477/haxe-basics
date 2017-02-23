@@ -9,15 +9,15 @@ import sys.io.File;
 class Main {
 	public static function main () {
 		//----------------------------------------------------------------------
-		trace('--- Создание текстового файла ---');
+		trace('--- Write to text file ---');
 		
 		File.saveContent("test.txt", "123 qwe 321");
 		
 		var fileContent = File.getContent("test.txt");
-		trace("Оригинальный контент: " + fileContent);
+		trace("Original content: " + fileContent);
 		
 		//----------------------------------------------------------------------
-		trace('--- Изменение контента файла ---');
+		trace('--- Change text file ---');
 		
 		fileContent = File.getContent("test.txt");
 		fileContent = StringTools.replace(fileContent, "qwe", "AND");
@@ -25,10 +25,10 @@ class Main {
 		File.saveContent("test.txt", fileContent);	
 		
 		fileContent = File.getContent("test.txt");
-		trace("Изменённый контент: " + fileContent);
+		trace("Changed content: " + fileContent);
 		
 		//----------------------------------------------------------------------
-		trace('--- Добавить данные в конец файла ---');
+		trace('--- Append data to end of text file ---');
 		
 		var fileStream = File.append("test.txt");
 		fileStream.writeString("\r\n");
@@ -36,6 +36,6 @@ class Main {
 		fileStream.close();
 		
 		fileContent = File.getContent("test.txt");
-		trace("Дополненный контент: " + fileContent);
+		trace("Added content: " + fileContent);
 	}
 }
