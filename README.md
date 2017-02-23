@@ -109,7 +109,7 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
        * [9.6.2 - Button with handler declared in Xml](./9_AdditionalLibraries/9.6_StablexUI/9.6.2_ButtonWithXmlHandler/Source/Main.hx)
        * [9.6.3 - Button declared in Xml with handler declared in Haxe](./9_AdditionalLibraries/9.6_StablexUI/9.6.3_XmlButtonWithHandler/Source/Main.hx)
      * [9.7 - Graphical user interface and library HaxeUI v2](./9_AdditionalLibraries/9.7_HaxeUI)
-        * [9.7.1 - haxeui-openfl](./9_AdditionalLibraries/9.7_HaxeUI/9.7.1_haxeui-openfl/9.7.1_haxeui-openfl)
+        * [9.7.1 - haxeui-openfl](./9_AdditionalLibraries/9.7_HaxeUI/9.7.1_haxeui-openfl)
           * [9.7.1.1 - Components](./9_AdditionalLibraries/9.7_HaxeUI/9.7.1_haxeui-openfl/9.7.1.1_Components)
           * [9.7.1.2 - Containers](./9_AdditionalLibraries/9.7_HaxeUI/9.7.1_haxeui-openfl/9.7.1.2_Containers)
           * [9.7.1.3 - Demos](./9_AdditionalLibraries/9.7_HaxeUI/9.7.1_haxeui-openfl/9.7.1.3_Demos)
