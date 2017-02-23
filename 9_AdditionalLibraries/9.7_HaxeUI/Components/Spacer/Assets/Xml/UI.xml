@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hbox>
+	<spacer width="50"/>
+	<label text="spaced on 50px from the left border..."/>
+</hbox>
