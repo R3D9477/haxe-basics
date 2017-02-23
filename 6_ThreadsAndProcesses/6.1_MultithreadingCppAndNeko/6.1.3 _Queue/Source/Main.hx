@@ -21,7 +21,7 @@ class Main {
 			data.push (i);
 			
 			trace ("Sending data: " + i);
-			Sys.sleep (0.1);	
+			Sys.sleep (0.1);
 		}	
 	}
 	
@@ -29,13 +29,13 @@ class Main {
 		var data:Deque<Int> = Thread.readMessage (true);
 		
 		for (i in 0...10) {
-			trace ("Receiving data: " + data.pop (true));			
-		}	
+			trace ("Receiving data: " + data.pop (true));
+		}
 	}
-
+	
 	public static function main () {
 		//----------------------------------------------------------------------
-		trace('--- Обмен данными между потоками ---');
+		trace('--- Exchange data between threads ---');
 		
 		var data = new Deque <Int> ();
 		
