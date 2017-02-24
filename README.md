@@ -3,9 +3,9 @@ haxe-basics
 
 The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
 
-## Contain:<br/>
-
- * [1 - Generic](./1_Generic)
+## Contain:
+<br/>
+ ### [1 - Generic](./1_Generic)
    * [1.1 - Simple data types and basic operators](./1_Generic/1.1_SimpleDataTypes)
      * [1.1.1 - Simple data types (int, float, string, bool)](./1_Generic/1.1_SimpleDataTypes/1.1.1_SimpleDataTypes/Source/Main.hx)
      * [1.1.2 - Date and time](./1_Generic/1.1_SimpleDataTypes/1.1.2_DateTime)
@@ -41,24 +41,29 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
      * [1.4.2 - Class Reflect](./1_Generic/1.4_Metaprogramming/1.4.2_Reflect)
        * [1.4.2.1 - Access to fields of class at runtime](./1_Generic/1.4_Metaprogramming/1.4.2_Reflect/1.4.2.1_AccessToClsFields/Source/Main.hx)
         * [1.4.2.2 - Modify methods of class at runtime](./1_Generic/1.4_Metaprogramming/1.4.2_Reflect/1.4.2.2_RTClsMod/Source/Main.hx)
- * [2 - Data serialization](./2_DataSerialization)
+ <br/>
+ ### [2 - Data serialization](./2_DataSerialization)
    * [2.1 - Processing Json](./2_DataSerialization/2.1_Json/Source/Main.hx)
    * [2.2 - Processing Xml](./2_DataSerialization/2.2_Xml)
      * [2.2.1 - Xml-nodes and Xml-strings](./2_DataSerialization/2.2_Xml/2.2.1_Xml/Source/Main.hx)
      * [2.2.2 - Xml-fast](./2_DataSerialization/2.2_Xml/2.2.2_XmlFast/Source/Main.hx)
- * [3 - Data stream](./3_DataStream)
+ <br/>
+ ### [3 - Data stream](./3_DataStream)
    * [3.1 - Standard IO stream](./3_DataStream/3.1_IOStream/Source/Main.hx)
    * [3.2 - Write a text ASCII file](./3_DataStream/3.2_AsciiFile/Source/Main.hx)
    * [3.3 - Write a binary file](./3_DataStream/3.3_BinaryFile/Source/Main.hx)
- * [4 - FileSystem](./4_FileSystem)
+ <br/>
+ ### [4 - FileSystem](./4_FileSystem)
    * [4.1 - Edit text file](./4_FileSystem/4.1_EditTextFile/Source/Main.hx)
    * [4.2 - Operations with files](./4_FileSystem/4.2_OperationsWithFiles/Source/Main.hx)
    * [4.3 - Operations with directories](./4_FileSystem/4.3_OperationsWithDirectories/Source/Main.hx)
- * [5 - Network](./5_Network)
+ <br/>
+ ### [5 - Network](./5_Network)
    * [5.1 - Sockets. A simple client-server application](./5_Network/5.1_Sockets/Source/Main.hx)
    * [5.2 - HTTP. Request sending and response handling](./5_Network/5.2_Http/Source/Main.hx)
    * [5.3 - Remoting](./5_Network/5.3_Remoting/Source/Main.hx)
- * [6 - Threads and processes](./6_ThreadsAndProcesses)
+ <br/>
+ ### [6 - Threads and processes](./6_ThreadsAndProcesses)
    * [6.1 - Multithreading CPP and Neko](./6_ThreadsAndProcesses/6.1_MultithreadingCppAndNeko)
      * [6.1.1 - Simple Feed](./6_ThreadsAndProcesses/6.1_MultithreadingCppAndNeko/6.1.1_SimpleFeed/Source/Main.hx)
      * [6.1.2 - Exchanging messages between threads](./6_ThreadsAndProcesses/6.1_MultithreadingCppAndNeko/6.1.2_ThreadsMessaging/Source/Main.hx)
@@ -72,10 +77,12 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
      * [6.3.3 - Asynchronous execution of code via js.Promise](./6_ThreadsAndProcesses/6.3_MultithreadingJs/6.3.3_js.Promise/Source/Main.hx)
    * [6.4 - Processes](./6_ThreadsAndProcesses/6.4_Processes)
      * [6.4.1 - Starting and stopping](./6_ThreadsAndProcesses/6.4_Processes/6.4.1_StartAndStop/Source/Main.hx)
- * [7 - Unit tests](./7 - Unit tests)
+ <br/>
+ ### [7 - Unit tests](./7 - Unit tests)
    * [7.1 - Creating and running a simple unit test: class haxe.unit.TestCase and haxe.unit.TestRunner](./7_UnitTests/7.1_SimpleUnitTest/Source/Main.hx)
    * [7.2 - Methods of setup and tearDown class haxe.unit.TestCase](./7_UnitTests/7.2_SetupUnitTest/Source/Main.hx)
- * [8 - Some features of language](./8_LangFeatures)
+ <br/>
+ ### [8 - Some features of language](./8_LangFeatures)
    * [8.1 - Conditional compilation (Preprocessor)](./8_LangFeatures/8.1_Preprocessor/Source/Main.hx)
    * [8.2 - Metadata](./8_LangFeatures/8.2_Metadata/Source/Main.hx)
    * [8.3 - Static type extension](./8_LangFeatures/8.3_StaticExtension/Source/Main.hx)
@@ -89,7 +96,8 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
      * [8.7.1 - Using pre-compiled NekoVM-modules](./8_LangFeatures/8.7_ExternalModules/8.7.1_UsingNekoVmModules/Source/Main.hx)
      * [8.7.2 - Using a C dynamic library](./8_LangFeatures/8.7_ExternalModules/8.7.2_UsingCdynamicLibrary)
        * [8.7.2.1 - Implementation of C-FFI regular means](./8_LangFeatures/8.7_ExternalModules/8.7.2_UsingCdynamicLibrary/8.7.2.1_C-FFI/Source/Main.hx)
- * [9 - Additional libraries](./9_AdditionalLibraries)
+ <br/>
+ ### [9 - Additional libraries](./9_AdditionalLibraries)
      * [9.1 - Create a library for haxelib](./9_AdditionalLibraries/9.1_Haxelib)
      * [9.2 - Xml and library haxe-xpath](.)
      * [9.3 - C-FFI and library hx-ffi](./9_AdditionalLibraries/9.3_HxFFI/Source/Main.hx)
