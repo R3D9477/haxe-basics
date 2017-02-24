@@ -130,7 +130,7 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
   * [Enum abstracts](https://haxe.org/manual/types-abstract-enum.html)
   * The newest features of Haxe
   * More samples of different macros
-* Samples for [Luxe](https://github.com/underscorediscovery/luxe) ([Mint](https://github.com/snowkit/mint) included))
+* Samples for [Luxe](https://github.com/underscorediscovery/luxe) ([Mint](https://github.com/snowkit/mint) included)
 * Samples for [Kha](https://github.com/Kode/Kha)
 * More samples for [StablexUI](https://github.com/RealyUniqueName/StablexUI)
 * More samples for [HaxeUI](https://github.com/haxeui/haxeui-core) (with defferent backend)
