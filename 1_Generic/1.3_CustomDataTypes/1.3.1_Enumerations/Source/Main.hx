@@ -26,7 +26,7 @@ class Main {
 				trace("Red");
 			case Color.Blue:
 				trace("Blue");
-			case Color.Rgb:
+			case Color.Rgb(r, g, b):
 				trace("Custom");
 			default:
 				trace("Unknown");
