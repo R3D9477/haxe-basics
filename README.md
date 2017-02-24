@@ -4,6 +4,7 @@ haxe-basics
 The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
 
 ## Contain:
+
 <br/>
 #### [1 - Generic](./1_Generic)
 * [1.1 - Simple data types and basic operators](./1_Generic/1.1_SimpleDataTypes)
@@ -41,87 +42,102 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
   * [1.4.2 - Class Reflect](./1_Generic/1.4_Metaprogramming/1.4.2_Reflect)
     * [1.4.2.1 - Access to fields of class at runtime](./1_Generic/1.4_Metaprogramming/1.4.2_Reflect/1.4.2.1_AccessToClsFields/Source/Main.hx)
     * [1.4.2.2 - Modify methods of class at runtime](./1_Generic/1.4_Metaprogramming/1.4.2_Reflect/1.4.2.2_RTClsMod/Source/Main.hx)
+
 <br/>
 <br/>
 #### [2 - Data serialization](./2_DataSerialization)
-   * [2.1 - Processing Json](./2_DataSerialization/2.1_Json/Source/Main.hx)
-   * [2.2 - Processing Xml](./2_DataSerialization/2.2_Xml)
-     * [2.2.1 - Xml-nodes and Xml-strings](./2_DataSerialization/2.2_Xml/2.2.1_Xml/Source/Main.hx)
-     * [2.2.2 - Xml-fast](./2_DataSerialization/2.2_Xml/2.2.2_XmlFast/Source/Main.hx)
- <br/>
- ### [3 - Data stream](./3_DataStream)
-   * [3.1 - Standard IO stream](./3_DataStream/3.1_IOStream/Source/Main.hx)
-   * [3.2 - Write a text ASCII file](./3_DataStream/3.2_AsciiFile/Source/Main.hx)
-   * [3.3 - Write a binary file](./3_DataStream/3.3_BinaryFile/Source/Main.hx)
- <br/>
- ### [4 - FileSystem](./4_FileSystem)
-   * [4.1 - Edit text file](./4_FileSystem/4.1_EditTextFile/Source/Main.hx)
-   * [4.2 - Operations with files](./4_FileSystem/4.2_OperationsWithFiles/Source/Main.hx)
-   * [4.3 - Operations with directories](./4_FileSystem/4.3_OperationsWithDirectories/Source/Main.hx)
- <br/>
- ### [5 - Network](./5_Network)
-   * [5.1 - Sockets. A simple client-server application](./5_Network/5.1_Sockets/Source/Main.hx)
-   * [5.2 - HTTP. Request sending and response handling](./5_Network/5.2_Http/Source/Main.hx)
-   * [5.3 - Remoting](./5_Network/5.3_Remoting/Source/Main.hx)
- <br/>
- ### [6 - Threads and processes](./6_ThreadsAndProcesses)
-   * [6.1 - Multithreading CPP and Neko](./6_ThreadsAndProcesses/6.1_MultithreadingCppAndNeko)
-     * [6.1.1 - Simple Feed](./6_ThreadsAndProcesses/6.1_MultithreadingCppAndNeko/6.1.1_SimpleFeed/Source/Main.hx)
-     * [6.1.2 - Exchanging messages between threads](./6_ThreadsAndProcesses/6.1_MultithreadingCppAndNeko/6.1.2_ThreadsMessaging/Source/Main.hx)
-     * [6.1.3 - Using the data queue with multiple threads. Class Queue](./6_ThreadsAndProcesses/6.1_MultithreadingCppAndNeko/6.1.3 _Queue/Source/Main.hx)
-     * [6.1.4 - Sending simple values between threads. Class Mutex](./6_ThreadsAndProcesses/6.1_MultithreadingCppAndNeko/6.1.4_Mutex/Source/Main.hx)
-   * [6.2 - Multithreading CS](./6_ThreadsAndProcesses/6.2_MultithreadingCs)
-     * [6.2.1 - Simple Feed](./6_ThreadsAndProcesses/6.2_MultithreadingCs/6.2.1_SimpleFeed/Source/Main.hx)
-   * [6.3 - Multithreading JS](./6_ThreadsAndProcesses/6.3_MultithreadingJs)
-     * [6.3.1 - Asynchronous execution of code via haxe.Timer](./6_ThreadsAndProcesses/6.3_MultithreadingJs/6.3.1_haxe.Timer/Source/Main.hx)
-     * [6.3.2 - Asynchronous execution of code via js.html.Worker](./6_ThreadsAndProcesses/6.3_MultithreadingJs/6.3.2_js.html.Worker/Source/Main.hx)
-     * [6.3.3 - Asynchronous execution of code via js.Promise](./6_ThreadsAndProcesses/6.3_MultithreadingJs/6.3.3_js.Promise/Source/Main.hx)
-   * [6.4 - Processes](./6_ThreadsAndProcesses/6.4_Processes)
-     * [6.4.1 - Starting and stopping](./6_ThreadsAndProcesses/6.4_Processes/6.4.1_StartAndStop/Source/Main.hx)
- <br/>
- ### [7 - Unit tests](./7 - Unit tests)
-   * [7.1 - Creating and running a simple unit test: class haxe.unit.TestCase and haxe.unit.TestRunner](./7_UnitTests/7.1_SimpleUnitTest/Source/Main.hx)
-   * [7.2 - Methods of setup and tearDown class haxe.unit.TestCase](./7_UnitTests/7.2_SetupUnitTest/Source/Main.hx)
- <br/>
- ### [8 - Some features of language](./8_LangFeatures)
-   * [8.1 - Conditional compilation (Preprocessor)](./8_LangFeatures/8.1_Preprocessor/Source/Main.hx)
-   * [8.2 - Metadata](./8_LangFeatures/8.2_Metadata/Source/Main.hx)
-   * [8.3 - Static type extension](./8_LangFeatures/8.3_StaticExtension/Source/Main.hx)
-   * [8.4 - Packages and import](./8_LangFeatures/8.4_PackagesAndImport/Source/Main.hx)
-   * [8.5 - External resources](./8_LangFeatures/8.5_ExternalResources/Source/Main.hx)
-   * [8.6 - Macros](./8_LangFeatures/8.6_Macros)
-     * [8.6.1 - Initialization macros (macro from the command line)](./8_LangFeatures/8.6_Macros/8.6.1_InitializationMacros/Source/Main.hx)
-     * [8.6.2 - Automatic insertion of resources](./8_LangFeatures/8.6_Macros/8.6.2_ResourcesInsertion/Source/Main.hx)
-     * [8.6.3 - Simultaneous use of macros and static extensions](./8_LangFeatures/8.6_Macros/8.6.3_MacrosAndStaticExtensions/Source/Main.hx)
-   * [8.7 - Plug-ins, extensions, external modules and dynamic libraries](./8_LangFeatures/8.7_ExternalModules)
-     * [8.7.1 - Using pre-compiled NekoVM-modules](./8_LangFeatures/8.7_ExternalModules/8.7.1_UsingNekoVmModules/Source/Main.hx)
-     * [8.7.2 - Using a C dynamic library](./8_LangFeatures/8.7_ExternalModules/8.7.2_UsingCdynamicLibrary)
-       * [8.7.2.1 - Implementation of C-FFI regular means](./8_LangFeatures/8.7_ExternalModules/8.7.2_UsingCdynamicLibrary/8.7.2.1_C-FFI/Source/Main.hx)
- <br/>
- ### [9 - Additional libraries](./9_AdditionalLibraries)
-     * [9.1 - Create a library for haxelib](./9_AdditionalLibraries/9.1_Haxelib)
-     * [9.2 - Xml and library haxe-xpath](.)
-     * [9.3 - C-FFI and library hx-ffi](./9_AdditionalLibraries/9.3_HxFFI/Source/Main.hx)
-     * [9.4 - Data binding and library BindX2](./9_AdditionalLibraries/9.4_BindX2)
-       * [9.4.1 - Data binding code and class bindx.Bind](./9_AdditionalLibraries/9.4_BindX2/9.4.1_bindx.Bind/Source/Main.hx)
-       * [9.4.2 - Arbitrary data binding expression and class bindx.BindExt](./9_AdditionalLibraries/9.4_BindX2/9.4.2_bindx.BindExt/Source/Main.hx)
-     * [9.5 - Graphic and library OpenFL](./9_AdditionalLibraries/9.5_OpenFL)
-       * [9.5.1 - Show simple window and change some settings](./9_AdditionalLibraries/9.5_OpenFL/9.5.1_SimpleWindow/Source/Main.hx)
-       * [9.5.2 - Draw 2D-shape](./9_AdditionalLibraries/9.5_OpenFL/9.5.2_DrawShape/Source/Main.hx)
-       * [9.5.3 - Draw text](./9_AdditionalLibraries/9.5_OpenFL/9.5.3_DrawText/Source/Main.hx)
-       * [9.5.4 - Mouse and keyboard events](./9_AdditionalLibraries/9.5_OpenFL/9.5.4_MouseAndKeyboardEvents/Source/Main.hx)
-       * [9.5.5 - Show button](./9_AdditionalLibraries/9.5_OpenFL/9.5.5_ShowButton/Source/Main.hx)
-       * [9.5.6 - Show alert](./9_AdditionalLibraries/9.5_OpenFL/9.5.6_ShowAlert/Source/Main.hx)
-       * [9.5.7 - Load the custom sprite from compiled NekoVM module (*.n)](./9_AdditionalLibraries/9.5_OpenFL/9.5.7_SpriteFromNekoVMmodule)
-     * [9.6 - Graphical user interface and library StablexUI](./9_AdditionalLibraries/9.6_StablexUI)
-       * [9.6.1 - Button with handler declared in Haxe](./9_AdditionalLibraries/9.6_StablexUI/9.6.1_ButtonWithHandler/Source/Main.hx)
-       * [9.6.2 - Button with handler declared in Xml](./9_AdditionalLibraries/9.6_StablexUI/9.6.2_ButtonWithXmlHandler/Source/Main.hx)
-       * [9.6.3 - Button declared in Xml with handler declared in Haxe](./9_AdditionalLibraries/9.6_StablexUI/9.6.3_XmlButtonWithHandler/Source/Main.hx)
-     * [9.7 - Graphical user interface and library HaxeUI v2](./9_AdditionalLibraries/9.7_HaxeUI)
-        * [9.7.1 - haxeui-openfl](./9_AdditionalLibraries/9.7_HaxeUI/9.7.1_haxeui-openfl)
-          * [9.7.1.1 - Components](./9_AdditionalLibraries/9.7_HaxeUI/9.7.1_haxeui-openfl/9.7.1.1_Components)
-          * [9.7.1.2 - Containers](./9_AdditionalLibraries/9.7_HaxeUI/9.7.1_haxeui-openfl/9.7.1.2_Containers)
-          * [9.7.1.3 - Demos](./9_AdditionalLibraries/9.7_HaxeUI/9.7.1_haxeui-openfl/9.7.1.3_Demos)
-            * [9.7.1.3.1 - Scrolls](./9_AdditionalLibraries/9.7_HaxeUI/9.7.1_haxeui-openfl/9.7.1.3_Demos/9.7.1.3.1_Scrolls)
-            * [9.7.1.3.2 - GridView](./9_AdditionalLibraries/9.7_HaxeUI/9.7.1_haxeui-openfl/9.7.1.3_Demos/9.7.1.3.2_GridView)
-            * [9.7.1.3.3 - Calculator](./9_AdditionalLibraries/9.7_HaxeUI/9.7.1_haxeui-openfl/9.7.1.3_Demos/9.7.1.3.3_Calculator)
+* [2.1 - Processing Json](./2_DataSerialization/2.1_Json/Source/Main.hx)
+* [2.2 - Processing Xml](./2_DataSerialization/2.2_Xml)
+  * [2.2.1 - Xml-nodes and Xml-strings](./2_DataSerialization/2.2_Xml/2.2.1_Xml/Source/Main.hx)
+  * [2.2.2 - Xml-fast](./2_DataSerialization/2.2_Xml/2.2.2_XmlFast/Source/Main.hx)
+
+<br/>
+<br/>
+#### [3 - Data stream](./3_DataStream)
+* [3.1 - Standard IO stream](./3_DataStream/3.1_IOStream/Source/Main.hx)
+* [3.2 - Write a text ASCII file](./3_DataStream/3.2_AsciiFile/Source/Main.hx)
+* [3.3 - Write a binary file](./3_DataStream/3.3_BinaryFile/Source/Main.hx)
+
+<br/>
+<br/>
+#### [4 - FileSystem](./4_FileSystem)
+* [4.1 - Edit text file](./4_FileSystem/4.1_EditTextFile/Source/Main.hx)
+* [4.2 - Operations with files](./4_FileSystem/4.2_OperationsWithFiles/Source/Main.hx)
+* [4.3 - Operations with directories](./4_FileSystem/4.3_OperationsWithDirectories/Source/Main.hx)
+
+<br/>
+<br/>
+#### [5 - Network](./5_Network)
+* [5.1 - Sockets. A simple client-server application](./5_Network/5.1_Sockets/Source/Main.hx)
+* [5.2 - HTTP. Request sending and response handling](./5_Network/5.2_Http/Source/Main.hx)
+* [5.3 - Remoting](./5_Network/5.3_Remoting/Source/Main.hx)
+
+<br/>
+<br/>
+#### [6 - Threads and processes](./6_ThreadsAndProcesses)
+* [6.1 - Multithreading CPP and Neko](./6_ThreadsAndProcesses/6.1_MultithreadingCppAndNeko)
+  * [6.1.1 - Simple Feed](./6_ThreadsAndProcesses/6.1_MultithreadingCppAndNeko/6.1.1_SimpleFeed/Source/Main.hx)
+  * [6.1.2 - Exchanging messages between threads](./6_ThreadsAndProcesses/6.1_MultithreadingCppAndNeko/6.1.2_ThreadsMessaging/Source/Main.hx)
+  * [6.1.3 - Using the data queue with multiple threads. Class Queue](./6_ThreadsAndProcesses/6.1_MultithreadingCppAndNeko/6.1.3 _Queue/Source/Main.hx)
+  * [6.1.4 - Sending simple values between threads. Class Mutex](./6_ThreadsAndProcesses/6.1_MultithreadingCppAndNeko/6.1.4_Mutex/Source/Main.hx)
+* [6.2 - Multithreading CS](./6_ThreadsAndProcesses/6.2_MultithreadingCs)
+  * [6.2.1 - Simple Feed](./6_ThreadsAndProcesses/6.2_MultithreadingCs/6.2.1_SimpleFeed/Source/Main.hx)
+* [6.3 - Multithreading JS](./6_ThreadsAndProcesses/6.3_MultithreadingJs)
+  * [6.3.1 - Asynchronous execution of code via haxe.Timer](./6_ThreadsAndProcesses/6.3_MultithreadingJs/6.3.1_haxe.Timer/Source/Main.hx)
+  * [6.3.2 - Asynchronous execution of code via js.html.Worker](./6_ThreadsAndProcesses/6.3_MultithreadingJs/6.3.2_js.html.Worker/Source/Main.hx)
+  * [6.3.3 - Asynchronous execution of code via js.Promise](./6_ThreadsAndProcesses/6.3_MultithreadingJs/6.3.3_js.Promise/Source/Main.hx)
+* [6.4 - Processes](./6_ThreadsAndProcesses/6.4_Processes)
+  * [6.4.1 - Starting and stopping](./6_ThreadsAndProcesses/6.4_Processes/6.4.1_StartAndStop/Source/Main.hx)
+
+<br/>
+<br/>
+#### [7 - Unit tests](./7 - Unit tests)
+* [7.1 - Creating and running a simple unit test: class haxe.unit.TestCase and haxe.unit.TestRunner](./7_UnitTests/7.1_SimpleUnitTest/Source/Main.hx)
+* [7.2 - Methods of setup and tearDown class haxe.unit.TestCase](./7_UnitTests/7.2_SetupUnitTest/Source/Main.hx)
+
+<br/>
+<br/>
+#### [8 - Some features of language](./8_LangFeatures)
+* [8.1 - Conditional compilation (Preprocessor)](./8_LangFeatures/8.1_Preprocessor/Source/Main.hx)
+* [8.2 - Metadata](./8_LangFeatures/8.2_Metadata/Source/Main.hx)
+* [8.3 - Static type extension](./8_LangFeatures/8.3_StaticExtension/Source/Main.hx)
+* [8.4 - Packages and import](./8_LangFeatures/8.4_PackagesAndImport/Source/Main.hx)
+* [8.5 - External resources](./8_LangFeatures/8.5_ExternalResources/Source/Main.hx)
+* [8.6 - Macros](./8_LangFeatures/8.6_Macros)
+  * [8.6.1 - Initialization macros (macro from the command line)](./8_LangFeatures/8.6_Macros/8.6.1_InitializationMacros/Source/Main.hx)
+  * [8.6.2 - Automatic insertion of resources](./8_LangFeatures/8.6_Macros/8.6.2_ResourcesInsertion/Source/Main.hx)
+  * [8.6.3 - Simultaneous use of macros and static extensions](./8_LangFeatures/8.6_Macros/8.6.3_MacrosAndStaticExtensions/Source/Main.hx)
+* [8.7 - Plug-ins, extensions, external modules and dynamic libraries](./8_LangFeatures/8.7_ExternalModules)
+  * [8.7.1 - Using pre-compiled NekoVM-modules](./8_LangFeatures/8.7_ExternalModules/8.7.1_UsingNekoVmModules/Source/Main.hx)
+  * [8.7.2 - Using a C dynamic library](./8_LangFeatures/8.7_ExternalModules/8.7.2_UsingCdynamicLibrary)
+    * [8.7.2.1 - Implementation of C-FFI regular means](./8_LangFeatures/8.7_ExternalModules/8.7.2_UsingCdynamicLibrary/8.7.2.1_C-FFI/Source/Main.hx)
+
+<br/>
+<br/>
+#### [9 - Additional libraries](./9_AdditionalLibraries)
+* [9.1 - Create a library for haxelib](./9_AdditionalLibraries/9.1_Haxelib)
+* [9.2 - Xml and library haxe-xpath](.)
+* [9.3 - C-FFI and library hx-ffi](./9_AdditionalLibraries/9.3_HxFFI/Source/Main.hx)
+* [9.4 - Data binding and library BindX2](./9_AdditionalLibraries/9.4_BindX2)
+  * [9.4.1 - Data binding code and class bindx.Bind](./9_AdditionalLibraries/9.4_BindX2/9.4.1_bindx.Bind/Source/Main.hx)
+  * [9.4.2 - Arbitrary data binding expression and class bindx.BindExt](./9_AdditionalLibraries/9.4_BindX2/9.4.2_bindx.BindExt/Source/Main.hx)
+* [9.5 - Graphic and library OpenFL](./9_AdditionalLibraries/9.5_OpenFL)
+  * [9.5.1 - Show simple window and change some settings](./9_AdditionalLibraries/9.5_OpenFL/9.5.1_SimpleWindow/Source/Main.hx)
+  * [9.5.2 - Draw 2D-shape](./9_AdditionalLibraries/9.5_OpenFL/9.5.2_DrawShape/Source/Main.hx)
+  * [9.5.3 - Draw text](./9_AdditionalLibraries/9.5_OpenFL/9.5.3_DrawText/Source/Main.hx)
+  * [9.5.4 - Mouse and keyboard events](./9_AdditionalLibraries/9.5_OpenFL/9.5.4_MouseAndKeyboardEvents/Source/Main.hx)
+  * [9.5.5 - Show button](./9_AdditionalLibraries/9.5_OpenFL/9.5.5_ShowButton/Source/Main.hx)
+  * [9.5.6 - Show alert](./9_AdditionalLibraries/9.5_OpenFL/9.5.6_ShowAlert/Source/Main.hx)
+  * [9.5.7 - Load the custom sprite from compiled NekoVM module (*.n)](./9_AdditionalLibraries/9.5_OpenFL/9.5.7_SpriteFromNekoVMmodule)
+* [9.6 - Graphical user interface and library StablexUI](./9_AdditionalLibraries/9.6_StablexUI)
+  * [9.6.1 - Button with handler declared in Haxe](./9_AdditionalLibraries/9.6_StablexUI/9.6.1_ButtonWithHandler/Source/Main.hx)
+  * [9.6.2 - Button with handler declared in Xml](./9_AdditionalLibraries/9.6_StablexUI/9.6.2_ButtonWithXmlHandler/Source/Main.hx)
+  * [9.6.3 - Button declared in Xml with handler declared in Haxe](./9_AdditionalLibraries/9.6_StablexUI/9.6.3_XmlButtonWithHandler/Source/Main.hx)
+* [9.7 - Graphical user interface and library HaxeUI v2](./9_AdditionalLibraries/9.7_HaxeUI)
+  * [9.7.1 - haxeui-openfl](./9_AdditionalLibraries/9.7_HaxeUI/9.7.1_haxeui-openfl)
+    * [9.7.1.1 - Components](./9_AdditionalLibraries/9.7_HaxeUI/9.7.1_haxeui-openfl/9.7.1.1_Components)
+    * [9.7.1.2 - Containers](./9_AdditionalLibraries/9.7_HaxeUI/9.7.1_haxeui-openfl/9.7.1.2_Containers)
+    * [9.7.1.3 - Demos](./9_AdditionalLibraries/9.7_HaxeUI/9.7.1_haxeui-openfl/9.7.1.3_Demos)
+      * [9.7.1.3.1 - Scrolls](./9_AdditionalLibraries/9.7_HaxeUI/9.7.1_haxeui-openfl/9.7.1.3_Demos/9.7.1.3.1_Scrolls)
+      * [9.7.1.3.2 - GridView](./9_AdditionalLibraries/9.7_HaxeUI/9.7.1_haxeui-openfl/9.7.1.3_Demos/9.7.1.3.2_GridView)
+      * [9.7.1.3.3 - Calculator](./9_AdditionalLibraries/9.7_HaxeUI/9.7.1_haxeui-openfl/9.7.1.3_Demos/9.7.1.3.3_Calculator)
