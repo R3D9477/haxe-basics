@@ -134,4 +134,5 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
 * Samples for [Kha](https://github.com/Kode/Kha)
 * More samples for [StablexUI](https://github.com/RealyUniqueName/StablexUI)
 * More samples for [HaxeUI](https://github.com/haxeui/haxeui-core) (with different backends)
+* More description for samples
 * And other...
