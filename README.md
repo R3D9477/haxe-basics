@@ -139,7 +139,7 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
 
 ## An additional links
 * [Haxe Manual](http://haxe.org/manual/introduction.html)
-* [Haxe Cookook](http://code.haxe.org/)
+* [Haxe Cookbook](http://code.haxe.org/)
   * [For novice users](http://code.haxe.org/category/beginner/)
 * [Haxe API description](http://api.haxe.org/)
 * Haxe on stackoverflow
