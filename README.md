@@ -90,7 +90,7 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
      * [8.7.2 - Using a C dynamic library](./8_LangFeatures/8.7_ExternalModules/8.7.2_UsingCdynamicLibrary)
        * [8.7.2.1 - Implementation of C-FFI regular means](./8_LangFeatures/8.7_ExternalModules/8.7.2_UsingCdynamicLibrary/8.7.2.1_C-FFI/Source/Main.hx)
  * [9 - Additional libraries](./9_AdditionalLibraries)
-     * [9.1 - Create a library for haxelib](./9_AdditionalLibraries/9.1_Haxelib/Source/Main.hx)
+     * [9.1 - Create a library for haxelib](./9_AdditionalLibraries/9.1_Haxelib)
      * [9.2 - Xml and library haxe-xpath](.)
      * [9.3 - C-FFI and library hx-ffi](./9_AdditionalLibraries/9.3_HxFFI/Source/Main.hx)
      * [9.4 - Data binding and library BindX2](./9_AdditionalLibraries/9.4_BindX2)
