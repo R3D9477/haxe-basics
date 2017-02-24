@@ -124,3 +124,14 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
       * [9.7.1.3.1 - Scrolls](./9_AdditionalLibraries/9.7_HaxeUI/9.7.1_haxeui-openfl/9.7.1.3_Demos/9.7.1.3.1_Scrolls)
       * [9.7.1.3.2 - GridView](./9_AdditionalLibraries/9.7_HaxeUI/9.7.1_haxeui-openfl/9.7.1.3_Demos/9.7.1.3.2_GridView)
       * [9.7.1.3.3 - Calculator](./9_AdditionalLibraries/9.7_HaxeUI/9.7.1_haxeui-openfl/9.7.1.3_Demos/9.7.1.3.3_Calculator)
+
+## Comming soon...
+* More samples for [Haxe](https://github.com/HaxeFoundation/haxe)
+  * [Enum abstracts](https://haxe.org/manual/types-abstract-enum.html)
+  * The newest features of Haxe
+  * More samples of different macros
+* Samples for [Luxe](https://github.com/underscorediscovery/luxe) ([Mint](https://github.com/snowkit/mint) included))
+* Samples for [Kha](https://github.com/Kode/Kha)
+* More samples for [StablexUI](https://github.com/RealyUniqueName/StablexUI)
+* More samples for [HaxeUI](https://github.com/haxeui/haxeui-core) (with defferent backend)
+* And other...
