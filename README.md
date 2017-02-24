@@ -136,3 +136,12 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
 * More samples for [HaxeUI](https://github.com/haxeui/haxeui-core) (with different backends)
 * More description for samples
 * And other...
+
+## An additional links
+* [Haxe Manual](http://haxe.org/manual/introduction.html)
+* [Haxe Cookook](http://code.haxe.org/)
+* [Haxe API description](http://api.haxe.org/)
+* Haxe on stackoverflow
+  * [English](http://stackoverflow.com/questions/tagged/haxe)
+  * [Russian](http://ru.stackoverflow.com/questions/tagged/haxe)
+* [Try Haxe online](http://try.haxe.org/)
