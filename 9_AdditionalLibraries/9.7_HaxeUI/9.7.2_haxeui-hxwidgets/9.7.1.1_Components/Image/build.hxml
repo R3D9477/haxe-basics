@@ -1,0 +1,14 @@
+-cp Source
+-main Main.hx
+
+-lib haxeui-core
+-lib haxeui-hxwidgets
+-lib hxWidgets
+-lib hscript
+
+-D ABI=-MD
+-D WXSTATIC
+
+-cpp Export/hxWidgets
+
+-cmd cp Assets/Img/Tux.jpg Export/hxWidgets/Tux.jpg

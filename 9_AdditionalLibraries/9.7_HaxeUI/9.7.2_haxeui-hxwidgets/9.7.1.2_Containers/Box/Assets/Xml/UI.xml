@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<vbox>
+	<hbox>
+		<button text="Button 1"/>
+		<button text="Button 2"/>
+		<button text="Button 3"/>
+	</hbox>
+	
+	<spacer width="100%" height="20"/>
+	
+	<vbox>
+		<button text="Button 1"/>
+		<button text="Button 2"/>
+		<button text="Button 3"/>
+	</vbox>
+</vbox>

@@ -124,6 +124,13 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
       * [9.7.1.3.1 - Scrolls](./9_AdditionalLibraries/9.7_HaxeUI/9.7.1_haxeui-openfl/9.7.1.3_Demos/9.7.1.3.1_Scrolls)
       * [9.7.1.3.2 - GridView](./9_AdditionalLibraries/9.7_HaxeUI/9.7.1_haxeui-openfl/9.7.1.3_Demos/9.7.1.3.2_GridView)
       * [9.7.1.3.3 - Calculator](./9_AdditionalLibraries/9.7_HaxeUI/9.7.1_haxeui-openfl/9.7.1.3_Demos/9.7.1.3.3_Calculator)
+  * [9.7.2 - haxeui-hxwidgets](./9_AdditionalLibraries/9.7_HaxeUI/9.7.2_haxeui-hxwidgets)
+    * [9.7.2.1 - Components](./9_AdditionalLibraries/9.7_HaxeUI/9.7.2_haxeui-hxwidgets/9.7.2.1_Components)
+    * [9.7.2.2 - Containers](./9_AdditionalLibraries/9.7_HaxeUI/9.7.2_haxeui-hxwidgets/9.7.2.2_Containers)
+    * [9.7.2.3 - Demos](./9_AdditionalLibraries/9.7_HaxeUI/9.7.2_haxeui-hxwidgets/9.7.2.3_Demos)
+      * [9.7.2.3.1 - Scrolls](./9_AdditionalLibraries/9.7_HaxeUI/9.7.2_haxeui-hxwidgets/9.7.2.3_Demos/9.7.2.3.1_Scrolls)
+      * [9.7.2.3.2 - GridView](./9_AdditionalLibraries/9.7_HaxeUI/9.7.2_haxeui-hxwidgets/9.7.2.3_Demos/9.7.2.3.2_GridView)
+      * [9.7.2.3.3 - Calculator](./9_AdditionalLibraries/9.7_HaxeUI/9.7.2_haxeui-hxwidgets/9.7.2.3_Demos/9.7.2.3.3_Calculator)
 
 ## Comming soon...
 * More samples for [Haxe](https://github.com/HaxeFoundation/haxe)
@@ -141,7 +148,7 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
 * [Haxe Manual](http://haxe.org/manual/introduction.html)
 * [Haxe Cookbook](http://code.haxe.org/)
   * [For novice users](http://code.haxe.org/category/beginner/)
-* [Haxe API description](http://api.haxe.org/)
+* [Description of Haxe API](http://api.haxe.org/)
 * Haxe on stackoverflow
   * [English](http://stackoverflow.com/questions/tagged/haxe)
   * [Russian](http://ru.stackoverflow.com/questions/tagged/haxe)
