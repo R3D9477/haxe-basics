@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<hbox>
-	<vslider min="0" max="100" pos="75" height="100" width="20"/>
-	<hslider min="0" max="100" pos="75" width="100" height="20"/>
-</hbox>
