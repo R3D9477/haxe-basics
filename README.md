@@ -104,7 +104,7 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
   * [9.2.2 - Data binding and library **BindX2**](./9_AdditionalLibraries/9.2_LanguageFetaures/9.2.2_BindX2)
     * [9.2.2.1 - Data binding code and class bindx.Bind](./9_AdditionalLibraries/9.2_LanguageFetaures/9.2.2_BindX2/9.2.2.1_bindx.Bind/Source/Main.hx)
     * [9.2.2.2 - Arbitrary data binding expression and class bindx.BindExt](./9_AdditionalLibraries/9.2_LanguageFetaures/9.2.2_BindX2/9.2.2.2_bindx.BindExt/Source/Main.hx)
-  * [9.2.3 - Xml and library **haxe-xpath**](./9_AdditionalLibraries/9.2.3_HaxeXpath)
+  * [9.2.3 - Xml and library **haxe-xpath**](./9_AdditionalLibraries/9.2_LanguageFetaures/9.2.3_HaxeXpath)
 * [9.3 - Graphic Frameworks and Engines](./9_AdditionalLibraries/9.3_GraphicEngines)
   * [9.3.1 - Graphic and library **OpenFL**](./9_AdditionalLibraries/9.5_OpenFL)
     * [9.3.1.1 - Show simple window and change some settings](./9_AdditionalLibraries/9.3_GraphicEngines/9.3.1_OpenFL/9.3.1.1_SimpleWindow/Source/Main.hx)
