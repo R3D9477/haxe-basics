@@ -1,0 +1,8 @@
+-cp Source
+-main Main.hx
+
+-lib haxeui-core
+-lib haxeui-xwt
+-lib hscript
+
+-cs Export/Xwt
