@@ -9,6 +9,6 @@
 -D ABI=-MD
 -D WXSTATIC
 
--cpp Export/hxWidgets
+-resource Assets/Img/Tux.jpg@Tux.jpg
 
--cmd cp Assets/Img/Tux.jpg Export/hxWidgets/Tux.jpg
+-cpp Export/hxWidgets
