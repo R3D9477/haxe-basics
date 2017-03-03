@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dropdown text="Select Item" width="250">
+	<data>
+		<item text="List item 1" value="1" />
+		<item text="List item 2" value="2" />
+		<item text="List item 3" value="3" />
+		<item text="List item 4" value="4" />
+		<item text="List item 5" value="5" />
+	</data>
+</dropdown>

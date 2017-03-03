@@ -1,0 +1,14 @@
+<tabview width="300" height="300" top="50">
+	<vbox text="Tab 1">
+		<button text="Button 1" />
+	</vbox>
+	<vbox text="Tab 2">
+		<button text="Button 2" />
+	</vbox>
+	<vbox text="Tab 3">
+		<button text="Button 3" />
+	</vbox>
+	<vbox text="Tab 4">
+		<button text="Button 4" />
+	</vbox>
+</tabview>

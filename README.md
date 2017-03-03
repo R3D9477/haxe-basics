@@ -113,7 +113,7 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
     * [9.3.1.4 - Mouse and keyboard events](./9_AdditionalLibraries/9.3.1_GraphicEngines/9.3.1_OpenFL/9.3.1.4_MouseAndKeyboardEvents/Source/Main.hx)
     * [9.3.1.5 - Show button](./9_AdditionalLibraries/9.3_GraphicEngines/9.3.1_OpenFL/9.3.1.5_ShowButton/Source/Main.hx)
     * [9.3.1.6 - Show alert](./9_AdditionalLibraries/9.3_GraphicEngines/9.3.1_OpenFL/9.3.1.6_ShowAlert/Source/Main.hx)
-    * [9.3.1.7 - Load the custom sprite from compiled NekoVM module (*.n)](./9_AdditionalLibraries/9.3.1_OpenFL/9.3.1.7_SpriteFromNekoVMmodule)
+    * [9.3.1.7 - Load the custom sprite from compiled NekoVM module (*.n)](./9_AdditionalLibraries/9.3_GraphicEngines/9.3.1_OpenFL/9.3.1.7_SpriteFromNekoVMmodule)
 * [9.4 - GUI Frameworks (Graphical User Interface)](./9_AdditionalLibraries/9.4_GuiFrameworks)
   * [9.4.1 - Library **StablexUI**](./9_AdditionalLibraries/9.4_GuiFrameworks/9.4.1_StablexUI)
     * [9.4.1.1 - Button with handler declared in Haxe](./9_AdditionalLibraries/9.4_GuiFrameworks/9.4.1_StablexUI/9.4.1.1_ButtonWithHandler/Source/Main.hx)
@@ -141,6 +141,13 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
         * [9.4.2.3.3.1 - Scrolls](./9_AdditionalLibraries/9.4_GuiFrameworks/9.4.2_HaxeUI/9.4.2.3_haxeui-xwt/9.4.2.3.3_Demos/9.4.2.3.3.1_Scrolls)
         * [9.4.2.3.3.2 - GridView](./9_AdditionalLibraries/9.4_GuiFrameworks/9.4.2_HaxeUI/9.4.2.3_haxeui-xwt/9.4.2.3.3_Demos/9.4.2.3.3.2_GridView)
         * [9.4.2.3.3.3 - Calculator](./9_AdditionalLibraries/9.4_GuiFrameworks/9.4.2_HaxeUI/9.4.2.3_haxeui-xwt/9.4.2.3.3_Demos/9.4.2.3.3.3_Calculator)
+    * [9.4.2.4 - haxeui-html5](./9_AdditionalLibraries/9.4_GuiFrameworks/9.4.2_HaxeUI/9.4.2.4_haxeui-html5)
+      * [9.4.2.4.1 - Components](./9_AdditionalLibraries/9.4_GuiFrameworks/9.4.2_HaxeUI/9.4.2.4_haxeui-html5/9.4.2.4.1_Components)
+      * [9.4.2.4.2 - Containers](./9_AdditionalLibraries/9.4_GuiFrameworks/9.4.2_HaxeUI/9.4.2.4_haxeui-html5/9.4.2.4.2_Containers)
+      * [9.4.2.4.3 - Demos](./9_AdditionalLibraries/9.4_GuiFrameworks/9.4.2_HaxeUI/9.4.2.4_haxeui-html5/9.4.2.4.3_Demos)
+        * [9.4.2.4.3.1 - Scrolls](./9_AdditionalLibraries/9.4_GuiFrameworks/9.4.2_HaxeUI/9.4.2.4_haxeui-html5/9.4.2.4.3_Demos/9.4.2.4.3.1_Scrolls)
+        * [9.4.2.4.3.2 - GridView](./9_AdditionalLibraries/9.4_GuiFrameworks/9.4.2_HaxeUI/9.4.2.4_haxeui-html5/9.4.2.4.3_Demos/9.4.2.4.3.2_GridView)
+        * [9.4.2.4.3.3 - Calculator](./9_AdditionalLibraries/9.4_GuiFrameworks/9.4.2_HaxeUI/9.4.2.4_haxeui-html5/9.4.2.4.3_Demos/9.4.2.4.3.3_Calculator)
 
 ## Comming soon...
 * More samples for [Haxe](https://github.com/HaxeFoundation/haxe)

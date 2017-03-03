@@ -1,0 +1,10 @@
+-cp Source
+-main Main.hx
+
+-lib haxeui-core
+-lib haxeui-html5
+-lib hscript
+
+-js Export/Html5/Main.js
+
+-cmd cp Assets/Web/index.html Export/Html5/index.html
