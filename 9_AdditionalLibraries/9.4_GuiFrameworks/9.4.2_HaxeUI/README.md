@@ -45,7 +45,6 @@ The collection of easy samples and hello-worlds for [HaxeUI v2](https://github.c
   * [9.4.2.5.3.2 - GridView](./9.4.2.5_haxeui-kha/9.4.2.5.3_Demos/9.4.2.5.3.2_GridView)
   * [9.4.2.5.3.3 - Calculator](./9.4.2.5_haxeui-kha/9.4.2.5.3_Demos/9.4.2.5.3.3_Calculator)
 
-
 #### [9.4.2.6 - haxeui-luxe](./9.4.2.6_haxeui-luxe#contain)
 * [9.4.2.6.1 - Components](./9.4.2.6_haxeui-luxe/9.4.2.6.1_Components)
 * [9.4.2.6.2 - Containers](./9.4.2.6_haxeui-luxe/9.4.2.6.2_Containers)
