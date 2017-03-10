@@ -1,0 +1,3 @@
+[submodule "9_AdditionalLibraries/9.4_GuiFrameworks/9.4.2_HaxeUI/9.4.2.5_haxeui-kha/Kha"]
+	path = 9_AdditionalLibraries/9.4_GuiFrameworks/9.4.2_HaxeUI/9.4.2.5_haxeui-kha/Kha
+	url = https://github.com/Kode/Kha.git

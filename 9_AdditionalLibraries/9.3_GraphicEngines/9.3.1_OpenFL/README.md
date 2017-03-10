@@ -1,8 +1,7 @@
-haxe-basics: haxeui-openfl
+haxe-basics: BindX2
 =========================
 
-The collection of easy samples and hello-worlds for [HaxeUI](https://github.com/haxeui/haxeui-core) with [OpenFL](http://www.openfl.org/) backend.<br/>
-Requre packages [OpenFL](http://www.openfl.org/learn/docs/getting-started/), [haxeui-core](https://github.com/haxeui/haxeui-core) and [haxeui-openfl](https://github.com/haxeui/haxeui-openfl).
+Data binding and library [BindX2](https://github.com/profelis/bindx2).
 
 ## Contain:
 
