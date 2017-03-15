@@ -54,7 +54,7 @@ class KhaApplication {
 			frameBuffer.g2.end();
 		}
 	}
-	ы
+	
 	private function onKeyDown (key:Key, char:String) : Void {
 		if (initialized) {
 			frameBuffer.g2.begin(0xFFFFFF);
