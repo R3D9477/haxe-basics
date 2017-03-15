@@ -7,10 +7,10 @@ import kha.Framebuffer;
 
 class KhaApplication {
 	private var initialized:Bool = false;
-
+	
 	public function new () {
 		System.notifyOnRender(render);
-		kha.Assets.loadEverything(function () this.initialized = true);
+		Assets.loadEverything(function () this.initialized = true);
 	}
 	
 	public function render (fb:Framebuffer) : Void {
@@ -18,7 +18,7 @@ class KhaApplication {
 		
 		if (initialized) {
 			fb.g2.color = Color.Red;
-			fb.g2.font = kha.Assets.fonts.Arial;
+			fb.g2.font = Assets.fonts.Arial;
 			fb.g2.fontSize = 20;
 			fb.g2.drawString("Hello, world!", 10, 10);
 		}
