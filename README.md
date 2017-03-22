@@ -78,7 +78,7 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
 * [6.4 - Processes](./6_ThreadsAndProcesses/6.4_Processes)
   * [6.4.1 - Starting and stopping](./6_ThreadsAndProcesses/6.4_Processes/6.4.1_StartAndStop/Source/Main.hx)
 
-#### [7 - Unit tests](./7 - Unit tests)
+#### [7 - Unit tests](./7_UnitTests)
 * [7.1 - Creating and running a simple unit test: class haxe.unit.TestCase and haxe.unit.TestRunner](./7_UnitTests/7.1_SimpleUnitTest/Source/Main.hx)
 * [7.2 - Methods of setup and tearDown class haxe.unit.TestCase](./7_UnitTests/7.2_SetupUnitTest/Source/Main.hx)
 
