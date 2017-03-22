@@ -67,7 +67,7 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
 * [6.1 - Multithreading CPP and Neko](./6_ThreadsAndProcesses/6.1_MultithreadingCppAndNeko)
   * [6.1.1 - Simple Feed](./6_ThreadsAndProcesses/6.1_MultithreadingCppAndNeko/6.1.1_SimpleFeed/Source/Main.hx)
   * [6.1.2 - Exchanging messages between threads](./6_ThreadsAndProcesses/6.1_MultithreadingCppAndNeko/6.1.2_ThreadsMessaging/Source/Main.hx)
-  * [6.1.3 - Using the data queue with multiple threads. Class Queue](./6_ThreadsAndProcesses/6.1_MultithreadingCppAndNeko/6.1.3 _Queue/Source/Main.hx)
+  * [6.1.3 - Using the data queue with multiple threads. Class Queue](./6_ThreadsAndProcesses/6.1_MultithreadingCppAndNeko/6.1.2_ThreadsMessaging/Source/Main.hx)
   * [6.1.4 - Sending simple values between threads. Class Mutex](./6_ThreadsAndProcesses/6.1_MultithreadingCppAndNeko/6.1.4_Mutex/Source/Main.hx)
 * [6.2 - Multithreading CS](./6_ThreadsAndProcesses/6.2_MultithreadingCs)
   * [6.2.1 - Simple Feed](./6_ThreadsAndProcesses/6.2_MultithreadingCs/6.2.1_SimpleFeed/Source/Main.hx)
