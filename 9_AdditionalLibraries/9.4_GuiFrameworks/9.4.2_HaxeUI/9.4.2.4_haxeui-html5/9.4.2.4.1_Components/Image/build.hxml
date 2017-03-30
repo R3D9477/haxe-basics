@@ -9,4 +9,5 @@
 
 -js Export/Html5/Main.js
 
--cmd cp Assets/Web/index.html Export/Html5/index.html
+-cmd cp Assets/Web/Main.css Export/Html5/Main.css
+-cmd cp Assets/Web/Main.html Export/Html5/Main.html
