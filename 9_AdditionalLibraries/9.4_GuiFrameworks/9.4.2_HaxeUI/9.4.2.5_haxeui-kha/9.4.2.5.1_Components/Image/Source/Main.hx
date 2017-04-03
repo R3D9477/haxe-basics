@@ -1,0 +1,15 @@
+import kha.System;
+
+class Main {
+	public static function main () : Void {
+		#if (kha_version >= 1607)
+			System.init({ title: "Test", width: 640, height: 480 }, function () : Void {
+				new KhaApplication();
+			});
+		#else
+			System.init("Test", 640, 480, function () : Void {
+				new KhaApplication();
+			});
+		#end
+	}
+}

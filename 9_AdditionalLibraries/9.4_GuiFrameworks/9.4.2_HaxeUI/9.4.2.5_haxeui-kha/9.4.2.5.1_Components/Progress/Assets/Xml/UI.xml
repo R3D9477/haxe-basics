@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hbox>
+	<vprogress min="0" max="100" pos="75"/>
+	<hprogress min="0" max="100" pos="75"/>
+</hbox>
