@@ -12,7 +12,3 @@ Requre packages [Kha](http://kha.tech/download), [haxeui-core](https://github.co
   * [9.4.2.5.3.1 - Scrolls](./9.4.2.5.3_Demos/9.4.2.5.3.1_Scrolls)
   * [9.4.2.5.3.2 - GridView](./9.4.2.5.3_Demos/9.4.2.5.3.2_GridView)
   * [9.4.2.5.3.3 - Calculator](./9.4.2.5.3_Demos/9.4.2.5.3.3_Calculator)
-
-<br/>
-<br/>
-comming soon...
