@@ -11,3 +11,4 @@ Requre [Kha](http://kha.tech/download).
 * [9.3.2.3 - Draw text](./9.3.2.3_DrawText)
 * [9.3.2.4 - Simple animation](./9.3.2.4_SimpleAnimation)
 * [9.3.2.5 - Mouse and keyboard events](./9.3.2.5_MouseAndKeyboardEvents)
+* [9.3.2.6 - Movable animation](./9.3.2.6_MovableAnimation)
