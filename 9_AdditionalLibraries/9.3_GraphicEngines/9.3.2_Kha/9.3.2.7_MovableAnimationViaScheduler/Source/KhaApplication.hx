@@ -61,20 +61,20 @@ class KhaApplication {
 		petDeltaX = 0;
 		petDeltaY = 0;
 	}
-
+	
 	public function render (fb:Framebuffer) : Void {
 		fb.g2.begin();
 		fb.g2.drawSubImage(frameImg, petX, petY, frameX, frameY, frameSize, frameSize);
 		fb.g2.end();
 	}
-
+	
 	public function updateAnimation () : Void {
 		frameX += frameSize;
-			
+		
 		if (frameX > frameCount * frameSize) {
 			frameX = 0;
 			frameY += frameSize;
-
+			
 			if (frameY > frameCount * frameSize) {
 				if (frameImg == Assets.images.WizardM) {
 					frameImg = Assets.images.WizardB;
@@ -85,7 +85,8 @@ class KhaApplication {
 						petX = System.windowWidth() - frameSize;
 					
 					petY = Std.int(Math.random() * System.windowHeight());
-						if (petY + frameSize > System.windowHeight())
+					
+					if (petY + frameSize > System.windowHeight())
 						petY = System.windowHeight() - frameSize;
 				}
 				
@@ -93,7 +94,7 @@ class KhaApplication {
 			}
 		}
 	}
-
+	
 	public function updatePetPosition () : Void {
 		petX += petDeltaX;
 		petY += petDeltaY;
