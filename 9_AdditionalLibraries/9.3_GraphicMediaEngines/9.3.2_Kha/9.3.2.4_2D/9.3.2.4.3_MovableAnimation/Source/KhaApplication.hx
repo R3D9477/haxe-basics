@@ -13,22 +13,20 @@ class KhaApplication {
 	private var frameY = 0;
 	private var frameSize = 64;
 	private var frameCount = 3;
-	private var frameLastTime = 0.0;
-	private var frameTimeLength = 150;
-
+	
 	private var petX = 50;
 	private var petY = 50;
 	private var petDeltaX = 0;
 	private var petDeltaY = 0;
-	private var petLastTime = 0.0;
-	private var petTimeLength = 20;
-
+	
 	public function new () {
 		Keyboard.get().notify(onKeyDown, onKeyUp);
 		
 		Assets.loadEverything(function () {
 			frameImg = Assets.images.WizardB;
 			System.notifyOnRender(render);
+			Scheduler.addTimeTask(updateAnimation, 0, 0.1);
+			Scheduler.addTimeTask(updatePetPosition, 0, 0.01);
 		});
 	}
 	
@@ -63,48 +61,42 @@ class KhaApplication {
 		petDeltaX = 0;
 		petDeltaY = 0;
 	}
-
+	
 	public function render (fb:Framebuffer) : Void {
 		fb.g2.begin();
 		fb.g2.drawSubImage(frameImg, petX, petY, frameX, frameY, frameSize, frameSize);
 		fb.g2.end();
-
-		var currTime = Scheduler.time() * 2000;
+	}
+	
+	public function updateAnimation () : Void {
+		frameX += frameSize;
 		
-		if (currTime > petLastTime + petTimeLength) {
-			petLastTime = currTime;
+		if (frameX > frameCount * frameSize) {
+			frameX = 0;
+			frameY += frameSize;
 			
-			petX += petDeltaX;
-			petY += petDeltaY;
-		}
-
-		if (currTime > frameLastTime + frameTimeLength) {
-			frameLastTime = currTime;
-			
-			frameX += frameSize;
-			
-			if (frameX > frameCount * frameSize) {
-				frameX = 0;
-				frameY += frameSize;
-
-				if (frameY > frameCount * frameSize) {
-					if (frameImg == Assets.images.WizardM) {
-						frameImg = Assets.images.WizardB;
-						
-						petX = Std.int(Math.random() * fb.width);
-						
-						if (petX + frameSize > fb.width)
-							petX = fb.width - frameSize;
-						
-						petY = Std.int(Math.random() * fb.height);
-
-						if (petY + frameSize > fb.height)
-							petY = fb.height - frameSize;
-					}
+			if (frameY > frameCount * frameSize) {
+				if (frameImg == Assets.images.WizardM) {
+					frameImg = Assets.images.WizardB;
 					
-					frameY = 0;
+					petX = Std.int(Math.random() * System.windowWidth());
+					
+					if (petX + frameSize > System.windowWidth())
+						petX = System.windowWidth() - frameSize;
+					
+					petY = Std.int(Math.random() * System.windowHeight());
+					
+					if (petY + frameSize > System.windowHeight())
+						petY = System.windowHeight() - frameSize;
 				}
+				
+				frameY = 0;
 			}
 		}
+	}
+	
+	public function updatePetPosition () : Void {
+		petX += petDeltaX;
+		petY += petDeltaY;
 	}
 }

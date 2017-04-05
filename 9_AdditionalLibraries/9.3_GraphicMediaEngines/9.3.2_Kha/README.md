@@ -15,6 +15,5 @@ Requre [Kha](http://kha.tech/download).
   * [9.3.2.3.1 - Mouse and keyboard events](./9.3.2.3_InputSystem/9.3.2.3.1_MouseAndKeyboardEvents)
 * [9.3.2.4 - 2D](./9.3.2.4_2D)
   * [9.3.2.4.1 - Draw 2D-shape](./9.3.2.4_2D/9.3.2.4.1_DrawShape)
-  * [9.3.2.4.3 - Draw animation](./9.3.2.4_2D/9.3.2.4.2_DrawAnimation)
-  * [9.3.2.4.4 - Movable animation](./9.3.2.4_2D/9.3.2.4.3_MovableAnimation)
-  * [9.3.2.4.5 - Movable animation via Scheduler](./9.3.2.4_2D/9.3.2.4.5_MovableAnimationViaScheduler)
+  * [9.3.2.4.2 - Draw animation](./9.3.2.4_2D/9.3.2.4.2_DrawAnimation)
+  * [9.3.2.4.3 - Movable animation](./9.3.2.4_2D/9.3.2.4.3_MovableAnimation)
