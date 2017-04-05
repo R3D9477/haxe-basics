@@ -6,10 +6,15 @@ Requre [Kha](http://kha.tech/download).
 
 ## Contain:
 
-* [9.3.2.1 - Show simple window and change some settings](./9.3.2.1_SimpleWindow)
-* [9.3.2.2 - Draw 2D-shape](./9.3.2.2_DrawShape)
-* [9.3.2.3 - Draw text](./9.3.2.3_DrawText)
-* [9.3.2.4 - Draw animation](./9.3.2.4_DrawAnimation)
-* [9.3.2.5 - Mouse and keyboard events](./9.3.2.5_MouseAndKeyboardEvents)
-* [9.3.2.6 - Movable animation](./9.3.2.6_MovableAnimation)
-* [9.3.2.7 - Movable animation via Scheduler](./9.3.2.7_MovableAnimationViaScheduler)
+* [9.3.2.1 - Displays and Windows](./9.3.2.1_DisplaysAndWindows)
+  * [9.3.2.1.1 - Show simple window and change some settings](./9.3.2.1_DisplaysAndWindows/9.3.2.1.1_SimpleWindow)
+* [9.3.2.2 - Assets](./9.3.2.2_Assets)
+  * [9.3.2.2.1 - Text and Picture](./9.3.2.2_Assets/9.3.2.2.1_TextAndPicture)
+  * [9.3.2.2.2 - Sound and Video](./9.3.2.2_Assets/9.3.2.2.2_SoundAndVideo)
+* [9.3.2.3 - InputSystem](./9.3.2.3_InputSystem)
+  * [9.3.2.3.1 - Mouse and keyboard events](./9.3.2.3_InputSystem/9.3.2.3.1_MouseAndKeyboardEvents)
+* [9.3.2.4 - 2D](./9.3.2.4_2D)
+  * [9.3.2.4.1 - Draw 2D-shape](./9.3.2.4_2D/9.3.2.4.1_DrawShape)
+  * [9.3.2.4.3 - Draw animation](./9.3.2.4_2D/9.3.2.4.2_DrawAnimation)
+  * [9.3.2.4.4 - Movable animation](./9.3.2.4_2D/9.3.2.4.3_MovableAnimation)
+  * [9.3.2.4.5 - Movable animation via Scheduler](./9.3.2.4_2D/9.3.2.4.5_MovableAnimationViaScheduler)
