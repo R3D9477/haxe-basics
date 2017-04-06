@@ -7,7 +7,9 @@ Requre [Kha](http://kha.tech/download).
 ## Contain:
 
 * [9.3.2.1 - Displays and Windows](./9.3.2.1_DisplaysAndWindows)
-  * [9.3.2.1.1 - Show simple window and change some settings](./9.3.2.1_DisplaysAndWindows/9.3.2.1.1_SimpleWindow)
+  * [9.3.2.1.1 - Get information of each display](./9.3.2.1_DisplaysAndWindows/9.3.2.1.1_GetEachDisplayInfo)
+  * [9.3.2.1.2 - Application with one window](./9.3.2.1_DisplaysAndWindows/9.3.2.1.2_WndProps)
+  * [9.3.2.1.3 - Application with several windows](./9.3.2.1_DisplaysAndWindows/9.3.2.1.3_Multiwindow)
 * [9.3.2.2 - Assets](./9.3.2.2_Assets)
   * [9.3.2.2.1 - Text and image](./9.3.2.2_Assets/9.3.2.2.1_TextAndImage)
   * [9.3.2.2.2 - Audio and video](./9.3.2.2_Assets/9.3.2.2.2_AudioAndVideo)
