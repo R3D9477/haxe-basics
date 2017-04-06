@@ -9,5 +9,4 @@ display1: 0;0 @ 1920x1080 isPrimary=false
 display2: 0;0 @ 1920x1080 isPrimary=false
 ```
 <br/>
-<br/>
-Only for native targets!
+For **native** targets **only**!
