@@ -17,7 +17,7 @@ Requre [Kha](http://kha.tech/download).
 * [9.3.2.4 - Input system](./9.3.2.4_InputSystem)
   * [9.3.2.4.1 - Mouse and keyboard events](./9.3.2.4_InputSystem/9.3.2.4.1_MouseAndKeyboardEvents)
 * [9.3.2.5 - 2D](./9.3.2.5_2D)
-  * [9.3.2.5.1 - Draw 2D-shape](./9.3.2.5_2D/9.3.2.5.1_DrawText)
+  * [9.3.2.5.1 - Draw text](./9.3.2.5_2D/9.3.2.5.1_DrawText)
   * [9.3.2.5.2 - Draw image](./9.3.2.5_2D/9.3.2.5.2_DrawImage)
     * [9.3.2.5.2 - Draw image](./9.3.2.5_2D/9.3.2.5.2_DrawImage/9.3.2.5.2.1_SimpleImage)
     * [9.3.2.5.2 - Scale image](./9.3.2.5_2D/9.3.2.5.2_DrawImage/9.3.2.5.2.2_ScaledImage)
