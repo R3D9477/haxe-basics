@@ -1,9 +1,10 @@
 package;
 
-import kha.Color;
 import kha.Assets;
 import kha.System;
+import kha.Scaler;
 import kha.Framebuffer;
+import kha.ScreenRotation;
 
 class KhaApplication {
 	private var initialized:Bool = false;
@@ -16,10 +17,8 @@ class KhaApplication {
 	public function render (fb:Framebuffer) : Void {
 		fb.g2.begin(0xFFFFFF);
 		
-		if (initialized) {
-			fb.g2.color = Color.White;
-			fb.g2.drawImage(Assets.images.Tux, 10, 40); // get image file from Assets
-		}
+		if (initialized)
+			Scaler.scale(Assets.images.Tux, fb, ScreenRotation.Rotation90);
 		
 		fb.g2.end();
 	}

@@ -10,7 +10,7 @@ class KhaApplication {
 	
 	public function new () {
 		System.notifyOnRender(render);
-		Assets.loadEverything(function () this.initialized = true);
+		Assets.loadEverything(function () initialized = true);
 	}
 	
 	public function render (fb:Framebuffer) : Void {
