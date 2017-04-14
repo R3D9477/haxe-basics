@@ -109,12 +109,6 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
 * [9.4 - GUI Frameworks (Graphical User Interface)](./9_AdditionalLibraries/9.4_GuiFrameworks)
   * [9.4.1 - Library **StablexUI**](./9_AdditionalLibraries/9.4_GuiFrameworks/9.4.1_StablexUI#contain)
   * [9.4.2 - Library **HaxeUI v2**](./9_AdditionalLibraries/9.4_GuiFrameworks/9.4.2_HaxeUI#contain)
-    * [9.4.2.1 - haxeui-openfl](./9_AdditionalLibraries/9.4_GuiFrameworks/9.4.2_HaxeUI/9.4.2.1_haxeui-openfl#contain)
-    * [9.4.2.2 - haxeui-hxwidgets](./9_AdditionalLibraries/9.4_GuiFrameworks/9.4.2_HaxeUI/9.4.2.2_haxeui-hxwidgets#contain)
-    * [9.4.2.3 - haxeui-xwt](./9_AdditionalLibraries/9.4_GuiFrameworks/9.4.2_HaxeUI/9.4.2.3_haxeui-xwt#contain)
-    * [9.4.2.4 - haxeui-html5](./9_AdditionalLibraries/9.4_GuiFrameworks/9.4.2_HaxeUI/9.4.2.4_haxeui-html5#contain)
-    * [9.4.2.5 - haxeui-kha](./9_AdditionalLibraries/9.4_GuiFrameworks/9.4.2_HaxeUI/9.4.2.5_haxeui-kha#contain)
-    * [9.4.2.6 - haxeui-luxe](./9_AdditionalLibraries/9.4_GuiFrameworks/9.4.2_HaxeUI/9.4.2.6_haxeui-luxe#contain)
 
 ## Comming soon...
 * More samples for [Haxe](https://github.com/HaxeFoundation/haxe)
