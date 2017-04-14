@@ -1,0 +1,9 @@
+package;
+
+class KhaApplication {
+	public function new () {
+		// to be continued...
+		// ...
+		// ...
+	}
+}
