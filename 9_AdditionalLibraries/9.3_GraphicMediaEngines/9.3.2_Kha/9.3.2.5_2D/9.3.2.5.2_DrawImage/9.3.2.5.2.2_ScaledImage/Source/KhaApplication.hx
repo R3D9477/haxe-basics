@@ -2,7 +2,6 @@ package;
 
 import kha.Assets;
 import kha.System;
-import kha.Scaler;
 import kha.Framebuffer;
 
 class KhaApplication {
@@ -17,7 +16,7 @@ class KhaApplication {
 		fb.g2.begin(0xFFFFFF);
 		
 		if (initialized)
-			Scaler.scale(Assets.images.Tux, fb, System.screenRotation);
+			fb.g2.drawScaledImage(Assets.images.Tux, 0, 0, fb.width, fb.height);
 		
 		fb.g2.end();
 	}
