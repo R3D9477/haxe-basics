@@ -36,7 +36,7 @@ Requre [Kha](http://kha.tech/download).
   * [9.3.2.4.4.2 - Rotation](./9.3.2.4_2D/9.3.2.4.4_Transformations/9.3.2.4.4.2_Rotation)
   * [9.3.2.4.4.3 - Scissor](./9.3.2.4_2D/9.3.2.4.4_Transformations/9.3.2.4.4.3_Scissor)
   * [9.3.2.4.4.4 - Translation](./9.3.2.4_2D/9.3.2.4.4_Transformations/9.3.2.4.4.4_Translation)
-  * [9.3.2.4.4.5 - Anti alias](./9.3.2.4_2D/9.3.2.4.4_Transformations/9.3.2.4.4.5_AntiAlias)
+  * [9.3.2.4.4.5 - Anti-aliasing](./9.3.2.4_2D/9.3.2.4.4_Transformations/9.3.2.4.4.5_AntiAliasing)
 * [9.3.2.4.5 - Draw animation](./9.3.2.4_2D/9.3.2.4.3_DrawShape)
   * [9.3.2.4.5.1 - Draw a simple animation](./9.3.2.4_2D/9.3.2.4.5_DrawAnimation/9.3.2.4.5.1_SimpleAnimation)
   * [9.3.2.4.5.2 - Draw a movable animation](./9.3.2.4_2D/9.3.2.4.5_DrawAnimation/9.3.2.4.5.2_MovableAnimation)
