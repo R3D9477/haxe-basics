@@ -1,30 +1,40 @@
 package;
 
-import kha.Image;
 import kha.Color;
 import kha.System;
 import kha.Scheduler;
 import kha.Framebuffer;
 
+typedef Pixel = {
+	var x:Int;
+	var y:Int;
+	var c:Color;
+}
+
 class KhaApplication {
-	private var backbuffer:Image;
-	private var initialized:Bool = false;
+	private var pixels:Array<Pixel>;
 	
 	public function new () {
-		backbuffer = Image.createRenderTarget(System.windowWidth(), System.windowHeight());
+		pixels = new Array<Pixel>();
+
 		System.notifyOnRender(render);
-		Scheduler.addTimeTask(draw, 0, 0.1);
+		Scheduler.addTimeTask(addPixel, 0, 0.1);
 	}
 	
-	public function draw () : Void {
-		backbuffer.g1.begin();
-		backbuffer.g1.setPixel(Std.int(Math.random() * 300), Std.int(Math.random() * 200), Color.White);
-		backbuffer.g1.end();
+	public function addPixel () : Void {
+		pixels.push({
+			x: Std.int(Math.random() * 300),
+			y: Std.int(Math.random() * 200),
+			c: Color.fromFloats(Std.int(Math.random() * 10), Std.int(Math.random() * 10), Std.int(Math.random() * 10))
+		});
 	}
 
 	public function render (fb:Framebuffer) : Void {
-		fb.g2.begin();
-		fb.g2.drawImage(backbuffer, 0, 0);
-		fb.g2.end();
+		fb.g1.begin();
+		
+		for (p in pixels)
+			fb.g1.setPixel(p.x, p.y, p.c);
+
+		fb.g1.end();
 	}
 }
