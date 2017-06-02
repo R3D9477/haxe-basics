@@ -16,15 +16,14 @@ class KhaApplication {
 	
 	public function new () {
 		pixels = new Array<Pixel>();
-
 		System.notifyOnRender(render);
-		Scheduler.addTimeTask(addPixel, 0, 0.1);
+		Scheduler.addTimeTask(addPixel, 0, 0.01);
 	}
 	
 	public function addPixel () : Void {
 		pixels.push({
-			x: Std.int(Math.random() * 300),
-			y: Std.int(Math.random() * 200),
+			x: Std.int(Math.random() * System.windowWidth()),
+			y: Std.int(Math.random() * System.windowHeight()),
 			c: Color.fromFloats(Std.int(Math.random() * 10), Std.int(Math.random() * 10), Std.int(Math.random() * 10))
 		});
 	}
