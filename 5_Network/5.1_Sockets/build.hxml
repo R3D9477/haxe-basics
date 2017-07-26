@@ -7,7 +7,7 @@
 -cp Source
 -neko Bin/Server.n
 
---next
--cmd cd Bin
--cmd neko Server.n
--cmd neko Client.n
+#--next
+#-cmd cd Bin
+#-cmd neko Server.n
+#-cmd neko Client.n

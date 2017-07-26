@@ -12,13 +12,22 @@ class Server {
 		var s = new Socket();
 		s.bind(new Host("localhost"),5000);
 		s.listen(1);
+		
 		trace("Starting server...");
 		
 		var c : sys.net.Socket = s.accept();
+		
 		trace("Client connected...");
-		c.write("hello\n");
-		c.write("your IP is " + c.peer().host.toString()+"\n");
-		c.write("exit");
-		c.close();
+
+	    var l = c.input.readLine();
+	    trace('client: $l');
+	
+	    c.write("hello from server!\n");
+	    c.write("your IP is " + c.peer().host.toString()+"\n");
+	
+	    c.write("exit");
+	    
+        //if (c != null)
+        //    c.close();
 	}
 }
