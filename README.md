@@ -110,18 +110,6 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
   * [9.4.1 - Library **StablexUI**](./9_AdditionalLibraries/9.4_GuiFrameworks/9.4.1_StablexUI#contain)
   * [9.4.2 - Library **HaxeUI v2**](./9_AdditionalLibraries/9.4_GuiFrameworks/9.4.2_HaxeUI#contain)
 
-## Comming soon...
-* More samples for [Haxe](https://github.com/HaxeFoundation/haxe)
-  * [Enum abstracts](https://haxe.org/manual/types-abstract-enum.html)
-  * The newest features of Haxe
-  * More samples of different macros
-* Samples for [Luxe](https://github.com/underscorediscovery/luxe) ([Mint](https://github.com/snowkit/mint) included)
-* Samples for [Kha](https://github.com/Kode/Kha)
-* More samples for [StablexUI](https://github.com/RealyUniqueName/StablexUI)
-* More samples for [HaxeUI](https://github.com/haxeui/haxeui-core) (with different backends)
-* More description for samples
-* And other...
-
 ## An additional links
 * [Haxe Manual](http://haxe.org/manual/introduction.html)
 * [Haxe Cookbook](http://code.haxe.org/)
