@@ -12,8 +12,10 @@ class Client {
 	
 	static function main() {
 		var URL = "http://localhost:2000/Server.n";
+		
 		var cnx = haxe.remoting.HttpAsyncConnection.urlConnect(URL);
-		cnx.setErrorHandler( function(err) { trace("Error : " + Std.string(err)); } );
+		
+		cnx.setErrorHandler(function(err) { trace("Error : " + Std.string(err)); });
 		cnx.Server.foo.call([1,2],display);
 	} 
 }
