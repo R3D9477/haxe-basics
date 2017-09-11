@@ -72,7 +72,7 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
   * [3.3.2 - Operations with files](./3_StdLibExtraFeatures/3.3_FileSystem/3.3.2_OperationsWithFiles/Source/Main.hx)
   * [3.3.3 - Operations with directories](./3_StdLibExtraFeatures/3.3_FileSystem/3.3.3_OperationsWithDirectories/Source/Main.hx)
 * [3.4 - Network](./3_StdLibExtraFeatures/3.4_Network)
-  * [3.4.1 - Sockets. A simple client-server application](./3_StdLibExtraFeatures/3.4_Network/3.4.1_Sockets/Source/Main.hx)
+  * [3.4.1 - Sockets. A simple client-server application](./3_StdLibExtraFeatures/3.4_Network/3.4.1_Sockets)
   * [3.4.2 - HTTP. Request sending and response handling](./3_StdLibExtraFeatures/3.4_Network/3.4.2_Http/Source/Main.hx)
   * [3.4.3 - Remoting](./3_StdLibExtraFeatures/3.4_Network/3.4.3_Remoting)
 * [3.5 - Threads and processes](./3_StdLibExtraFeatures/3.5_ThreadsAndProcesses)
