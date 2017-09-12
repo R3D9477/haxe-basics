@@ -34,15 +34,26 @@ class Main {
 			
 			trace('Read records count: ${dbRes.length}');
 			trace('Read columns count: ${dbRes.nfields}');
-			trace('Read field names:   ${dbRes.getFieldsNames()}');
+			trace('Read field names: ${dbRes.getFieldsNames()}');
 			
-			for(res in dbRes.results()) {
-				trace('
-					intcol:  ${res.intcol},
-					dblcol:  ${res.dbcol},
-					strcol:  ${res.strcol},
-					datecol: ${res.datecol}
-				');
+			var results = dbRes.results();
+			
+			trace('Display results v1:');
+			
+			for (res in results) {
+				for (fld in dbRes.getFieldsNames())
+					Sys.print('$fld: ${Reflect.field(res, fld)}, ');
+				
+				Sys.println('');
+			}
+			
+			trace('Display results v2:');
+			
+			for (res in results) {
+				Sys.print('intcol: ${res.intcol}, ');
+				Sys.print('dblcol: ${res.dbcol}, ');
+				Sys.print('strcol: ${res.strcol}, ');
+				Sys.println('datecol: ${res.datecol}, ');
 			}
 			
 			conn.close();
