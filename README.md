@@ -95,6 +95,7 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
 * [3.7 - Data base](./3_StdLibExtraFeatures/3.7_DataBase)
   * [3.7.1 - MySQL](./3_StdLibExtraFeatures/3.7_DataBase/3.7.1_MySQL)
     * [3.7.1.1 - Connect/Disconnect](./3_StdLibExtraFeatures/3.7_DataBase/3.7.1_MySQL/3.7.1.1_DBConnection/Source/Main.hx)
+    * [3.7.1.2 - Usage simple data](./3_StdLibExtraFeatures/3.7_DataBase/3.7.1_MySQL/3.7.1.2_UsageSimpleData/Source/Main.hx)
 
 #### [4 - Additional libraries](./4_ExtLib)
 * [4.1 - Create a library for **haxelib**](./4_ExtLib/4.1_Haxelib)
