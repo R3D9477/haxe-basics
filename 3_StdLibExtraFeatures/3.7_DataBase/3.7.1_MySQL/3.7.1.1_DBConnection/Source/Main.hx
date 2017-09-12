@@ -1,6 +1,5 @@
 package;
 
-// http://api.haxe.org/sys/db/index.html
 // http://api.haxe.org/sys/db/Mysql.html
 // http://api.haxe.org/sys/db/Connection.html
 
@@ -13,7 +12,7 @@ class Main {
 			port: 3306,
 			user: "root",
 			pass: "root",
-			database: "sys"
+			database: "testdb"
 		};
 		
 		var conn = null;
