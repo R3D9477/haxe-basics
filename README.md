@@ -92,9 +92,9 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
 * [3.6 - Unit tests](./3_StdLibExtraFeatures/3.6_UnitTests)
   * [3.6.1 - Creating and running a simple unit test: class haxe.unit.TestCase and haxe.unit.TestRunner](./3_StdLibExtraFeatures/3.6_UnitTests/3.6.1_SimpleUnitTest/Source/Main.hx)
   * [3.6.2 - Methods of setup and tearDown class haxe.unit.TestCase](./3_StdLibExtraFeatures/3.6_UnitTests/3.6.2_SetupUnitTest/Source/Main.hx)
-* [3.7 - Data base](./3.7_DataBase)
-  * [3.7.1 - MySQL](./3.7_DataBase/3.7.1_MySQL)
-    * [3.7.1.1 - Connect/Disconnect](./3.7_DataBase/3.7.1_MySQL/3.7.1.1_DBConnection/Source/Main.hx)
+* [3.7 - Data base](./3_StdLibExtraFeatures/3.7_DataBase)
+  * [3.7.1 - MySQL](./3_StdLibExtraFeatures/3.7_DataBase/3.7.1_MySQL)
+    * [3.7.1.1 - Connect/Disconnect](./3_StdLibExtraFeatures/3.7_DataBase/3.7.1_MySQL/3.7.1.1_DBConnection/Source/Main.hx)
 
 #### [4 - Additional libraries](./4_ExtLib)
 * [4.1 - Create a library for **haxelib**](./4_ExtLib/4.1_Haxelib)
