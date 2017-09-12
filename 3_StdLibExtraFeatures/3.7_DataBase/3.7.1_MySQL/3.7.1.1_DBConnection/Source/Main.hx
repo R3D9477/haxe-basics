@@ -22,7 +22,7 @@ class Main {
 			conn = Mysql.connect(connData);
 		}
 		catch (e:Dynamic) {
-			trace('Connaction failed with error: $e');
+			trace('Connection failed with error: $e');
 		}
 		
 		if (conn != null) {
