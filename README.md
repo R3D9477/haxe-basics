@@ -93,6 +93,7 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
     * [3.7.1.1 - Connect/Disconnect](./3_StdLibExtraFeatures/3.7_DataBase/3.7.1_MySQL/3.7.1.1_DBConnection/Source/Main.hx)
     * [3.7.1.2 - Usage a simple data](./3_StdLibExtraFeatures/3.7_DataBase/3.7.1_MySQL/3.7.1.2_UsageSimpleData/Source/Main.hx)
     * [3.7.1.3 - Usage an unique ID field](./3_StdLibExtraFeatures/3.7_DataBase/3.7.1_MySQL/3.7.1.3_UsageIdField/Source/Main.hx)
+  * [3.7.2 - SQLite](./3_StdLibExtraFeatures/3.7_DataBase/3.7.2_SQLite)
 * [3.8 - Plug-ins, extensions, external modules and dynamic libraries](./3_StdLibExtraFeatures/3.8_ExternalModules)
   * [3.8.1 - Using pre-compiled NekoVM-modules](./3_StdLibExtraFeatures/3.8_ExternalModules/3.8.1_UsingNekoVmModules/Source/Main.hx)
   * [3.8.2 - Using a C dynamic library](./3_StdLibExtraFeatures/3.8_ExternalModules/3.8.2_UsingCdynamicLibrary)
