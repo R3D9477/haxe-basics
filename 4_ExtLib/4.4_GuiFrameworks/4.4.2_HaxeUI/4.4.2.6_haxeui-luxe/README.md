@@ -12,7 +12,3 @@ Requre packages [Luxe](https://luxeengine.com/get/), [haxeui-core](https://githu
   * [4.4.2.6.3.1 - Scrolls](./4.4.2.6.3_Demos/4.4.2.6.3.1_Scrolls)
   * [4.4.2.6.3.2 - GridView](./4.4.2.6.3_Demos/4.4.2.6.3.2_GridView)
   * [4.4.2.6.3.3 - Calculator](./4.4.2.6.3_Demos/4.4.2.6.3.3_Calculator)
-
-<br/>
-<br/>
-comming soon...
