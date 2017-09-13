@@ -95,9 +95,9 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
     * [3.7.1.3 - Usage an unique ID field](./3_StdLibExtraFeatures/3.7_DataBase/3.7.1_MySQL/3.7.1.3_UsageIdField/Source/Main.hx)
   * [3.7.2 - SQLite](./3_StdLibExtraFeatures/3.7_DataBase/3.7.2_SQLite)
 * [3.8 - Plug-ins, extensions, external modules and dynamic libraries](./3_StdLibExtraFeatures/3.8_ExternalModules)
-  * [3.8.1 - Using pre-compiled NekoVM-modules](./3_StdLibExtraFeatures/3.8_ExternalModules/3.8.1_UsingNekoVmModules/Source/Main.hx)
-  * [3.8.2 - Using a C dynamic library](./3_StdLibExtraFeatures/3.8_ExternalModules/3.8.2_UsingCdynamicLibrary)
-    * [3.8.2.1 - Implementation of C-FFI regular means](./3_StdLibExtraFeatures/3.8_ExternalModules/3.8.2_UsingCdynamicLibrary/3.8.2.1_C-FFI/Source/Main.hx)
+  * [3.8.1 - Usage a pre-compiled NekoVM-modules](./3_StdLibExtraFeatures/3.8_ExternalModules/3.8.1_NekoVmModules/Source/Main.hx)
+  * [3.8.2 - Usage a C dynamic library](./3_StdLibExtraFeatures/3.8_ExternalModules/3.8.2_Cdll)
+    * [3.8.2.1 - Implementation of C-FFI regular means](./3_StdLibExtraFeatures/3.8_ExternalModules/3.8.2_Cdll/3.8.2.1_C-FFI/Source/Main.hx)
 
 #### [4 - Additional libraries](./4_ExtLib)
 * [4.1 - Create a library for **haxelib**](./4_ExtLib/4.1_Haxelib)
