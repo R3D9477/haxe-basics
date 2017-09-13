@@ -52,10 +52,6 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
   * [2.6.1 - Initialization macros (macro from the command line)](./2_LangExtraFeatures/2.6_Macros/2.6.1_InitializationMacros/Source/Main.hx)
   * [2.6.2 - Automatic insertion of resources](./2_LangExtraFeatures/2.6_Macros/2.6.2_ResourcesInsertion/Source/Main.hx)
   * [2.6.3 - Simultaneous use of macros and static extensions](./2_LangExtraFeatures/2.6_Macros/2.6.3_MacrosAndStaticExtensions/Source/Main.hx)
-* [2.7 - Plug-ins, extensions, external modules and dynamic libraries](./2_LangExtraFeatures/2.7_ExternalModules)
-  * [2.7.1 - Using pre-compiled NekoVM-modules](./2_LangExtraFeatures/2.7_ExternalModules/2.7.1_UsingNekoVmModules/Source/Main.hx)
-  * [2.7.2 - Using a C dynamic library](./2_LangExtraFeatures/2.7_ExternalModules/2.7.2_UsingCdynamicLibrary)
-    * [2.7.2.1 - Implementation of C-FFI regular means](./2_LangExtraFeatures/2.7_ExternalModules/2.7.2_UsingCdynamicLibrary/2.7.2.1_C-FFI/Source/Main.hx)
 
 #### [3 - Standard library extra features](./3_StdLibExtraFeatures)
 * [3.1 - Data serialization](./3_StdLibExtraFeatures/3.1_DataSerialization)
@@ -97,6 +93,10 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
     * [3.7.1.1 - Connect/Disconnect](./3_StdLibExtraFeatures/3.7_DataBase/3.7.1_MySQL/3.7.1.1_DBConnection/Source/Main.hx)
     * [3.7.1.2 - Usage a simple data](./3_StdLibExtraFeatures/3.7_DataBase/3.7.1_MySQL/3.7.1.2_UsageSimpleData/Source/Main.hx)
     * [3.7.1.3 - Usage an unique ID field](./3_StdLibExtraFeatures/3.7_DataBase/3.7.1_MySQL/3.7.1.3_UsageIdField/Source/Main.hx)
+* [3.8 - Plug-ins, extensions, external modules and dynamic libraries](./3_StdLibExtraFeatures/3.8_ExternalModules)
+  * [3.8.1 - Using pre-compiled NekoVM-modules](./3_StdLibExtraFeatures/3.8_ExternalModules/3.8.1_UsingNekoVmModules/Source/Main.hx)
+  * [3.8.2 - Using a C dynamic library](./3_StdLibExtraFeatures/3.8_ExternalModules/3.8.2_UsingCdynamicLibrary)
+    * [3.8.2.1 - Implementation of C-FFI regular means](./3_StdLibExtraFeatures/3.8_ExternalModules/3.8.2_UsingCdynamicLibrary/3.8.2.1_C-FFI/Source/Main.hx)
 
 #### [4 - Additional libraries](./4_ExtLib)
 * [4.1 - Create a library for **haxelib**](./4_ExtLib/4.1_Haxelib)
