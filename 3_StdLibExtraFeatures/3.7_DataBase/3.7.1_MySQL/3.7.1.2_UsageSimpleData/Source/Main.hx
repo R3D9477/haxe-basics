@@ -4,6 +4,18 @@ package;
 // http://api.haxe.org/sys/db/Connection.html
 // http://api.haxe.org/sys/db/ResultSet.html
 
+/***********************************************************
+	
+	SQL of table "sdttbl":
+	
+'CREATE TABLE `idtbl` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `idtbl_UNIQUE` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=51 DEFAULT CHARSET=utf8'
+	
+************************************************************/
+
 import sys.db.*;
 
 class Main {
