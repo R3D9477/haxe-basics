@@ -1,24 +1,16 @@
 package;
 
-// http://api.haxe.org/sys/db/Mysql.html
+// http://api.haxe.org/sys/db/Sqlite.html
 // http://api.haxe.org/sys/db/Connection.html
 
 import sys.db.*;
 
 class Main {
 	public static function main () {
-		var connData = {
-			host: "localhost",
-			port: 3306,
-			user: "root",
-			pass: "root",
-			database: "testdb"
-		};
-		
 		var conn = null;
 		
 		try {
-			conn = Mysql.connect(connData);
+			conn = Sqlite.open("test.db");
 		}
 		catch (e:Dynamic) {
 			trace('Connection failed with error: $e');
@@ -29,14 +21,12 @@ class Main {
 			
 			conn.request("
 				CREATE TABLE IF NOT EXISTS idtbl (
-					id int(10) unsigned NOT NULL AUTO_INCREMENT,
-						PRIMARY KEY (id),
-						UNIQUE KEY idtbl_UNIQUE (id)
+					id UNSIGNED BIG INT PRIMARY KEY AUTOINCREMENT
 				)
 			");
 			
 			for (i in 0...5) {
-				conn.request('INSERT INTO idtbl () VALUES ()');
+				conn.request('INSERT INTO idtbl DEFAULT VALUES');
 				trace('record id = ${conn.lastInsertId()}'); // get last inserted row id
 			}
 			

@@ -1,6 +1,6 @@
 package;
 
-// http://api.haxe.org/sys/db/Mysql.html
+// http://api.haxe.org/sys/db/Sqlite.html
 // http://api.haxe.org/sys/db/Connection.html
 // http://api.haxe.org/sys/db/ResultSet.html
 
@@ -8,18 +8,10 @@ import sys.db.*;
 
 class Main {
 	public static function main () {
-		var connData = {
-			host: "localhost",
-			port: 3306,
-			user: "root",
-			pass: "root",
-			database: "testdb"
-		};
-		
 		var conn = null;
 		
 		try {
-			conn = Mysql.connect(connData);
+			conn = Sqlite.open("test.db");
 		}
 		catch (e:Dynamic) {
 			trace('Connection failed with error: $e');
