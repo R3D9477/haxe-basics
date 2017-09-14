@@ -31,6 +31,4 @@ The collection of easy samples and hello-worlds for [HaxeUI v2](https://github.c
   * [4.4.2.1.6.2 - Containers](./4.4.2.1_SimpleGui/4.4.2.1.6_haxeui-luxe/4.4.2.1.6.2_Containers)
   * [4.4.2.1.6.3 - Demos](./4.4.2.1_SimpleGui/4.4.2.1.6_haxeui-luxe/4.4.2.1.6.3_Demos)
 
-#### [4.4.2.2 - Usage a module](./4.4.2.2_UsageModule)
-
-#### [4.4.2.3 - Localization](./4.4.2.3_Localization)
+#### [4.4.2.2 - Scripting](./4.4.2.2_Sripting)
