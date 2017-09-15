@@ -32,3 +32,4 @@ The collection of easy samples and hello-worlds for [HaxeUI v2](https://github.c
   * [4.4.2.1.6.3 - Demos](./4.4.2.1_SimpleGui/4.4.2.1.6_haxeui-luxe/4.4.2.1.6.3_Demos)
 
 #### [4.4.2.2 - Scripting](./4.4.2.2_Sripting)
+* [4.4.2.2.1 - Simple script](./4.4.2.2_Sripting/4.4.2.2.1_SimpleScript)
