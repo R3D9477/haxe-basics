@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vbox>
+	<script>
+		function showPI () piLbl.text = Std.string(ClsPI.getPI());
+	</script>
+	<button text="click me!" onClick="showPI()" />
+	<text id="piLbl" text="-" />
+</vbox>

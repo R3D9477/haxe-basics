@@ -36,3 +36,4 @@ The collection of easy samples and hello-worlds for [HaxeUI v2](https://github.c
 
 #### [4.4.2.3 - Scripting](./4.4.2.3_Scripting)
 * [4.4.2.3.1 - Simple script](./4.4.2.3_Scripting/4.4.2.3.1_SimpleScript)
+* [4.4.2.3.2 - Simple script with import](./4.4.2.3_Scripting/4.4.2.3.2_SimpleScriptWithImport)

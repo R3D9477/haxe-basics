@@ -3,6 +3,6 @@
 	<script>
 		function setNewText () lbl.text = "Text was changed...";
 	</script>
-	<button text="click me!" onClick="setNewText()"/>
-	<text id="lbl" text="default text"/>
+	<button text="click me!" onClick="setNewText()" />
+	<text id="lbl" text="Defautl text..." />
 </vbox>
