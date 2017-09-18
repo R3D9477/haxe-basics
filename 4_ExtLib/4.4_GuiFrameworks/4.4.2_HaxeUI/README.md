@@ -31,5 +31,8 @@ The collection of easy samples and hello-worlds for [HaxeUI v2](https://github.c
   * [4.4.2.1.6.2 - Containers](./4.4.2.1_SimpleGui/4.4.2.1.6_haxeui-luxe/4.4.2.1.6.2_Containers)
   * [4.4.2.1.6.3 - Demos](./4.4.2.1_SimpleGui/4.4.2.1.6_haxeui-luxe/4.4.2.1.6.3_Demos)
 
-#### [4.4.2.2 - Scripting](./4.4.2.2_Scripting)
-* [4.4.2.2.1 - Simple script](./4.4.2.2_Scripting/4.4.2.2.1_SimpleScript)
+#### [4.4.2.2 - Configuration](./4.4.2.2_Configuration)
+* [4.4.2.2.1 - Simple script](./4.4.2.2_Configuration/4.4.2.2.1_Import)
+
+#### [4.4.2.3 - Scripting](./4.4.2.3_Scripting)
+* [4.4.2.3.1 - Simple script](./4.4.2.3_Scripting/4.4.2.3.1_SimpleScript)
