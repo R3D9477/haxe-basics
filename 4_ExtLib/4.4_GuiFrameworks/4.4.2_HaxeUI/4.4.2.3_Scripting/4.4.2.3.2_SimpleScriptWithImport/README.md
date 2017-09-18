@@ -1,4 +1,4 @@
-haxe-basics: haxeui configuration
+haxe-basics: haxeui scripting
 =========================
 
 Sample for OpenFL.
