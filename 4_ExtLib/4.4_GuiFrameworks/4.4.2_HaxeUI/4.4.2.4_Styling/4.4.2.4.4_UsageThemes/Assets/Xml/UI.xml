@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vbox styleName="vbox">
+	<text id="titleLabel" text="My title" />
+	<text text="My label text 1" />
+	<text text="My label text 2" styleName="sized" />
+	<text text="My label text 3" styleName="colorized" />
+	<text text="My label text 4" styleNames="sized colorized" />
+	<button id="submitButton" text="Click me!" />
+</vbox>

@@ -1,0 +1,13 @@
+.vbox { }
+
+#titleLabel {
+	font-size: 24px;
+}
+
+.sized { }
+
+.colorized { }
+
+#submitButton {
+	color: red;
+}

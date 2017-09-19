@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<module>
+	<resources>
+		<resource path="Assets/Res/css" prefix="res/css" />
+	</resources>
+	<themes>
+		<default>
+			<style resource="res/css/default/style.css" />
+		</default>
+		<dark parent="default">
+			<style resource="res/css/dark/vbox.css" />
+			<style resource="res/css/dark/label.css" />
+			<style resource="res/css/dark/button.css" />
+		</dark>
+	</themes>
+</module>
