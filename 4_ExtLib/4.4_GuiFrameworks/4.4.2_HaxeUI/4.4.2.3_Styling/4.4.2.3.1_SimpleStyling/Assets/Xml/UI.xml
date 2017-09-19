@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vbox>
+	<button id="btn1" text="click me!" />
+	<text id="lbl1" text="My label text" />
+</vbox>

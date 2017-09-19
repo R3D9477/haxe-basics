@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<module>
+	<resources>
+		<resource path="Assets/Res/css" prefix="res/css" />
+	</resources>
+	<themes>
+		<default>
+			<style resource="res/css/defstyle.css" />
+		</default>
+	</themes>
+</module>

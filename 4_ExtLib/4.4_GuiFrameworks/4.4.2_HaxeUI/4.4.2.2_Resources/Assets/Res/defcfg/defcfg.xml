@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<set name="p1">
+		<value>1</value>
+	</set>
+	<set name="p2">
+		<value>val_1</value>
+		<value>val_2</value>
+		<value>val_3</value>
+	</set>
+</config>

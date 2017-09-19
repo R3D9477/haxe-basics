@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<module>
+	<resources>
+		<resource path="Assets/Res/css" prefix="res/css" />
+		<resource path="Assets/Res/defcfg" prefix="res/defcfg" />
+		<resource path="Assets/Res/mmedia" prefix="res/mmedia" />
+		<resource path="Assets/Res/textures" prefix="res/textures" />
+	</resources>
+</module>

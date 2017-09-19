@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vbox>
+	<text id="lbl1" text="My label text 1" />
+	<text id="lbl2" text="My label text 2" />
+</vbox>

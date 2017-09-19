@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vbox>
-	<button text="click me!" />
-	<text text="---" />
+	<text text="Usage resources" />
 </vbox>
