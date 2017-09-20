@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vbox>
+	<text id="label1" text="Defautl text..." />
+	<text id="label2" text="Defautl text..." />
+	<text id="label3" text="Defautl text..." />
+</vbox>
