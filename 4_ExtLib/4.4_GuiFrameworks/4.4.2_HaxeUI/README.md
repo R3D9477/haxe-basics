@@ -13,15 +13,15 @@ The collection of easy samples and hello-worlds for [HaxeUI v2](https://github.c
 * [4.4.2.1.5 - haxeui-kha](./4.4.2.1_SimpleGui/4.4.2.1.5_haxeui-kha#contain)
 * [4.4.2.1.6 - haxeui-luxe](./4.4.2.1_SimpleGui/4.4.2.1.6_haxeui-luxe#contain)
 
-#### [4.4.2.2 - Resources](./4.4.2.2_Resources)
+#### [4.4.2.2 - Functional code](./4.4.2.2_FunctionalCode)
+* [4.4.2.2.1 - Scripting](./4.4.2.2_FunctionalCode/4.4.2.2.1_Scripting)
+  * [4.4.2.2.1.1 - Simple script](./4.4.2.2_FunctionalCode/4.4.2.2.1_Scripting/4.4.2.2.1.1_SimpleScript)
+  * [4.4.2.2.2.1 - Simple script with import](./4.4.2.2_FunctionalCode/4.4.2.2.1_Scripting/4.4.2.2.1.2_SimpleScriptWithImport)
+* [4.4.2.2.2 - Access to UI from class](./4.4.2.2_FunctionalCode/4.4.2.2.2_UIAccessFromClass)
+  * [4.4.2.2.1 - Find elements by ID](./4.4.2.2_FunctionalCode/4.4.2.2.2_UIAccessFromClass/4.4.2.2.2.1_FindElementsById)
+* [4.4.2.2.3 - Events](./4.4.2.2_FunctionalCode//4.4.2.2.3_Events)
 
-#### [4.4.2.3 - Functional code](./4.4.2.3_FunctionalCode)
-* [4.4.2.3.1 - Scripting](./4.4.2.3_FunctionalCode/4.4.2.3.1_Scripting)
-  * [4.4.2.3.1.1 - Simple script](./4.4.2.3_FunctionalCode/4.4.2.3.1_Scripting/4.4.2.3.1.1_SimpleScript)
-  * [4.4.2.3.2.1 - Simple script with import](./4.4.2.3_FunctionalCode/4.4.2.3.1_Scripting/4.4.2.3.1.2_SimpleScriptWithImport)
-* [4.4.2.3.2 - Access to UI from class](./4.4.2.3_FunctionalCode/4.4.2.3.2_UIAccessFromClass)
-  * [4.4.2.3.1 - Find elements by ID](./4.4.2.3_FunctionalCode/4.4.2.3.2_UIAccessFromClass/4.4.2.3.2.1_FindElementsById)
-* [4.4.2.3.3 - Events](./4.4.2.3_FunctionalCode//4.4.2.3.3_Events)
+#### [4.4.2.3 - Resources](./4.4.2.3_Resources)
 
 #### [4.4.2.4 - Styling](./4.4.2.4_Styling)
 * [4.4.2.4.1 - Simple styling](./4.4.2.4_Styling/4.4.2.4.1_SimpleStyling)
