@@ -15,10 +15,10 @@ class Main {
 		
 		var animation = AnimationManager.instance.get("animation1");
 		
-		animation.setComponent("button1", ui.getComponentAt(0).getComponentAt(0));
-		animation.setComponent("button2", ui.getComponentAt(0).getComponentAt(1));
-		animation.setComponent("button3", ui.getComponentAt(0).getComponentAt(2));
-		animation.setComponent("button4", ui.getComponentAt(0).getComponentAt(3));
+		animation.setComponent("button1", ui.findComponent("animBtn1"));
+		animation.setComponent("button2", ui.findComponent("animBtn2"));
+		animation.setComponent("button3", ui.findComponent("animBtn3"));
+		animation.setComponent("button4", ui.findComponent("animBtn4"));
 		
 		animation.loop();
 	}
