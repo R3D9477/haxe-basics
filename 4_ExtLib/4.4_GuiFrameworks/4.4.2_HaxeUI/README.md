@@ -18,7 +18,7 @@ The collection of easy samples and hello-worlds for [HaxeUI v2](https://github.c
   * [4.4.2.2.1.1 - Simple script](./4.4.2.2_FunctionalCode/4.4.2.2.1_Scripting/4.4.2.2.1.1_SimpleScript)
   * [4.4.2.2.2.1 - Simple script with import](./4.4.2.2_FunctionalCode/4.4.2.2.1_Scripting/4.4.2.2.1.2_SimpleScriptWithImport)
 * [4.4.2.2.2 - Access to UI from class](./4.4.2.2_FunctionalCode/4.4.2.2.2_UIAccessFromClass)
-  * [4.4.2.2.1 - Find elements by ID](./4.4.2.2_FunctionalCode/4.4.2.2.2_UIAccessFromClass/4.4.2.2.2.1_FindElementsById)
+  * [4.4.2.2.2.1 - Find elements by ID](./4.4.2.2_FunctionalCode/4.4.2.2.2_UIAccessFromClass/4.4.2.2.2.1_FindElementsById)
 * [4.4.2.2.3 - Events](./4.4.2.2_FunctionalCode//4.4.2.2.3_Events)
 
 #### [4.4.2.3 - Resources](./4.4.2.3_Resources)
@@ -31,4 +31,4 @@ The collection of easy samples and hello-worlds for [HaxeUI v2](https://github.c
 
 #### [4.4.2.6 - Animations](./4.4.2.6_Animations)
 * [4.4.2.6.1 - Simple animation](./4.4.2.6_Animations/4.4.2.6.1_SimpleAnimation1)
-* [4.4.2.6.2 - Simple animation (via scripting)](./4.4.2.6_Animations/4.4.2.6.2_SimpleAnimation2)
+* [4.4.2.6.2 - Simple animation via scripting](./4.4.2.6_Animations/4.4.2.6.2_SimpleAnimation2)
