@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+	<animations>
+		<animation id="animation1">
+			<keyframe time="0">
+				<button1 left="0" top="0" />
+				<button2 left="100" top="0" />
+				<button3 left="100" top="100" />
+				<button4 left="0" top="100" />
+			</keyframe>
+			<keyframe time="500">
+				<button1 left="100" top="0" />
+				<button2 left="100" top="100" />
+				<button3 left="0" top="100" />
+				<button4 left="0" top="0" />
+			</keyframe>
+			<keyframe time="1000">
+				<button1 left="100" top="100" />
+				<button2 left="0" top="100" />
+				<button3 left="0" top="0" />
+				<button4 left="100" top="0" />
+			</keyframe>
+			<keyframe time="1500">
+				<button1 left="0" top="100" />
+				<button2 left="0" top="0" />
+				<button3 left="100" top="0" />
+				<button4 left="100" top="100" />
+			</keyframe>
+			<keyframe time="2000">
+				<button1 left="0" top="0" />
+				<button2 left="100" top="0" />
+				<button3 left="100" top="100" />
+				<button4 left="0" top="100" />
+			</keyframe>
+		</animation>
+	</animations>
+</module>
