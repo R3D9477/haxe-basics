@@ -8,7 +8,7 @@ The collection of easy samples and hello-worlds for [HaxeUI v2](https://github.c
 #### [4.4.2.1 - Simple GUI](./4.4.2.1_SimpleGui)
 * [4.4.2.1.1 - HaxeUI backends](./4.4.2.1_SimpleGui/4.4.2.1.1_HaxeuiBackends)
   * [4.4.2.1.1.1 - HaxeUI + OpenFL](./4.4.2.1_SimpleGui/4.4.2.1.1_HaxeuiBackends/4.4.2.1.1.1_haxeui-openfl#contain)
-  * [4.4.2.1.1.2 - HaxeUI + hxWidgets](./4.4.2.1_SimpleGui/4.4.2.1.1_HaxeuiBackends/4.4.2.1.1.2_haxeui-hxwidgets#contain)
+  * [4.4.2.1.1.2 - HaxeUI + wxWidgets](./4.4.2.1_SimpleGui/4.4.2.1.1_HaxeuiBackends/4.4.2.1.1.2_haxeui-hxwidgets#contain)
   * [4.4.2.1.1.3 - HaxeUI + Xwt](./4.4.2.1_SimpleGui/4.4.2.1.1_HaxeuiBackends/4.4.2.1.1.3_haxeui-xwt#contain)
   * [4.4.2.1.1.4 - HaxeUI + Html5](./4.4.2.1_SimpleGui/4.4.2.1.1_HaxeuiBackends/4.4.2.1.1.4_haxeui-html5#contain)
   * [4.4.2.1.1.5 - HaxeUI + Kha](./4.4.2.1_SimpleGui/4.4.2.1.1_HaxeuiBackends/4.4.2.1.1.5_haxeui-kha#contain)
