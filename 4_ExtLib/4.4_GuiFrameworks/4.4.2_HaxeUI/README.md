@@ -14,12 +14,14 @@ The collection of easy samples and hello-worlds for [HaxeUI v2](https://github.c
 * [4.4.2.1.6 - haxeui-luxe](./4.4.2.1_SimpleGui/4.4.2.1.6_haxeui-luxe#contain)
 
 #### [4.4.2.2 - Functional code](./4.4.2.2_FunctionalCode)
-* [4.4.2.2.1 - Scripting](./4.4.2.2_FunctionalCode/4.4.2.2.1_Scripting)
-  * [4.4.2.2.1.1 - Simple script](./4.4.2.2_FunctionalCode/4.4.2.2.1_Scripting/4.4.2.2.1.1_SimpleScript)
-  * [4.4.2.2.2.1 - Simple script with import](./4.4.2.2_FunctionalCode/4.4.2.2.1_Scripting/4.4.2.2.1.2_SimpleScriptWithImport)
-* [4.4.2.2.2 - Access to UI from class](./4.4.2.2_FunctionalCode/4.4.2.2.2_UIAccessFromClass)
-  * [4.4.2.2.2.1 - Find elements by ID](./4.4.2.2_FunctionalCode/4.4.2.2.2_UIAccessFromClass/4.4.2.2.2.1_FindElementsById)
-* [4.4.2.2.3 - Events](./4.4.2.2_FunctionalCode//4.4.2.2.3_Events)
+* [4.4.2.2.1 - Access to UI from the class](./4.4.2.2_FunctionalCode/4.4.2.2.1_UIAccessFromClass)
+  * [4.4.2.2.1.1 - Component's basic methods and properties](./4.4.2.2_FunctionalCode/4.4.2.2.1_UIAccessFromClass/4.4.2.2.1.1_ComponentBasicMethods)
+  * [4.4.2.2.1.2 - Component's events](./4.4.2.2_FunctionalCode/4.4.2.2.1_UIAccessFromClass/4.4.2.2.1.2_ComponentEvents)
+* [4.4.2.2.2 - Scripting](./4.4.2.2_FunctionalCode/4.4.2.2.2_Scripting)
+  * [4.4.2.2.2.1 - Simple script](./4.4.2.2_FunctionalCode/4.4.2.2.2_Scripting/4.4.2.2.2.1_SimpleScript)
+  * [4.4.2.2.2.2 - Simple script with import](./4.4.2.2_FunctionalCode/4.4.2.2.2_Scripting/4.4.2.2.2.2_SimpleScriptWithImport)
+  * [4.4.2.2.2.2 - Access to UI from the script](./4.4.2.2_FunctionalCode/4.4.2.2.2_Scripting/4.4.2.2.2.3_UIAccessFromScript)
+  * [4.4.2.2.2.2 - Component's scripting events](./4.4.2.2_FunctionalCode/4.4.2.2.2_Scripting/4.4.2.2.2.4_ComponentSctiptingEvents)
 
 #### [4.4.2.3 - Resources](./4.4.2.3_Resources)
 

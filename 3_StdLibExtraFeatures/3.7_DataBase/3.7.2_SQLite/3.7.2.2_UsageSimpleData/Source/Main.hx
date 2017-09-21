@@ -40,13 +40,19 @@ class Main {
 			var results = dbRes.results();
 			
 			trace('Display results v1:');
-			
-			for (res in results) {
+            
+            trace('null');
+            
+            // don't work with SQLite: https://github.com/HaxeFoundation/haxe/issues/6577#issuecomment-330144622
+
+			/*
+            for (res in results) {
 				for (fld in dbRes.getFieldsNames())
 					Sys.print('$fld: ${Reflect.field(res, fld)}, ');
 				
 				Sys.println('');
 			}
+            */
 			
 			trace('Display results v2:');
 			
