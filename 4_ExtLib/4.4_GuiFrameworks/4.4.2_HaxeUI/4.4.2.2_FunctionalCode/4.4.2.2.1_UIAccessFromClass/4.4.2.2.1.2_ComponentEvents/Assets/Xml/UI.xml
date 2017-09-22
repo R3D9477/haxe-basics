@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scrollview id="sv1" width="250" height="250">
-	<textarea id="ta1" width="300" height="300" />
+<scrollview id="sv1">
+	<checkbox id="cb1" text="check box 1"/>
 </scrollview>
