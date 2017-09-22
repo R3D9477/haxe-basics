@@ -30,6 +30,7 @@ Sample for OpenFL.
 #### Result:
 
 ![Screen](screen1.png)
+output:
 
 ```
 Main.hx:18: [object VBox]
