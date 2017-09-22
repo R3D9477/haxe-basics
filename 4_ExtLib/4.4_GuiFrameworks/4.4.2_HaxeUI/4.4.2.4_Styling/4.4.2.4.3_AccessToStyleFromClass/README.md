@@ -1,4 +1,4 @@
-haxe-basics: haxeui access from class
+haxe-basics: haxeui styling
 =========================
 
 Sample for OpenFL.
