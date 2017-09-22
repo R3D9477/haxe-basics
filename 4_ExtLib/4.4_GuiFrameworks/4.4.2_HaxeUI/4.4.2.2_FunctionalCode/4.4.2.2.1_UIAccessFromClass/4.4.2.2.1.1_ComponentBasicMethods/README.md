@@ -5,7 +5,7 @@ Sample for OpenFL.
 <br/>
 <br/>
 Used methods and properties:
-* haxe.ui.core.Component
+* [haxe.ui.core.Component](https://github.com/haxeui/haxeui-core/blob/master/haxe/ui/core/Component.hx)
   * properties
     * id
     * width
