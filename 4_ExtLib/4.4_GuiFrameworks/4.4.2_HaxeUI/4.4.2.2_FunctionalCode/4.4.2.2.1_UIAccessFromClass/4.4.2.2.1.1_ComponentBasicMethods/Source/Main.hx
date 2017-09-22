@@ -1,12 +1,13 @@
 import haxe.ui.Toolkit;
 import haxe.ui.core.Screen;
 import haxe.ui.core.Component;
+import haxe.ui.macros.ComponentMacros;
+
 import haxe.ui.containers.Box;
 import haxe.ui.containers.VBox;
 import haxe.ui.containers.HBox;
 import haxe.ui.components.Label;
 import haxe.ui.components.Button;
-import haxe.ui.macros.ComponentMacros;
 
 class Main {
 	public static function main() {
