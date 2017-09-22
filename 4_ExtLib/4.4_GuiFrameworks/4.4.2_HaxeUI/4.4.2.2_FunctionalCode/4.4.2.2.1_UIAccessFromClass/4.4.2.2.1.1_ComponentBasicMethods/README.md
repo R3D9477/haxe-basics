@@ -2,8 +2,7 @@ haxe-basics: haxeui access from class
 =========================
 
 Sample for OpenFL.
-<br/>
-<br/>
+
 #### Used methods and properties:
 * [haxe.ui.core.Component](https://github.com/haxeui/haxeui-core/blob/master/haxe/ui/core/Component.hx)
   * properties
@@ -27,13 +26,11 @@ Sample for OpenFL.
     * removeAllComponents
     * hide
     * show
-<br/>
-<br/>
+
 #### Result:
-<br/>
+
 ![Screen](screen1.png)
-<br/>
-<br/>
+
 ```
 Main.hx:18: [object VBox]
 Main.hx:20: ui id = vbox1
