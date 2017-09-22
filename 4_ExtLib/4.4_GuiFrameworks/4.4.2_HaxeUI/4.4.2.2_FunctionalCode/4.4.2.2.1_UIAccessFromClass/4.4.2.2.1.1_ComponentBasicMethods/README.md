@@ -4,7 +4,7 @@ haxe-basics: haxeui access from class
 Sample for OpenFL.
 <br/>
 <br/>
-Used methods and properties:
+#### Used methods and properties:
 * [haxe.ui.core.Component](https://github.com/haxeui/haxeui-core/blob/master/haxe/ui/core/Component.hx)
   * properties
     * id
@@ -29,12 +29,12 @@ Used methods and properties:
     * show
 <br/>
 <br/>
-Result:
+#### Result:
 <br/>
 ![Screen](screen1.png)
 <br/>
 <br/>
-````
+```
 Main.hx:18: [object VBox]
 Main.hx:20: ui id = vbox1
 Main.hx:21: ui width = 204.390625
