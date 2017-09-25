@@ -18,6 +18,7 @@ Sample for OpenFL.
 <br/>
 <br/>
 Output:
+
 ```
 Main.hx:16: event type: move
 Main.hx:17:    target: [object TextArea]
