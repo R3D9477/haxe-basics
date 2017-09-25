@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scrollview id="sv1">
-	<textarea id="ta1" />
-</scrollview>
+<hbox>
+	<scrollview id="sv1" width="200" height="200">
+		<textarea id="ta1" text="scroll & position events; scroll & position events; scroll & position events; scroll & position events; scroll & position events;
+			scroll & position events; scroll & position events; scroll & position events; scroll & position events; scroll & position events; 
+			scroll & position events; scroll & position events; scroll & position events; scroll & position events; scroll & position events; 
+			scroll & position events; scroll & position events; scroll & position events; scroll & position events; scroll & position events; 
+			scroll & position events; scroll & position events; scroll & position events; scroll & position events; scroll & position events; 
+			scroll & position events; scroll & position events; scroll & position events; scroll & position events; scroll & position events; 
+			scroll & position events; scroll & position events; scroll & position events; scroll & position events; scroll & position events; 
+			scroll & position events; scroll & position events; scroll & position events; scroll & position events; scroll & position events; 
+			scroll & position events; scroll & position events; scroll & position events; scroll & position events; scroll & position events; 
+			scroll & position events; scroll & position events; scroll & position events; scroll & position events; scroll & position events; "/>
+	</scrollview>
+	<textarea id="ta2" width="200" height="200" text="keyboard events;"/>
+	<textarea id="ta3" width="200" height="200" text="mouse events;"/>
+</hbox>
