@@ -1,2 +1,2 @@
-haxe-basics: haxeui multitarget app
+haxe-basics: haxeui multitarget application
 =========================

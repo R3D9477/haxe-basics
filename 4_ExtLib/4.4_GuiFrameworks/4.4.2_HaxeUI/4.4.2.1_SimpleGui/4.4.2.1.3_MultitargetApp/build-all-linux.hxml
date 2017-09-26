@@ -2,7 +2,7 @@ build-html5.hxml
 --next
 build-hxwidgets.hxml
 --next
-build-kha-linux.hxml
+build-kha.hxml
 --next
 build-luxe.hxml
 --next
