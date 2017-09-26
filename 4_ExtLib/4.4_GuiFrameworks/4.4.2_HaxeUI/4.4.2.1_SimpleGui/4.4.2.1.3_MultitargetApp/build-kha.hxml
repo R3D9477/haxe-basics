@@ -1,1 +1,1 @@
--cmd node Kha/make --compile
+-cmd node Kha/make --compile --to Export/Kha
