@@ -1,0 +1,11 @@
+build-html5.hxml
+--next
+build-hxwidgets.hxml
+--next
+build-kha-linux.hxml
+--next
+build-luxe-linux.hxml
+--next
+build-openfl-linux.hxml
+--next
+build-xwt.hxml
