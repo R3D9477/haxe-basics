@@ -4,7 +4,7 @@ build-hxwidgets.hxml
 --next
 build-kha-linux.hxml
 --next
-build-luxe-linux.hxml
+build-luxe.hxml
 --next
 build-openfl-linux.hxml
 --next

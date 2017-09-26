@@ -1,3 +1,6 @@
 [submodule "9_AdditionalLibraries/9.4_GuiFrameworks/9.4.2_HaxeUI/9.4.2.5_haxeui-kha/Kha"]
 	path = 9_AdditionalLibraries/9.4_GuiFrameworks/9.4.2_HaxeUI/9.4.2.5_haxeui-kha/Kha
 	url = https://github.com/Kode/Kha.git
+[submodule "4_ExtLib/4.4_GuiFrameworks/4.4.2_HaxeUI/4.4.2.1_SimpleGui/4.4.2.1.3_MultitargetApp/Kha"]
+	path = 4_ExtLib/4.4_GuiFrameworks/4.4.2_HaxeUI/4.4.2.1_SimpleGui/4.4.2.1.3_MultitargetApp/Kha
+	url = https://github.com/KTXSoftware/Kha.git
