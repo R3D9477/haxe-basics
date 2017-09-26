@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vbox id="vbox1">
+	<text id="label1" text="Defautl text 1..." />
+	<text id="label2" text="Defautl text 2..." />
+	<text id="label3" text="Defautl text 3..." />
+	<hbox id="hbox1">
+		<text id="sublabel1" text="Subtext 1..." />
+		<text id="sublabel2" text="Subtext 2..." />
+		<text id="sublabel3" text="Subtext 3..." />
+	</hbox>
+	<button id="button1" text="Button 1" />
+	<button id="button2" text="Button 2" visible="false" />
+	<button id="button3" text="Button 3" disabled="true" />
+	<box id="box1">
+		<vbox id="vbox11" styleNames="vbox11_cls">
+			<hbox id="hbox11">
+				<scrollview id="scollview11">
+					<label id="label4" text="Deep label..." />
+				</scrollview>
+			</hbox>
+		</vbox>
+	</box>
+</vbox>

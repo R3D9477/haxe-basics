@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vbox>
+	<label
+		id="label1"
+		text="Hello wrold!"
+		onChange=" trace('label was changed!') " />
+	<button
+		id="button1"
+		text="click me!"
+		onClick=" label1.text = 'New text!' " />
+</vbox>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vbox>
+	<script>
+		label1.text = "Changed text 1";
+		label2.text = "Changed text 2";
+		label3.text = "Changed text 3";
+	</script>
+	<label
+		id="label1"
+		text="Init text 1" />
+	<label
+		id="label2"
+		text="Init text 2" />
+	<label
+		id="label3"
+		text="Init text 3" />
+</vbox>

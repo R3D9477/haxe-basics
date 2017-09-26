@@ -1,0 +1,8 @@
+trace("Body of the external script.");
+
+var v = 1 + 2;
+trace("   1 + 2 = " + v);
+
+function button1Click () {
+	label1.text = "Text was checnged from external script!";
+}
