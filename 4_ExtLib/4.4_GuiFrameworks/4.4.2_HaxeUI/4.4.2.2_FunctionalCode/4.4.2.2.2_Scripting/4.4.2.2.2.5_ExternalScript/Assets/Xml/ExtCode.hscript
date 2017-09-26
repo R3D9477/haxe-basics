@@ -4,5 +4,5 @@ var v = 1 + 2;
 trace("   1 + 2 = " + v);
 
 function button1Click () {
-	label1.text = "Text was checnged from external script!";
+	label1.text = "Text was changed from external script!";
 }
