@@ -19,7 +19,8 @@ The collection of easy samples and hello-worlds for [HaxeUI v2](https://github.c
 [Flambe](./4.4.2.1_SimpleGui/4.4.2.1.1_HaxeuiBackends/4.4.2.1.1.10_haxeui-flambe#contain), 
 [HaxeFlixel](./4.4.2.1_SimpleGui/4.4.2.1.1_HaxeuiBackends/4.4.2.1.1.11_haxeui-flixel#contain), 
 [NME](./4.4.2.1_SimpleGui/4.4.2.1.1_HaxeuiBackends/4.4.2.1.1.12_haxeui-nme#contain)*
-* [4.4.2.1.2 - Multitarget application](./4.4.2.1_SimpleGui/4.4.2.1.2_MultitargetApp)
+* [4.4.2.1.2 - Object HaxeUIApp](./4.4.2.1_SimpleGui/4.4.2.1.2_HaxeUIApp)
+* [4.4.2.1.3 - Multitarget application](./4.4.2.1_SimpleGui/4.4.2.1.3_MultitargetApp)
 
 #### [4.4.2.2 - Functional code](./4.4.2.2_FunctionalCode)
 * [4.4.2.2.1 - Access to UI from the class](./4.4.2.2_FunctionalCode/4.4.2.2.1_UIAccessFromClass)
