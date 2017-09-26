@@ -1,4 +1,4 @@
-haxe-basics: haxeui simple app
+haxe-basics: haxeui simple application
 =========================
 
 Sample for OpenFL.
