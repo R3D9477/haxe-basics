@@ -44,7 +44,10 @@ The collection of easy samples and hello-worlds for [HaxeUI v2](https://github.c
 * [4.4.2.4.2 - Styles combination](./4.4.2.4_Styling/4.4.2.4.2_StylesCombination)
 * [4.4.2.4.3 - Access to style from the class](./4.4.2.4_Styling/4.4.2.4.3_AccessToStyleFromClass)
 * [4.4.2.4.4 - Usage fonts](./4.4.2.4_Styling/4.4.2.4.4_Fonts)
-* [4.4.2.4.5 - Usage themes](./4.4.2.4_Styling/4.4.2.4.5_UsageThemes)
+* [4.4.2.4.5 - Themes](./4.4.2.4_Styling/4.4.2.4.5_UsageThemes)
+  * [4.4.2.4.5.1 - Usage custom themes](./4.4.2.4_Styling/4.4.2.4.5_UsageThemes/4.4.2.4.5.1_UsageCustomThemes)
+  * [4.4.2.4.5.2 - Usage native themes](./4.4.2.4_Styling/4.4.2.4.5_UsageThemes/4.4.2.4.6.2_NativeTheme)
+    * [4.4.2.4.5.2.1 - Usage native theme for html5 application](./4.4.2.4_Styling/4.4.2.4.5_UsageThemes/4.4.2.4.5.2_NativeTheme/4.4.2.4.5.2.1_NativeForWeb)
 
 #### [4.4.2.5 - Animations](./4.4.2.5_Animations)
 * [4.4.2.5.1 - Simple animation](./4.4.2.5_Animations/4.4.2.5.1_SimpleAnimation1)
