@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vbox>
+	<hbox>
+		<button text="_('en_US')" onClick="LocaleManager.instance.setLanguage('en_US')" />
+		<button text="_('es_ES')" onClick="LocaleManager.instance.setLanguage('es_ES')" />
+	</hbox>
+	
+	<label text="_('helloworld')" />
+	<label text="_('helloworldto', 20)" />
+	<label text="_('helloworldto', 'Pablo')" />
+	<label text="_('helloworldto', true)" />
+</vbox>
