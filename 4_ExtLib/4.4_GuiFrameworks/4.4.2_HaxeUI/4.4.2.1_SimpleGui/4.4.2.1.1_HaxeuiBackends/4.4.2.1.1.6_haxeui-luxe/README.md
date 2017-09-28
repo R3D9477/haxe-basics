@@ -8,7 +8,8 @@ Requre packages [Luxe](https://luxeengine.com/get/), [haxeui-core](https://githu
 
 * [4.4.2.1.1.6.1 - Elements](./4.4.2.1.1.6.1_Elements)
 * [4.4.2.1.1.6.2 - Containers](./4.4.2.1.1.6.2_Containers)
-* [4.4.2.1.1.6.3 - Demos](./4.4.2.1.1.6.3_Demos)
-  * [Scrolls](./4.4.2.1.1.6.3_Demos/Scrolls)
-  * [GridView](./4.4.2.1.1.6.3_Demos/GridView)
-  * [Calculator](./4.4.2.1.1.6.3_Demos/Calculator)
+* [4.4.2.1.1.6.3 - Dialogs](./4.4.2.1.1.6.3_Dialogs)
+* [4.4.2.1.1.6.4 - Demos](./4.4.2.1.1.6.4_Demos)
+  * [Scrolls](./4.4.2.1.1.6.4_Demos/Scrolls)
+  * [GridView](./4.4.2.1.1.6.4_Demos/GridView)
+  * [Calculator](./4.4.2.1.1.6.4_Demos/Calculator)

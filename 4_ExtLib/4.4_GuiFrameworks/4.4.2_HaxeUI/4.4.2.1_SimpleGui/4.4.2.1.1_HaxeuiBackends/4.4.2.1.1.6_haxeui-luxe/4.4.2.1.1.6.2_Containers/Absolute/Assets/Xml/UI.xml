@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<absolute width="100" height="70">
+	<label text="absolute label 1" top="10" left="10" />
+	<label text="absolute label 2" top="30" left="50" />
+	<label text="absolute label 3" top="50" left="20" />
+</absolute>
