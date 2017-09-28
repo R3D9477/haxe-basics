@@ -1,6 +1,5 @@
 import haxe.ui.Toolkit;
-import haxe.ui.core.Screen;
-import haxe.ui.core.Component;
+import haxe.ui.HaxeUIApp;
 import haxe.ui.macros.ComponentMacros;
 
 class Main {
@@ -8,7 +7,11 @@ class Main {
 		Toolkit.theme = "dark";
 		Toolkit.init();
 		
-		var ui:Component = ComponentMacros.buildComponent("Assets/Xml/UI.xml");
-		Screen.instance.addComponent(ui);
+		var app = new HaxeUIApp();
+		
+		app.ready(function() {
+			app.addComponent(ComponentMacros.buildComponent("Assets/Xml/UI.xml"));
+			app.start();
+		});
 	}
 }
