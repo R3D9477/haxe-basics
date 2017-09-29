@@ -8,7 +8,7 @@ Requre packages [haxeui-core](https://github.com/haxeui/haxeui-core) and [haxeui
 
 * [4.4.2.1.1.9.1 - Elements](./4.4.2.1.1.9.1_Elements)
 * [4.4.2.1.1.9.2 - Containers](./4.4.2.1.1.9.2_Containers)
-* [4.4.2.1.1.9.3 - Containers](./4.4.2.1.1.9.3_Dialogs)
+* [4.4.2.1.1.9.3 - Dialogs](./4.4.2.1.1.9.3_Dialogs)
 * [4.4.2.1.1.9.4 - Demos](./4.4.2.1.1.9.4_Demos)
   * [Scrolls](./4.4.2.1.1.9.4_Demos/Scrolls)
   * [GridView](./4.4.2.1.1.9.4_Demos/GridView)
