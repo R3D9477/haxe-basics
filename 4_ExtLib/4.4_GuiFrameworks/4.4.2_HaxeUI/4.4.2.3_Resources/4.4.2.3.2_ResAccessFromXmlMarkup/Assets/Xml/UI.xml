@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vbox>
 	<image resource="res/img/tuxImage.jpg" />
-	<button icon="res/img/tuxIcon.png" text="clicke me!" />
+	<button icon="res/img/tuxIcon.png" text="click me!" />
 </vbox>

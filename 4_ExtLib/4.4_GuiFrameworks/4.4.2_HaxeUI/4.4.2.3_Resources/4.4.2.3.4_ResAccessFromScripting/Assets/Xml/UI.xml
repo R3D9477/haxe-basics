@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vbox>
+	<script>
+		img1.resource = "res/img/tuxImage.jpg";
+		btn1.icon = "res/img/tuxIcon.png";
+		txt1.text = Resource.listNames().join("\n");
+	</script>
+	<image id="img1" />
+	<button id="btn1" text="click me!" />
+	<textarea id="txt1" width="300" height="200" />
+</vbox>

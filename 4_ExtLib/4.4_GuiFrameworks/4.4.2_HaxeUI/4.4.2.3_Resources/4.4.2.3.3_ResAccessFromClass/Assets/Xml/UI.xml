@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vbox>
+	<image id="img1" />
+	<button id="btn1" text="click me!" />
+	<label text="All available resources:" />
+	<textarea id="txt1" width="300" height="200" />
+</vbox>
