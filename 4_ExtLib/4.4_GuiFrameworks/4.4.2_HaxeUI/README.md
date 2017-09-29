@@ -59,3 +59,8 @@ The collection of easy samples and hello-worlds for [HaxeUI v2](https://github.c
 
 #### [4.4.2.8 - Localization](./4.4.2.8_Localization)
 * [4.4.2.8.8 - Simple localized application](./4.4.2.8_Localization/4.4.2.8.1_SimpleLocalizedApp)
+
+## Useful links:
+
+* [HaxeUI Blog](http://haxeui.org/blog/)
+* [HaxeUI Guide](https://github.com/haxeui/haxeui-guides/blob/master/modules.md)
