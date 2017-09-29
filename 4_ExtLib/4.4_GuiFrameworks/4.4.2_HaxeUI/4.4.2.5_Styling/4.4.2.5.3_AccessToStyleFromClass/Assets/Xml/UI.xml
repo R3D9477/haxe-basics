@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<label id="lbl1" text="My styled label..." />
+<vbox>
+	<label id="lbl1" text="Styled label..." />
+	<label id="lbl2" text="Label with custom style 1..." />
+	<label id="lbl3" text="Label with custom style 2..." />
+	<label id="lbl4" text="Label with manually added css classes..." />
+	<label id="lbl51" text="Label styled via class of type..." />
+	<label id="lbl52" text="Label styled via class of type..." />
+	<label id="lbl53" text="Label styled via class of type..." />
+</vbox>
