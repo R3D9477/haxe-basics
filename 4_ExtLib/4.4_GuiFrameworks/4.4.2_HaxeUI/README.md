@@ -55,7 +55,7 @@ The collection of easy samples and hello-worlds for [HaxeUI v2](https://github.c
 * [4.4.2.6.1 - Simple animation](./4.4.2.6_Animations/4.4.2.6.1_SimpleAnimation1)
 * [4.4.2.6.2 - Simple animation via scripting](./4.4.2.6_Animations/4.4.2.6.2_SimpleAnimation2)
 
-#### [4.4.2.7 - Custom components](./4.4.2.7_CustomComponents)
+#### [4.4.2.7 - Custom component](./4.4.2.7_CustomComponent)
 
 #### [4.4.2.8 - Localization](./4.4.2.8_Localization)
 * [4.4.2.8.8 - Simple localized application](./4.4.2.8_Localization/4.4.2.8.1_SimpleLocalizedApp)
