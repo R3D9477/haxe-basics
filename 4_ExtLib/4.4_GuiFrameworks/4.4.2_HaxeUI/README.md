@@ -48,7 +48,7 @@ The collection of easy samples and hello-worlds for [HaxeUI v2](https://github.c
 * [4.4.2.5.4 - Usage fonts](./4.4.2.5_Styling/4.4.2.5.4_Fonts)
 * [4.4.2.5.5 - Themes](./4.4.2.5_Styling/4.4.2.5.5_UsageThemes)
   * [4.4.2.5.5.1 - Usage custom themes](./4.4.2.5_Styling/4.4.2.5.5_UsageThemes/4.4.2.5.5.1_UsageCustomThemes)
-  * [4.4.2.5.5.2 - Usage native theme](./4.4.2.5_Styling/4.4.2.5.5_UsageThemes/4.4.2.5.6.2_NativeTheme)
+  * [4.4.2.5.5.2 - Usage native theme](./4.4.2.5_Styling/4.4.2.5.5_UsageThemes/4.4.2.5.5.2_NativeTheme)
 
 #### [4.4.2.6 - Animations](./4.4.2.6_Animations)
 * [4.4.2.6.1 - Simple animation](./4.4.2.6_Animations/4.4.2.6.1_SimpleAnimation1)
