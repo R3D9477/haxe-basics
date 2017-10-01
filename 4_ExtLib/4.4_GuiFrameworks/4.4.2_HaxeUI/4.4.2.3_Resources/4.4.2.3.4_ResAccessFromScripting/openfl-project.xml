@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="Test" package="" version="1.0.0" company="" />
+	<app main="Main" path="Export" file="Main" />
+	<source path="Source" />
+	<haxelib name="openfl" />
+	<haxelib name="actuate" />
+	<haxelib name="haxeui-core" />
+	<haxelib name="haxeui-openfl" />
+</project>

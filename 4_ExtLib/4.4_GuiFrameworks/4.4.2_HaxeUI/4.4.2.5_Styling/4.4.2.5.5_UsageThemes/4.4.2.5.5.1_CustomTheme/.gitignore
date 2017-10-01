@@ -1,2 +1,3 @@
-Export
+Export/*
+!Export/Html5
 *.xml.hxml

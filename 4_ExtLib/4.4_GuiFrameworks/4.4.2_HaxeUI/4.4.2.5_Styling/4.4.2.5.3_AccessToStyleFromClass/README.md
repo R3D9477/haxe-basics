@@ -1,8 +1,6 @@
 haxe-basics: haxeui styling
 =========================
 
-Sample for OpenFL.
-
 #### Used methods and properties:
 * [Component](https://github.com/haxeui/haxeui-core/blob/master/haxe/ui/core/Component.hx)
   * methods:

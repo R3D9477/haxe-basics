@@ -16,13 +16,16 @@ class Main {
 		var ui:Component = ComponentMacros.buildComponent("Assets/Xml/UI.xml", VBox);
 		Screen.instance.addComponent(ui);
 		
-		trace(ui);
+		trace(Type.getClassName(Type.getClass(ui)));
 		
 		trace('ui id = ${ui.id}');
 		trace('ui width = ${ui.width}');
 		trace('ui height = ${ui.height}');
 		trace('the parent of ui is null? ${ui.parentComponent == null}');
-		trace('childs of ui: ${ui.childComponents}');
+		
+		trace('childs of ui:');
+		for (ch in ui.childComponents)
+			trace('    ${Type.getClassName(Type.getClass(ch))}');
 		
 		trace('');
 		
@@ -33,7 +36,7 @@ class Main {
 		trace('');
 		
 		var label1 = ui.findComponent("label1", Label);
-		trace(label1);
+		trace(Type.getClassName(Type.getClass(label1)));
 		
 		trace('old text of label1 is "${label1.text}"');
 		label1.text = "New text 1...";
@@ -50,7 +53,7 @@ class Main {
 		trace('');
 		
 		var hbox1 = ui.findComponent("hbox1", HBox);
-		trace(hbox1);
+		trace(Type.getClassName(Type.getClass(hbox1)));
 		
 		trace('hbox1 id = ${hbox1.id}');
 		trace('hbox1 width = ${hbox1.width}');
@@ -58,7 +61,10 @@ class Main {
 		trace('the parent of hbox1 is null? ${hbox1.parentComponent == null}');
 		
 		trace('');
-		trace('childs of hbox1: ${hbox1.childComponents}');
+		
+		trace('childs of hbox1:');
+		for (ch in hbox1.childComponents)
+			trace('    ${Type.getClassName(Type.getClass(ch))}');
 		
 		for (ch in hbox1.childComponents)
 			trace('$ch.id = ${ch.id} have index ${hbox1.getComponentIndex(ch)}');

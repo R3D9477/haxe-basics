@@ -9,7 +9,7 @@
 		<text id="sublabel3" text="Subtext 3..." />
 	</hbox>
 	<button id="button1" text="Button 1" />
-	<button id="button2" text="Button 2" visible="false" />
+	<button id="button2" text="Button 2" hidden="true" />
 	<button id="button3" text="Button 3" disabled="true" />
 	<box id="box1">
 		<vbox id="vbox11" styleNames="vbox11_cls">

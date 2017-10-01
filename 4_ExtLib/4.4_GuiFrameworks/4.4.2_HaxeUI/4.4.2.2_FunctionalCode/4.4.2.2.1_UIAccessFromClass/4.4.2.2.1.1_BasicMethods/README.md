@@ -1,8 +1,6 @@
 haxe-basics: haxeui access from class
 =========================
 
-Sample for OpenFL.
-
 #### Used methods and properties:
 * [haxe.ui.core.Component](https://github.com/haxeui/haxeui-core/blob/master/haxe/ui/core/Component.hx)
   * properties

@@ -1,8 +1,6 @@
 haxe-basics: haxeui access from class
 =========================
 
-Sample for OpenFL.
-
 #### Used methods, properties and events:
 * Events:
   * [haxe.ui.core.UIEvent](https://github.com/haxeui/haxeui-core/blob/master/haxe/ui/core/UIEvent.hx)

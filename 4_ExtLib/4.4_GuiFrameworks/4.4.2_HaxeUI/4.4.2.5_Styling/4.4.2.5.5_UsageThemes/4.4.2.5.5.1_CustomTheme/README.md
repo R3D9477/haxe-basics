@@ -1,4 +1,4 @@
 haxe-basics: haxeui styling
 =========================
 
-Sample for OpenFL.
+![Screen1](./screen1.png)
