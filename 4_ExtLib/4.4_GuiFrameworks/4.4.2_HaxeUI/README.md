@@ -39,7 +39,9 @@ The collection of easy samples and hello-worlds for [HaxeUI v2](https://github.c
 * [4.4.2.3.3 - Access to resources from the class](./4.4.2.3_Resources/4.4.2.3.3_ResAccessFromClass)
 * [4.4.2.3.4 - Access to resources from the script](./4.4.2.3_Resources/4.4.2.3.4_ResAccessFromScripting)
 
-#### [4.4.2.4 - Data sources](./4.4.2.4_DataSources)
+#### [4.4.2.4 - Data items](./4.4.2.4_DataItems)
+* [4.4.2.4.1 - Items rendering](./4.4.2.4_DataItems/4.4.2.4.1_ItemsRendering)
+* [4.4.2.4.2 - Data source](./4.4.2.4_DataItems/4.4.2.4.2_DataSource)
 
 #### [4.4.2.5 - Styling](./4.4.2.5_Styling)
 * [4.4.2.5.1 - Simple styling](./4.4.2.5_Styling/4.4.2.5.1_SimpleStyling)
