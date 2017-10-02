@@ -1,4 +1,4 @@
-haxe-basics: styling
+haxe-basics: data items
 =========================
 
-[!Screen](screen1.png)
+![Screen](screen1.png)
