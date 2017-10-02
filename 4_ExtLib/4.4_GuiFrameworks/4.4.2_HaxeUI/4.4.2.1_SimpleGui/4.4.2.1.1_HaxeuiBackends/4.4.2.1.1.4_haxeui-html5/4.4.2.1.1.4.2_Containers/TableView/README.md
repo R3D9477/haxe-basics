@@ -1,4 +1,4 @@
-haxe-basics: haxeui-html5
+haxe-basics: items rendering
 =========================
 
 ![Screen](screen1.png)
