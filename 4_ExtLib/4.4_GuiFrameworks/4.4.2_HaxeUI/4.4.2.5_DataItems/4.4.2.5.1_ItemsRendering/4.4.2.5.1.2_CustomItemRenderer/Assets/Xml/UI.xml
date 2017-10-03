@@ -4,10 +4,11 @@
 	<label text="Basic item renderer of DropDown:" />
 	
 	<dropdown text="Select Item" width="250">
-		<itemrenderer>
-			<hbox>
+		<itemrenderer width="100%">
+			<hbox width="100%">
 				<image id="icon" />
-				<checkbox id="value" />
+				<label id="value" />
+				<checkbox id="flag" />
 			</hbox>
 		</itemrenderer>
 		<data>
@@ -21,10 +22,11 @@
 	<label text="Basic item renderer of ListView:" />
 	
 	<listview width="150" height="150">
-		<itemrenderer>
-			<hbox>
+		<itemrenderer width="100%">
+			<hbox width="100%">
 				<image id="icon" />
-				<checkbox id="value" />
+				<label id="value" />
+				<checkbox id="flag" />
 			</hbox>
 		</itemrenderer>
 		<data>
@@ -42,10 +44,18 @@
 			<column id="c1" text="Column 1" width="200" height="30" />
 			<column id="c2" text="Column 2" width="200" height="30" sortable="true" />
 		</header>
-		<itemrenderer>
-			<hbox>
+		<itemrenderer width="100%">
+			<hbox height="40" width="100%">
 				<image id="icon" />
-				<checkbox id="value" />
+				<label id="value" />
+				<checkbox id="flag" />
+			</hbox>
+		</itemrenderer>
+		<itemrenderer width="100%">
+			<hbox height="40" width="100%">
+				<image id="icon" />
+				<label id="value" />
+				<checkbox id="flag" />
 			</hbox>
 		</itemrenderer>
 		<data>
