@@ -49,10 +49,10 @@ The collection of easy samples and hello-worlds for [HaxeUI v2](https://github.c
   * [4.4.2.4.5.2 - Usage native theme](./4.4.2.4_Styling/4.4.2.4.5_UsageThemes/4.4.2.4.5.2_NativeTheme)
 
 #### [4.4.2.5 - Data items](./4.4.2.5_DataItems)
-* [4.4.2.5.1 - Items rendering](./4.4.2.5_DataItems/4.4.2.5.1_ItemsRendering)
-  * [4.4.2.5.1.1 - Basic items renderer](./4.4.2.5_DataItems/4.4.2.5.1_ItemsRendering/4.4.2.5.1.1_BasicItemRenderer)
-  * [4.4.2.5.1.2 - Custom items renderer](./4.4.2.5_DataItems/4.4.2.5.1_ItemsRendering/4.4.2.5.1.2_CustomItemRenderer)
-* [4.4.2.5.2 - Data sources](./4.4.2.5_DataItems/4.4.2.5.2_DataSources)
+* [4.4.2.5.1 - Data sources](./4.4.2.5_DataItems/4.4.2.5.1_DataSources)
+* [4.4.2.5.2 - Items rendering](./4.4.2.5_DataItems/4.4.2.5.1_ItemsRendering)
+  * [4.4.2.5.2.1 - Basic items renderer](./4.4.2.5_DataItems/4.4.2.5.2_ItemsRendering/4.4.2.5.2.1_BasicItemRenderer)
+  * [4.4.2.5.2.2 - Custom items renderer](./4.4.2.5_DataItems/4.4.2.5.2_ItemsRendering/4.4.2.5.2.2_CustomItemRenderer)
 
 #### [4.4.2.6 - Animations](./4.4.2.6_Animations)
 * [4.4.2.6.1 - Simple animation](./4.4.2.6_Animations/4.4.2.6.1_SimpleAnimation1)
