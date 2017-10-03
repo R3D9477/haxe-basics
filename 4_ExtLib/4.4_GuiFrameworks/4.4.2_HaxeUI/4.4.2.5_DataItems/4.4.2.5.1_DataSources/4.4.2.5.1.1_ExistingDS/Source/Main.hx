@@ -2,7 +2,6 @@ import haxe.ui.Toolkit;
 import haxe.ui.HaxeUIApp;
 import haxe.ui.macros.ComponentMacros;
 
-import haxe.ui.data.DataSource;
 import haxe.ui.containers.ListView;
 
 class Main {

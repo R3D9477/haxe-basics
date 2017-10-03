@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<vbox>
+	<dropdown id="dropdown1" width="200" text="Select Item" />
+	<listview id="listview1" width="200" />
+</vbox>
