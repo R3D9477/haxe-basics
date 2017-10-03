@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <vbox>
 	
-	<label text="Custom item renderer (ListView):" />
+	<label text="Basic item renderer of DropDown:" />
+	
+	<dropdown text="Select Item" width="250">
+		<itemrenderer>
+			<hbox>
+				<image  id="icon" />
+				<label  id="value" />
+				<checkbox id="check" />
+			</hbox>
+		</itemrenderer>
+		<data>
+			<item icon="res/img/tuxIcon.png" value="Item 1" check="Check 1" />
+			<item icon="res/img/tuxIcon.png" value="Item 2" check="Check 2" />
+			<item icon="res/img/tuxIcon.png" value="Item 3" check="Check 3" />
+		</data>
+	</dropdown>
+	
+	<spacer height="20" />
+	<label text="Basic item renderer of ListView:" />
 	
 	<listview width="150" height="150">
 		<itemrenderer>
@@ -19,7 +37,7 @@
 	</listview>
 	
 	<spacer height="20" />
-	<label text="Custom item renderer (TableView):" />
+	<label text="Basic item renderer of TableView:" />
 	
 	<tableview width="401" height="200">
 		<header>
@@ -34,9 +52,9 @@
 			</hbox>
 		</itemrenderer>
 		<data>
-			<row icon="res/img/tuxIcon.png" c1="Value 1:1" c2="Value 1:2" action="Action 1" />
-			<row icon="res/img/tuxIcon.png" c1="Value 2:1" c2="Value 2:2" action="Action 2" />
-			<row icon="res/img/tuxIcon.png" c1="Value 3:1" c2="Value 3:2" action="Action 3" />
+			<row icon="res/img/tuxIcon.png" c1="Cell 1:1" c2="Cell 1:2" action="Action 1" />
+			<row icon="res/img/tuxIcon.png" c1="Cell 2:1" c2="Cell 2:2" action="Action 2" />
+			<row icon="res/img/tuxIcon.png" c1="Cell 3:1" c2="Cell 3:2" action="Action 3" />
 		</data>
 	</tableview>
 	
