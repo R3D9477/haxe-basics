@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<vbox>
+	
+	<label text="Filled in markup:" />
+	
+	<listview id="listview1" width="200">
+		<data>
+			<item value="Item 1" />
+			<item value="Item 2" />
+			<item value="Item 3" />
+		</data>
+	</listview>
+	
+	<spacer height="20" />
+	<label text="Filled in class:" />
+	
+	<listview id="listview2" width="200" />
+	
+</vbox>
