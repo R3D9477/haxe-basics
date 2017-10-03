@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <vbox>
 	
-	<label text="Basic item renderer (ListView):" />
+	<label text="Custom item renderer (ListView):" />
 	
 	<listview width="150" height="150">
 		<itemrenderer>
@@ -19,7 +19,7 @@
 	</listview>
 	
 	<spacer height="20" />
-	<label text="Basic item renderer (TableView):" />
+	<label text="Custom item renderer (TableView):" />
 	
 	<tableview width="401" height="200">
 		<header>

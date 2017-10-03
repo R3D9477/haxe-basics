@@ -123,7 +123,7 @@ Main.main = function() {
 	app.ready(function() {
 		var c0 = new haxe_ui_containers_VBox();
 		var c1 = new haxe_ui_components_Label();
-		c1.set_text("Basic item renderer (ListView):");
+		c1.set_text("Custom item renderer (ListView):");
 		c0.addComponent(c1);
 		var c11 = new haxe_ui_containers_ListView();
 		var c2 = new haxe_ui_core_ItemRenderer();
@@ -147,7 +147,7 @@ Main.main = function() {
 		c12.set_height(20.);
 		c0.addComponent(c12);
 		var c13 = new haxe_ui_components_Label();
-		c13.set_text("Basic item renderer (TableView):");
+		c13.set_text("Custom item renderer (TableView):");
 		c0.addComponent(c13);
 		var c14 = new haxe_ui_containers_TableView();
 		var c21 = new haxe_ui_containers_Header();
