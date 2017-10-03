@@ -6,15 +6,14 @@
 	<dropdown text="Select Item" width="250">
 		<itemrenderer>
 			<hbox>
-				<image  id="icon" />
-				<label  id="value" />
-				<checkbox id="check" />
+				<image id="icon" />
+				<checkbox id="value" />
 			</hbox>
 		</itemrenderer>
 		<data>
-			<item icon="res/img/tuxIcon.png" value="Item 1" check="Check 1" />
-			<item icon="res/img/tuxIcon.png" value="Item 2" check="Check 2" />
-			<item icon="res/img/tuxIcon.png" value="Item 3" check="Check 3" />
+			<item icon="res/img/tuxIcon.png" value="Item 1" />
+			<item icon="res/img/tuxIcon.png" value="Item 2" />
+			<item icon="res/img/tuxIcon.png" value="Item 3" />
 		</data>
 	</dropdown>
 	
@@ -24,15 +23,14 @@
 	<listview width="150" height="150">
 		<itemrenderer>
 			<hbox>
-				<image  id="icon" />
-				<label  id="value" />
-				<button id="action" />
+				<image id="icon" />
+				<checkbox id="value" />
 			</hbox>
 		</itemrenderer>
 		<data>
-			<item icon="res/img/tuxIcon.png" value="Item 1" action="Action 1" />
-			<item icon="res/img/tuxIcon.png" value="Item 2" action="Action 2" />
-			<item icon="res/img/tuxIcon.png" value="Item 3" action="Action 3" />
+			<item icon="res/img/tuxIcon.png" value="Item 1" />
+			<item icon="res/img/tuxIcon.png" value="Item 2" />
+			<item icon="res/img/tuxIcon.png" value="Item 3" />
 		</data>
 	</listview>
 	
@@ -46,15 +44,14 @@
 		</header>
 		<itemrenderer>
 			<hbox>
-				<image  id="icon" />
-				<label  id="value" />
-				<button id="action" />
+				<image id="icon" />
+				<checkbox id="value" />
 			</hbox>
 		</itemrenderer>
 		<data>
-			<row icon="res/img/tuxIcon.png" c1="Cell 1:1" c2="Cell 1:2" action="Action 1" />
-			<row icon="res/img/tuxIcon.png" c1="Cell 2:1" c2="Cell 2:2" action="Action 2" />
-			<row icon="res/img/tuxIcon.png" c1="Cell 3:1" c2="Cell 3:2" action="Action 3" />
+			<row icon="res/img/tuxIcon.png" c1="Cell 1:1" c2="Cell 1:2" />
+			<row icon="res/img/tuxIcon.png" c1="Cell 2:1" c2="Cell 2:2" />
+			<row icon="res/img/tuxIcon.png" c1="Cell 3:1" c2="Cell 3:2" />
 		</data>
 	</tableview>
 	
