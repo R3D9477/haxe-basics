@@ -165,7 +165,7 @@ Main.main = function() {
 		c17.addComponent(c2);
 		c17.set_width(201.);
 		c17.set_height(150.);
-		c17.set_dataSource(new haxe_ui_data_DataSourceFactory().fromString("<data>\n\t\t\t<row c1='Value 1:1' c2='Value 1:2'/>\n\t\t\t<row c1='Value 2:1' c2='Value 2:2'/>\n\t\t\t<row c1='Value 3:1' c2='Value 3:2'/>\n\t\t</data>",haxe_ui_data_ArrayDataSource));
+		c17.set_dataSource(new haxe_ui_data_DataSourceFactory().fromString("<data>\n\t\t\t<row c1='Cell 1:1' c2='Cell 1:2'/>\n\t\t\t<row c1='Cell 2:1' c2='Cell 2:2'/>\n\t\t\t<row c1='Cell 3:1' c2='Cell 3:2'/>\n\t\t</data>",haxe_ui_data_ArrayDataSource));
 		c0.addComponent(c17);
 		c0.set_script("");
 		app.addComponent(c0);
