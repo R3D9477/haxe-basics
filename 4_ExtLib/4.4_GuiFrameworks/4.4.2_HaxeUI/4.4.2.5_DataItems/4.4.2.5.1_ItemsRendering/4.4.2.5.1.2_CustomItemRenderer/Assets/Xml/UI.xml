@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<vbox>
+	
+	<label text="Basic item renderer (ListView):" />
+	
+	<listview width="150" height="150">
+		<itemrenderer>
+			<hbox>
+				<image  id="icon" />
+				<label  id="value" />
+				<button id="action" />
+			</hbox>
+		</itemrenderer>
+		<data>
+			<item icon="res/img/tuxIcon.png" value="Item 1" action="Action 1" />
+			<item icon="res/img/tuxIcon.png" value="Item 2" action="Action 2" />
+			<item icon="res/img/tuxIcon.png" value="Item 3" action="Action 3" />
+		</data>
+	</listview>
+	
+	<spacer height="20" />
+	<label text="Basic item renderer (TableView):" />
+	
+	<tableview width="401" height="200">
+		<header>
+			<column id="c1" text="Column 1" width="200" height="30" />
+			<column id="c2" text="Column 2" width="200" height="30" sortable="true" />
+		</header>
+		<itemrenderer>
+			<hbox>
+				<image  id="icon" />
+				<label  id="value" />
+				<button id="action" />
+			</hbox>
+		</itemrenderer>
+		<data>
+			<row icon="res/img/tuxIcon.png" c1="Value 1:1" c2="Value 1:2" action="Action 1" />
+			<row icon="res/img/tuxIcon.png" c1="Value 2:1" c2="Value 2:2" action="Action 2" />
+			<row icon="res/img/tuxIcon.png" c1="Value 3:1" c2="Value 3:2" action="Action 3" />
+		</data>
+	</tableview>
+	
+</vbox>
