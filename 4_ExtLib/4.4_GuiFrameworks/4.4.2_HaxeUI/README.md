@@ -15,7 +15,7 @@ The collection of easy samples and hello-worlds for [HaxeUI v2](https://github.c
 [Windows Forms](./4.4.2.1_SimpleGui/4.4.2.1.1_HaxeuiBackends/4.4.2.1.1.9_haxeui-winforms), <br/>
 [OpenFL](./4.4.2.1_SimpleGui/4.4.2.1.1_HaxeuiBackends/4.4.2.1.1.1_haxeui-openfl#contain), 
 [Kha](./4.4.2.1_SimpleGui/4.4.2.1.1_HaxeuiBackends/4.4.2.1.1.5_haxeui-kha#contain), 
-[Luxe](./4.4.2.1_SimpleGui/4.4.2.1.1_HaxeuiBackends/4.4.2.1.1.6_haxeui-luxe#contain),<br/>
+[Luxe](./4.4.2.1_SimpleGui/4.4.2.1.1_HaxeuiBackends/4.4.2.1.1.6_haxeui-luxe#contain),
 [Nme](./4.4.2.1_SimpleGui/4.4.2.1.1_HaxeuiBackends/4.4.2.1.1.12_haxeui-nme), 
 [Flambe](./4.4.2.1_SimpleGui/4.4.2.1.1_HaxeuiBackends/4.4.2.1.1.10_haxeui-flambe), 
 [HaxeFlixel](./4.4.2.1_SimpleGui/4.4.2.1.1_HaxeuiBackends/4.4.2.1.1.11_haxeui-flixel)*
