@@ -53,8 +53,9 @@ The collection of easy samples and hello-worlds for [HaxeUI v2](https://github.c
   * [4.4.2.5.1.1 - Usage existing data source](./4.4.2.5_DataItems/4.4.2.5.1_DataSources/4.4.2.5.1.1_ExistingDS)
   * [4.4.2.5.1.2 - Initialize a new array data source](./4.4.2.5_DataItems/4.4.2.5.1_DataSources/4.4.2.5.1.2_InitNewArrayDS)
 * [4.4.2.5.2 - Items rendering](./4.4.2.5_DataItems/4.4.2.5.2_ItemsRendering)
-  * [4.4.2.5.2.1 - Basic items renderer](./4.4.2.5_DataItems/4.4.2.5.2_ItemsRendering/4.4.2.5.2.1_BasicItemRenderer)
-  * [4.4.2.5.2.2 - Custom items renderer](./4.4.2.5_DataItems/4.4.2.5.2_ItemsRendering/4.4.2.5.2.2_CustomItemRenderer)
+  * [4.4.2.5.2.1 - Basic items renderer](./4.4.2.5_DataItems/4.4.2.5.2_ItemsRendering/4.4.2.5.2.1_BasicItemsRenderer)
+  * [4.4.2.5.2.2 - Custom items renderer](./4.4.2.5_DataItems/4.4.2.5.2_ItemsRendering/4.4.2.5.2.2_CustomItemsRenderer)
+  * [4.4.2.5.2.3 - Custom items rendering function](./4.4.2.5_DataItems/4.4.2.5.2_ItemsRendering/4.4.2.5.2.3_CustomItemsRendereringFunction)
 
 #### [4.4.2.6 - Animations](./4.4.2.6_Animations)
 * [4.4.2.6.1 - Simple animation](./4.4.2.6_Animations/4.4.2.6.1_SimpleAnimation1)
