@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<listview width="150" height="150">
-	<data>
-		<item icon="res/img/tuxIcon.png" value="Item 1" />
-		<item icon="res/img/tuxIcon.png" value="Item 2" />
-		<item icon="res/img/tuxIcon.png" value="Item 3" />
-	</data>
-</listview>

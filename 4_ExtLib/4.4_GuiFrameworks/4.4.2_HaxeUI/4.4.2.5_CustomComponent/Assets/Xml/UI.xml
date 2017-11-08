@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<vbox>
+	<buttonsbox
+		labelStyleNames="labelStyle1"
+		buttonStyleNames="buttonStyle1"/>
+	<buttonsbox
+		labelStyleNames="labelStyle2"
+		buttonStyleNames="buttonStyle2"/>
+	<buttonsbox
+		labelStyleNames="labelStyle3"
+		buttonStyleNames="buttonStyle3"/>
+</vbox>
