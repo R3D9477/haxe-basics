@@ -1,6 +1,5 @@
 import haxe.ui.Toolkit;
 import haxe.ui.core.Screen;
-import haxe.ui.core.Component;
 import haxe.ui.macros.ComponentMacros;
 
 import haxe.ui.components.TextArea;
@@ -144,5 +143,22 @@ class Main {
 		ta2.dispatch(cast(new MouseEvent(MouseEvent.CLICK), UIEvent));
 		
 		ta3.dispatch(cast(new MouseEvent(MouseEvent.CLICK), UIEvent));
+
+		//-------------------------------------------------------------------------------------------
+		
+		trace('Events of focus:');
+		trace('');
+
+		ta1.allowFocus = false;
+		ta2.focus = true;
+
+		trace('Text area 1 allow focus: ${ta1.allowFocus}');
+		trace('Text area 1 focused: ${ta1.focus}');
+
+		trace('Text area 2 allow focus: ${ta2.allowFocus}');
+		trace('Text area 2 focused: ${ta2.focus}');
+
+		trace('Text area 3 allow focus: ${ta3.allowFocus}');
+		trace('Text area 3 focused: ${ta3.focus}');
 	}
 }
