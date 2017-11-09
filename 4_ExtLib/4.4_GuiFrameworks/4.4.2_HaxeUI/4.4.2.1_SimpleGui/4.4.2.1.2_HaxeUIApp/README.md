@@ -1,4 +1,4 @@
 haxe-basics: haxeui simple application
 =========================
 
-Sample for OpenFL.
+Sample for HTML5.

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="HAXE_MODULE" version="4">
+  <component name="HaxeModuleSettingsStorage">
+    <option name="arguments" value="" />
+    <option name="buildConfig" value="1" />
+    <option name="excludeFromCompilation" value="true" />
+    <option name="flexSdkName" value="flex_sdk_4.6" />
+    <option name="haxeTarget" value="JavaScript" />
+    <option name="hxmlPath" value="$MODULE_DIR$/../Test-debug-html5.hxml" />
+    <option name="mainClass" value="Main" />
+    <option name="outputFileName" value="kha.swf" />
+    <option name="outputFolder" value="$MODULE_DIR$/../debug-html5" />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../debug-html5" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../..">
+      <sourceFolder url="file:///home/eugene/Software/Kha/KodeStudio/resources/app/extensions/kha/Kha/Sources" isTestSource="false" />
+      <sourceFolder url="file:///home/eugene/Software/Kha/KodeStudio/resources/app/extensions/kha/Kha/Backends/HTML5" isTestSource="false" />
+      <sourceFolder url="file:///home/eugene/Dropbox/Projects/r3d9u11/haxe-basics/4_ExtLib/4.4_GuiFrameworks/4.4.2_HaxeUI/4.4.2.1_SimpleGui/4.4.2.1.1_HaxeuiBackends/4.4.2.1.1.5_haxeui-kha/4.4.2.1.1.5.1_Elements/Button/Source" isTestSource="false" />
+      <sourceFolder url="file:///home/eugene/.haxelib_repo/haxeui-core/git" isTestSource="false" />
+      <sourceFolder url="file:///home/eugene/.haxelib_repo/haxeui-kha/git" isTestSource="false" />
+      <sourceFolder url="file:///home/eugene/.haxelib_repo/hscript/2,1,1" isTestSource="false" />
+
+    </content>
+    <content url="file:///home/eugene/.haxelib_repo/haxeui-core">
+      <sourceFolder url="file:///home/eugene/.haxelib_repo/haxeui-core/git" isTestSource="false" />
+    </content>
+    <content url="file:///home/eugene/.haxelib_repo/haxeui-kha">
+      <sourceFolder url="file:///home/eugene/.haxelib_repo/haxeui-kha/git" isTestSource="false" />
+    </content>
+    <content url="file:///home/eugene/.haxelib_repo/hscript">
+      <sourceFolder url="file:///home/eugene/.haxelib_repo/hscript/2,1,1" isTestSource="false" />
+    </content>
+    
+    <orderEntry type="jdk" jdkName="Haxe 3.2.0" jdkType="Haxe toolkit" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

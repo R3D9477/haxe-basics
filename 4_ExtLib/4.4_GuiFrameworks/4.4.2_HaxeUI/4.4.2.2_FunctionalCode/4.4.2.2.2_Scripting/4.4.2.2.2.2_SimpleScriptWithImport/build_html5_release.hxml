@@ -7,5 +7,6 @@
 
 -js Export/Html5/Release/Main.js
 
+--next
 -cmd cp Assets/Web/Main.css Export/Html5/Release/Main.css
 -cmd cp Assets/Web/Main.html Export/Html5/Release/Main.html

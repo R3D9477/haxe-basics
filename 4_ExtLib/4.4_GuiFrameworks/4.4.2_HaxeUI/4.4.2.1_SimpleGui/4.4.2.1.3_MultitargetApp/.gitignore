@@ -1,5 +1,2 @@
-build
+.swp
 Export
-*.xml.hxml
-*.flow.hxml
-korefile.js

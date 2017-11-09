@@ -1,3 +1,5 @@
+-debug
+
 -cp Source
 -main Main.hx
 
@@ -7,7 +9,6 @@
 
 -js Export/Html5/Debug/Main.js
 
+--next
 -cmd cp Assets/Web/Main.css Export/Html5/Debug/Main.css
 -cmd cp Assets/Web/Main.html Export/Html5/Debug/Main.html
-
--debug
