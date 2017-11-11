@@ -1,14 +1,15 @@
 -debug
 
+-main Main
 -cp Source
--main Main.hx
+-js Export/html5/debug/Main.js
 
 -lib hscript
 -lib haxeui-core
 -lib haxeui-html5
 
--js Export/Html5/Debug/Main.js
+-resource Assets/Img/Tux.jpg@img/Tux.jpg
 
 --next
--cmd cp Assets/Web/Main.css Export/Html5/Debug/Main.css
--cmd cp Assets/Web/Main.html Export/Html5/Debug/Main.html
+-cmd cp Assets/Web/Main.css Export/html5/debug/Main.css
+-cmd cp Assets/Web/Main.html Export/html5/debug/Main.html

@@ -6,5 +6,5 @@
 	<haxelib name="openfl" />
 	<haxelib name="haxeui-core" />
 	<haxelib name="haxeui-openfl" />
-	<assets rename="Tux.jpg" path="Assets/Img/Tux.jpg"/>
+	<assets rename="img/Tux.jpg" path="Assets/Img/Tux.jpg"/>
 </project>

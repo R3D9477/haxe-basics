@@ -1,0 +1,9 @@
+-debug
+
+-main Main
+-cp Source
+-cs Export/cs/debug
+
+-lib hscript
+-lib haxeui-core
+-lib haxeui-xwt

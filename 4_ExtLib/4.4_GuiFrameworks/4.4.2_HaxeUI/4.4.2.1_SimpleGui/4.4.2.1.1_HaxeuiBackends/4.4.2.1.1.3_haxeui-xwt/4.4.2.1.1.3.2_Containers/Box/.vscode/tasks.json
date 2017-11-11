@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"taskName": "Build C# debug",
+			"command": "haxe",
+			"args": [ "build_cs_debug.hxml" ],
+			"problemMatcher": "$haxe"
+		},
+		{
+			"taskName": "Build C# release",
+			"command": "haxe",
+			"args": [ "build_cs_release.hxml" ],
+			"problemMatcher": "$haxe"
+		}
+	]
+}

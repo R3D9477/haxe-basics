@@ -2,16 +2,12 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "Debug (Chromium)",
+			"name": "Debug (Chrome)",
 			"type": "chrome",
 			"request": "launch",
-			"preLaunchTask": "build html5 (debug)",
-			"file": "${workspaceRoot}/Export/Html5/Debug/Main.html",
-			"runtimeExecutable": "chromium-browser",
-			"linux": {
-				"runtimeExecutable": "/usr/bin/chromium-browser",
-				"runtimeArgs": [ "--password-store=basic" ]
-			},
+			"preLaunchTask": "Build Html5 debug",
+			"file": "${workspaceRoot}/Export/html5/debug/Main.html",
+			"linux": { "runtimeArgs": [ "--password-store=basic" ] },
 			"timeout": 100000,
 			"sourceMaps": true
 		}

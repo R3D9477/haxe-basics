@@ -6,4 +6,5 @@
 	<haxelib name="openfl" />
 	<haxelib name="haxeui-core" />
 	<haxelib name="haxeui-openfl" />
+	<assets rename="img/tuxIcon.png" path="Assets/Res/img/tuxIcon.png" />
 </project>
