@@ -1,0 +1,14 @@
+msgid = "en_US"
+msgstr = "English"
+
+msgid = "es_ES"
+msgstr = "Español"
+
+msgid = "helloworld"
+msgstr = "Hello World"
+
+msgid = "helloworldto"
+msgstr = "Hello World, {0}"
+
+msgid = "insertyourname"
+msgstr = "Insert your name..."

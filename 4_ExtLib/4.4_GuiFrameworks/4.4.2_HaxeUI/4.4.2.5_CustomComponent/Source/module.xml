@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<module>
+	<components>
+		<class name="ButtonsBox" alias="buttonsbox" />
+	</components>
+	<resources>
+		<resource path="Assets/Res/css" prefix="res/css" />
+	</resources>
+	<themes>
+		<default>
+			<style resource="res/css/defstyle.css" />
+		</default>
+	</themes>
+</module>

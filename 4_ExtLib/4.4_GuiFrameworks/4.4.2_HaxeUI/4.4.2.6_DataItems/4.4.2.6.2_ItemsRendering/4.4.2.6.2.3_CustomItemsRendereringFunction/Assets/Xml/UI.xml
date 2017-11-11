@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<listview width="150" height="150">
+	<data>
+		<item text="check item 1" value="true"  />
+		<item text="check item 2" value="false" />
+		<item text="check item 3" value="true"  />
+	</data>
+</listview>

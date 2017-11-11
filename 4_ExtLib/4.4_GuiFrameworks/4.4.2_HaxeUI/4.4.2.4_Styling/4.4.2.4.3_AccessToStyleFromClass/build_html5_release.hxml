@@ -1,0 +1,11 @@
+-main Main
+-cp Source
+-js Export/html5/release/Main.js
+
+-lib hscript
+-lib haxeui-core
+-lib haxeui-html5
+
+--next
+-cmd cp Assets/Web/Main.css Export/html5/release/Main.css
+-cmd cp Assets/Web/Main.html Export/html5/release/Main.html

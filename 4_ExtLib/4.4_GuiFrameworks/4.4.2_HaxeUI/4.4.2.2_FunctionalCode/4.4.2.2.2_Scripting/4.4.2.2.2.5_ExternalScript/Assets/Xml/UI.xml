@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vbox>
+	<script source="ExtCode.hscript" />
+	<label id="label1" text="Default text..." />
+	<button id="button1" text="Click me!" onClick="button1Click()" />
+</vbox>

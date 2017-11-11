@@ -2,5 +2,5 @@
 <vbox>
 	<text text="My label text 1" styleName="style1" />
 	<text text="My label text 2" styleName="style2" />
-	<text text="My label text 2" styleNames="style1 style2" />
+	<text text="My label text 3" styleNames="style1 style2" />
 </vbox>

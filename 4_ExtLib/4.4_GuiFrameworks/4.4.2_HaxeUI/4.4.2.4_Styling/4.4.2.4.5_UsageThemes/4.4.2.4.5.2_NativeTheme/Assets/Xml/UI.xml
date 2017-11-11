@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vbox>
+	<hbox>
+		<label text="Default style:" />
+		<button text="click me!" />
+		<checkbox text="check me!" />
+	</hbox>
+	<spacer height="10" />
+	<hbox>
+		<label text="Native style:" native="true" />
+		<button text="click me!" native="true" />
+		<checkbox text="check me!" native="true" />
+	</hbox>
+</vbox>

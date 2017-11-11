@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<listview width="300" height="100%" contentWidth="100%">
-	<data>
-		<item text="Item 1" value="1" />
-		<item text="Item 2" value="2" />
-		<item text="Item 3" value="3" />
-	</data>
-</listview>

@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"taskName": "Build Html5 debug",
+			"command": "haxe",
+			"args": [ "build_html5_debug.hxml" ],
+			"problemMatcher": "$haxe"
+		},
+		{
+			"taskName": "Build Html5 release",
+			"command": "haxe",
+			"args": [ "build_html5_release.hxml" ],
+			"problemMatcher": "$haxe"
+		}
+	]
+}

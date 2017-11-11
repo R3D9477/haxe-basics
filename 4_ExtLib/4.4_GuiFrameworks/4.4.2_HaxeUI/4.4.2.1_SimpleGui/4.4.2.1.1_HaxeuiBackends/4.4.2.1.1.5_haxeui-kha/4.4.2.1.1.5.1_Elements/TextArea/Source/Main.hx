@@ -1,15 +1,16 @@
-import kha.System;
+import haxe.ui.Toolkit;
+import haxe.ui.HaxeUIApp;
+import haxe.ui.macros.ComponentMacros;
 
 class Main {
-	public static function main () : Void {
-		#if (kha_version >= 1607)
-			System.init({ title: "Test", width: 300, height: 200 }, function () : Void {
-				new KhaApplication();
-			});
-		#else
-			System.init("Test", 300, 200, function () : Void {
-				new KhaApplication();
-			});
-		#end
+	public static function main() {
+		Toolkit.init();
+		
+		var app = new HaxeUIApp();
+		
+		app.ready(function() {
+			app.addComponent(ComponentMacros.buildComponent("../Assets/Xml/UI.xml"));
+			app.start();
+		});
 	}
 }

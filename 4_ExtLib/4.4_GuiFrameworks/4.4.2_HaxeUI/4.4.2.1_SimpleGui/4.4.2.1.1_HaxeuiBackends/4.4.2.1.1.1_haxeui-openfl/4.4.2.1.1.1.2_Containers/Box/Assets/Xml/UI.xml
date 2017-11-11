@@ -8,6 +8,14 @@
 	
 	<spacer width="100%" height="20"/>
 	
+	<continuoushbox>
+		<button text="Button 1"/>
+		<button text="Button 2"/>
+		<button text="Button 3"/>
+	</continuoushbox>
+	
+	<spacer width="100%" height="20"/>
+	
 	<vbox>
 		<button text="Button 1"/>
 		<button text="Button 2"/>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vbox>
+	<hbox>
+		<optionbox text="Option 1" groupName="group1" selected="true" />
+		<optionbox text="Option 2" groupName="group1" />
+		<optionbox text="Option 3" groupName="group1" />
+	</hbox>
+	<hbox>
+		<optionbox text="Option 11" groupName="group2" />
+		<optionbox text="Option 22" groupName="group2" selected="true" />
+		<optionbox text="Option 33" groupName="group2" />
+	</hbox>
+	<hbox>
+		<optionbox text="Option 111" groupName="group3" />
+		<optionbox text="Option 222" groupName="group3" />
+		<optionbox text="Option 333" groupName="group3" selected="true" />
+	</hbox>
+</vbox>

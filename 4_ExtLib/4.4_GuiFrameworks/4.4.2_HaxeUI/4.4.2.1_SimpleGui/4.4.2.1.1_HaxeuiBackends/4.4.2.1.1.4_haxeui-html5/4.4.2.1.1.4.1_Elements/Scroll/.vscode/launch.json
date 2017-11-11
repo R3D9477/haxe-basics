@@ -1,0 +1,15 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Debug (Chrome)",
+			"type": "chrome",
+			"request": "launch",
+			"preLaunchTask": "Build Html5 debug",
+			"file": "${workspaceRoot}/Export/html5/debug/Main.html",
+			"linux": { "runtimeArgs": [ "--password-store=basic" ] },
+			"timeout": 100000,
+			"sourceMaps": true
+		}
+	]
+}

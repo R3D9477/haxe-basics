@@ -1,0 +1,20 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch",
+			"type": "mono",
+			"request": "launch",
+			"preLaunchTask": "Build C# debug",
+			"cwd": "${workspaceRoot}/Export/cs/debug/bin",
+			"program": "${workspaceRoot}/Export/cs/debug/bin/Main-Debug.exe"
+		},
+		{
+			"name": "Attach",
+			"type": "mono",
+			"request": "attach",
+			"address": "localhost",
+			"port": 55555
+		}
+	]
+}

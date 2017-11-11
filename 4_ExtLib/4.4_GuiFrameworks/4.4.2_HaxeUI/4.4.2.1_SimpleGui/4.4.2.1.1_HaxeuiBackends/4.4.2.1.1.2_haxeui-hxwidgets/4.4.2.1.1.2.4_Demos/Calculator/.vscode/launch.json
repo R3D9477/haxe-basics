@@ -1,0 +1,20 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch (Hxcpp)",
+			"type": "hxcpp",
+			"request": "launch",
+			"preLaunchTask": "Build C++ debug",
+			"cwd": "${workspaceRoot}/Export/cpp/debug",
+			"linux": { "program": "${workspaceRoot}/Export/cpp/debug/Main-debug" },
+			"windows": { "program": "${workspaceRoot}/Export/cpp/debug/Main-debug.exe" }
+		},
+		{
+			"name": "Attach (Hxcpp)",
+			"type": "hxcpp",
+			"request": "attach",
+			"processId": "${command:pickProcess}"
+		}
+	]
+}

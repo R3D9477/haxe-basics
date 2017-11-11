@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vbox id="vbox1">
-	<text id="label1" text="Defautl text 1..." />
-	<text id="label2" text="Defautl text 2..." />
-	<text id="label3" text="Defautl text 3..." />
-	<hbox id="hbox1">
-		<text id="sublabel3" text="Subtext 1..." />
-		<text id="sublabel3" text="Subtext 2..." />
-		<text id="sublabel3" text="Subtext 3..." />
-	</hbox>
+<vbox>
+	<label id="lbl1" text="Styled label..." />
+	<label id="lbl2" text="Label with custom style 1..." />
+	<label id="lbl3" text="Label with custom style 2..." />
+	<label id="lbl4" text="Label with manually added css classes..." />
+	<label id="lbl51" text="Label styled via class of type..." />
+	<label id="lbl52" text="Label styled via class of type..." />
+	<label id="lbl53" text="Label styled via class of type..." />
 </vbox>

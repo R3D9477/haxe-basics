@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<hbox>
-	<vscroll min="0" max="100" pos="75"/>
-	<hscroll min="0" max="100" pos="75"/>
-</hbox>

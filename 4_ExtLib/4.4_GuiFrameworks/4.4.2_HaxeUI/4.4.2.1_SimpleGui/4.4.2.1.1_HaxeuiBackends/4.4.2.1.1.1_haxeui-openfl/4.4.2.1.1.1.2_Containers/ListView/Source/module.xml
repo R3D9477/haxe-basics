@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<module>
+	<resources>
+		<resource path="Assets/Res/img" prefix="img" />
+	</resources>
+</module>

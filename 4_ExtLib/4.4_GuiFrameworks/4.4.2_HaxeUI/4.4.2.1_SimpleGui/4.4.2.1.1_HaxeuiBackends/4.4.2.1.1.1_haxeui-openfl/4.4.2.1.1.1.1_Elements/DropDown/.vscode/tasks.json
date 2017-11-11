@@ -1,0 +1,27 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"taskName": "Build Html5 debug",
+			"command": "openfl",
+			"args": [ "build", "html5", "-debug" ]
+		},
+		{
+			"taskName": "Build Html5 release",
+			"command": "openfl",
+			"args": [ "build", "html5", "-release" ]
+		},
+		{
+			"taskName": "Build C++ debug",
+			"command": "openfl",
+			"linux": { "args": [ "build", "linux", "-debug" ] },
+			"windows": { "args": [ "build", "windows", "-debug" ] }
+		},
+		{
+			"taskName": "Build C++ release",
+			"command": "openfl",
+			"linux": { "args": [ "build", "linux", "-release" ] },
+			"windows": { "args": [ "build", "windows", "-release" ] }
+		}
+	]
+}

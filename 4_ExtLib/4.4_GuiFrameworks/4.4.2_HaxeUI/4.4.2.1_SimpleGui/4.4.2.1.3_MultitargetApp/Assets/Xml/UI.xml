@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vbox>
+	<label
+		id="label1"
+		text="Simple HaxeUI application" />
+	<button text="Click me!" onClick=" label1.text='Button clicked!' " />
+</vbox>

@@ -1,0 +1,7 @@
+-main Main
+-cp Source
+-cs Export/cs/release
+
+-lib hscript
+-lib haxeui-core
+-lib haxeui-xwt
