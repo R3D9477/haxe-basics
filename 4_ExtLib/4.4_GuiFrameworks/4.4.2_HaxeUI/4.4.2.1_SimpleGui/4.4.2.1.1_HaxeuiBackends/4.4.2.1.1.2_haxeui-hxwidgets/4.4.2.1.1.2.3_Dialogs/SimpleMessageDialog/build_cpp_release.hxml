@@ -1,0 +1,11 @@
+-main Main
+-cp Source
+-cpp Export/cpp/debug
+
+-lib hscript
+-lib hxWidgets
+-lib haxeui-core
+-lib haxeui-hxwidgets
+
+-D ABI=-MD
+-D WXSTATIC
