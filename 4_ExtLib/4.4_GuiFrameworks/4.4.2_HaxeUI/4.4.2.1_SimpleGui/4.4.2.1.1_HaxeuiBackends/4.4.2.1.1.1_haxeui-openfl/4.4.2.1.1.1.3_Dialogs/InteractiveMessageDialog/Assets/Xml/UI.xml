@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vbox>
+	<button
+		id="openDialog"
+		text="Show interactive dialog"
+		onClick="Screen.instance.messageDialog(
+			'Do something?',
+			'Question dialog',
+			{
+				icon: DialogOptions.ICON_QUESTION,
+				buttons: [
+					DialogButton.YES,
+					DialogButton.NO,
+					DialogButton.CANCEL
+				]
+			}
+		)" />
+</vbox>

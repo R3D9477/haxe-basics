@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<button
+	text="Show dialog message"
+	onClick="Screen.instance.messageDialog('Dialog message...', 'Dialog window')" />

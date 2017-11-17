@@ -1,0 +1,34 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch (Chrome)",
+			"type": "chrome",
+			"request": "launch",
+			"preLaunchTask": "Build Html5 debug",
+			"file": "${workspaceRoot}/build/html5/index.html",
+			"linux": { "runtimeArgs": [ "--password-store=basic" ] },
+			"timeout": 100000,
+			"sourceMaps": true
+		},
+		{
+			"name": "Launch (Hxcpp)",
+			"type": "hxcpp",
+			"request": "launch",
+			"preLaunchTask": "Build C++ debug",
+			"linux": { 
+				"cwd": "${workspaceRoot}/build/linux",
+				"program": "${workspaceRoot}/build/linux/Main" },
+			"windows": {
+				"cwd": "${workspaceRoot}/build/windows",
+				"program": "${workspaceRoot}/build/windows/Main.exe"
+			}
+		},
+		{
+			"name": "Attach (Hxcpp)",
+			"type": "hxcpp",
+			"request": "attach",
+			"processId": "${command:pickProcess}"
+		}
+	]
+}
