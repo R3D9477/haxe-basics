@@ -2,13 +2,13 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"taskName": "Build C++ debug",
+			"label": "Build C++ debug",
 			"command": "haxe build_cpp_debug.hxml",
 			"type": "shell",
 			"group": "build"
 		},
 		{
-			"taskName": "Build C++ release",
+			"label": "Build C++ release",
 			"command": "haxe build_cpp_release.hxml",
 			"type": "shell",
 			"group": "build"
