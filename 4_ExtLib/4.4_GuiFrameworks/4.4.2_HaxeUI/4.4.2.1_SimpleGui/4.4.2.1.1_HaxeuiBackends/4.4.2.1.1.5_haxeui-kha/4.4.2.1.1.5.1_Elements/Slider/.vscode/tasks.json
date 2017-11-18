@@ -2,30 +2,38 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"taskName": "Build Html5 debug",
+			"label": "Build Html5 debug",
 			"command": "node",
+			"linux": {
+				"options": { "cwd": "${env:HOME}/.vscode/extensions/vscode-kha/Kha" }
+			},
 			"args": [ "Kha/make", "--kha", "Kha", "--target", "html5", "--debug" ]
 		},
 		{
-			"taskName": "Build Html5 release",
+			"label": "Build Html5 release",
 			"command": "node",
+			"linux": {
+				"options": { "cwd": "${env:HOME}/.vscode/extensions/vscode-kha/Kha" }
+			},
 			"args": [ "Kha/make", "--kha", "Kha", "--target", "html5" ]
 		},
 		{
-			"taskName": "Build C++ debug",
+			"label": "Build C++ debug",
 			"command": "node",
 			"linux": {
-				"args": [ "Kha/make", "--kha", "Kha", "--target", "linux", "--compile", "--debug" ]
+				"options": { "cwd": "${env:HOME}/.vscode/extensions/vscode-kha/Kha" },
+				"args": [ "make", "--from", "${workspaceRoot}", "--to", "${workspaceRoot}/build", "--target", "linux", "--compile", "--debug" ]
 			},
 			"windows": {
 				"args": [ "Kha/make", "--kha", "Kha", "--target", "windows", "--compile", "--debug" ]
 			}
 		},
 		{
-			"taskName": "Build C++ release",
+			"label": "Build C++ release",
 			"command": "node",
 			"linux": {
-				"args": [ "Kha/make", "--kha", "Kha", "--target", "linux", "--compile" ]
+				"options": { "cwd": "${env:HOME}/.vscode/extensions/vscode-kha/Kha" },
+				"args": [ "make", "--from", "${workspaceRoot}", "--to", "${workspaceRoot}/build", "--target", "linux", "--compile" ]
 			},
 			"windows": {
 				"args": [ "Kha/make", "--kha", "Kha", "--target", "windows", "--compile" ]
