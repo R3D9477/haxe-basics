@@ -7,7 +7,10 @@
 			"linux": {
 				"options": { "cwd": "${env:HOME}/.vscode/extensions/vscode-kha/Kha" }
 			},
-			"args": [ "Kha/make", "--kha", "Kha", "--target", "html5", "--debug" ]
+			"windows": {
+				"options": { "cwd": "${env:USERPROFILE}/.vscode/extensions/vscode-kha/Kha" }
+			},
+			"args": [ "make", "--from", "${workspaceRoot}", "--to", "${workspaceRoot}/build", "--target", "html5", "--debug" ]
 		},
 		{
 			"label": "Build Html5 release",
@@ -15,7 +18,10 @@
 			"linux": {
 				"options": { "cwd": "${env:HOME}/.vscode/extensions/vscode-kha/Kha" }
 			},
-			"args": [ "Kha/make", "--kha", "Kha", "--target", "html5" ]
+			"windows": {
+				"options": { "cwd": "${env:USERPROFILE}/.vscode/extensions/vscode-kha/Kha" }
+			},
+			"args": [ "make", "--from", "${workspaceRoot}", "--to", "${workspaceRoot}/build", "--target", "html5" ]
 		},
 		{
 			"label": "Build C++ debug",
@@ -25,7 +31,8 @@
 				"args": [ "make", "--from", "${workspaceRoot}", "--to", "${workspaceRoot}/build", "--target", "linux", "--compile", "--debug" ]
 			},
 			"windows": {
-				"args": [ "Kha/make", "--kha", "Kha", "--target", "windows", "--compile", "--debug" ]
+				"options": { "cwd": "${env:USERPROFILE}/.vscode/extensions/vscode-kha/Kha" },
+				"args": [ "make", "--from", "${workspaceRoot}", "--to", "${workspaceRoot}/build", "--target", "windows", "--compile", "--debug" ]
 			}
 		},
 		{
@@ -36,7 +43,8 @@
 				"args": [ "make", "--from", "${workspaceRoot}", "--to", "${workspaceRoot}/build", "--target", "linux", "--compile" ]
 			},
 			"windows": {
-				"args": [ "Kha/make", "--kha", "Kha", "--target", "windows", "--compile" ]
+				"options": { "cwd": "${env:USERPROFILE}/.vscode/extensions/vscode-kha/Kha" },
+				"args": [ "make", "--from", "${workspaceRoot}", "--to", "${workspaceRoot}/build", "--target", "windows", "--compile" ]
 			}
 		}
 	]
