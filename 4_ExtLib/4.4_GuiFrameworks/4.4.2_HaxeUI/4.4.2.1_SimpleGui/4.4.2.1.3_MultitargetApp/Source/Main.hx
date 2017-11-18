@@ -9,6 +9,8 @@ class Main {
 		#if debug
 			#if cpp
 				new debugger.Local(true);
+			#else
+				//...
 			#end
 		#end
 
