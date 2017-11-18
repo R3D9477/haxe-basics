@@ -1,4 +1,4 @@
 haxe-basics: haxeui simple application
 =========================
 
-Sample for HTML5.
+Sample for Html5.

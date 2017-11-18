@@ -2,7 +2,47 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "Debug (Chrome)",
+			"name": "Launch OpenFL:Html5 (Chrome)",
+			"type": "chrome",
+			"request": "launch",
+			"preLaunchTask": "Build OpenFL:Html5 debug",
+			"file": "${workspaceRoot}/Export/html5/bin/index.html",
+			"linux": { "runtimeArgs": [ "--password-store=basic" ] },
+			"timeout": 100000,
+			"sourceMaps": true
+		},
+		{
+			"name": "Launch OpenFL:C++ (Hxcpp)",
+			"type": "hxcpp",
+			"request": "launch",
+			"preLaunchTask": "Build OpenFL:C++ debug",
+			"linux": { 
+				"cwd": "${workspaceRoot}/Export/linux/bin",
+				"program": "${workspaceRoot}/Export/linux/bin/ApplicationMain-debug" },
+			"windows": {
+				"cwd": "${workspaceRoot}/Export/windows/bin",
+				"program": "${workspaceRoot}/Export/windows/bin/ApplicationMain-debug.exe"
+			}
+		},
+		{
+			"name": "Launch wxWidgets (Hxcpp)",
+			"type": "hxcpp",
+			"request": "launch",
+			"preLaunchTask": "Build wxWidgets debug",
+			"cwd": "${workspaceRoot}/Export/cpp/debug",
+			"linux": { "program": "${workspaceRoot}/Export/cpp/debug/Main-debug" },
+			"windows": { "program": "${workspaceRoot}/Export/cpp/debug/Main-debug.exe" }
+		},
+		{
+			"name": "Launch Xwt",
+			"type": "mono",
+			"request": "launch",
+			"preLaunchTask": "Build Xwt debug",
+			"cwd": "${workspaceRoot}/Export/cs/debug/bin",
+			"program": "${workspaceRoot}/Export/cs/debug/bin/Main-Debug.exe"
+		},
+		{
+			"name": "Launch Html5 (Chrome)",
 			"type": "chrome",
 			"request": "launch",
 			"preLaunchTask": "Build Html5 debug",
@@ -10,6 +50,29 @@
 			"linux": { "runtimeArgs": [ "--password-store=basic" ] },
 			"timeout": 100000,
 			"sourceMaps": true
+		},
+		{
+			"name": "Launch Kha:Html5 (Chrome)",
+			"type": "chrome",
+			"request": "launch",
+			"preLaunchTask": "Build Kha:Html5 debug",
+			"file": "${workspaceRoot}/build/html5/index.html",
+			"linux": { "runtimeArgs": [ "--password-store=basic" ] },
+			"timeout": 100000,
+			"sourceMaps": true
+		},
+		{
+			"name": "Launch Kha:C++ (Hxcpp)",
+			"type": "hxcpp",
+			"request": "launch",
+			"preLaunchTask": "Build Kha:C++ debug",
+			"linux": { 
+				"cwd": "${workspaceRoot}/build/linux",
+				"program": "${workspaceRoot}/build/linux/Main" },
+			"windows": {
+				"cwd": "${workspaceRoot}/build/windows",
+				"program": "${workspaceRoot}/build/windows/Main.exe"
+			}
 		}
 	]
 }

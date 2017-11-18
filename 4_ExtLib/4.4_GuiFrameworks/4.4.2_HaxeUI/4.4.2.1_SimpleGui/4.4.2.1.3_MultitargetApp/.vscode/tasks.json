@@ -2,16 +2,108 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"taskName": "Build Html5 debug",
+			"label": "Build OpenFL:Html5 debug",
+			"command": "openfl",
+			"args": [ "build", "html5", "-debug" ]
+		},
+		{
+			"label": "Build OpenFL:Html5 release",
+			"command": "openfl",
+			"args": [ "build", "html5", "-release" ]
+		},
+		{
+			"label": "Build OpenFL:C++ debug",
+			"command": "openfl",
+			"linux": { "args": [ "build", "linux", "-debug" ] },
+			"windows": { "args": [ "build", "windows", "-debug" ] }
+		},
+		{
+			"label": "Build OpenFL:C++ release",
+			"command": "openfl",
+			"linux": { "args": [ "build", "linux", "-release" ] },
+			"windows": { "args": [ "build", "windows", "-release" ] }
+		},
+		{
+			"label": "Build wxWidgets debug",
+			"command": "haxe build_cpp_wxwidgets_debug.hxml",
+			"type": "shell",
+			"group": "build"
+		},
+		{
+			"label": "Build wxWidgets release",
+			"command": "haxe build_cpp_wxwidgets_release.hxml",
+			"type": "shell",
+			"group": "build"
+		},
+		{
+			"label": "Build Xwt debug",
+			"command": "haxe",
+			"args": [ "build_cs_xwt_debug.hxml" ],
+			"problemMatcher": "$haxe"
+		},
+		{
+			"label": "Build Xwt release",
+			"command": "haxe",
+			"args": [ "build_cs_xwt_release.hxml" ],
+			"problemMatcher": "$haxe"
+		},
+		{
+			"label": "Build Html5 debug",
 			"command": "haxe",
 			"args": [ "build_html5_debug.hxml" ],
 			"problemMatcher": "$haxe"
 		},
 		{
-			"taskName": "Build Html5 release",
+			"label": "Build Html5 release",
 			"command": "haxe",
 			"args": [ "build_html5_release.hxml" ],
 			"problemMatcher": "$haxe"
+		},
+		{
+			"label": "Build Kha:Html5 debug",
+			"command": "node",
+			"linux": {
+				"options": { "cwd": "${env:HOME}/.vscode/extensions/vscode-kha/Kha" }
+			},
+			"windows": {
+				"options": { "cwd": "${env:USERPROFILE}/.vscode/extensions/vscode-kha/Kha" }
+			},
+			"args": [ "make", "--from", "${workspaceRoot}", "--to", "${workspaceRoot}/build", "--target", "html5", "--debug" ]
+		},
+		{
+			"label": "Build Kha:Html5 release",
+			"command": "node",
+			"linux": {
+				"options": { "cwd": "${env:HOME}/.vscode/extensions/vscode-kha/Kha" }
+			},
+			"windows": {
+				"options": { "cwd": "${env:USERPROFILE}/.vscode/extensions/vscode-kha/Kha" }
+			},
+			"args": [ "make", "--from", "${workspaceRoot}", "--to", "${workspaceRoot}/build", "--target", "html5" ]
+		},
+		{
+			"label": "Build Kha:C++ debug",
+			"command": "node",
+			"linux": {
+				"options": { "cwd": "${env:HOME}/.vscode/extensions/vscode-kha/Kha" },
+				"args": [ "make", "--from", "${workspaceRoot}", "--to", "${workspaceRoot}/build", "--target", "linux", "--compile", "--debug" ]
+			},
+			"windows": {
+				"options": { "cwd": "${env:USERPROFILE}/.vscode/extensions/vscode-kha/Kha" },
+				"args": [ "make", "--from", "${workspaceRoot}", "--to", "${workspaceRoot}/build", "--target", "windows", "--compile", "--debug" ]
+			}
+		},
+		{
+			"label": "Build Kha:C++ release",
+			"command": "node",
+			"linux": {
+				"options": { "cwd": "${env:HOME}/.vscode/extensions/vscode-kha/Kha" },
+				"args": [ "make", "--from", "${workspaceRoot}", "--to", "${workspaceRoot}/build", "--target", "linux", "--compile" ]
+			},
+			"windows": {
+				"options": { "cwd": "${env:USERPROFILE}/.vscode/extensions/vscode-kha/Kha" },
+				"args": [ "make", "--from", "${workspaceRoot}", "--to", "${workspaceRoot}/build", "--target", "windows", "--compile" ]
+			}
 		}
 	]
 }

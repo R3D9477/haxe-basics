@@ -2,7 +2,7 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "Debug (Chrome)",
+			"name": "Launch (Chrome)",
 			"type": "chrome",
 			"request": "launch",
 			"preLaunchTask": "Build Html5 debug",
