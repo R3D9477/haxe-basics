@@ -6,6 +6,12 @@ import haxe.ui.macros.ComponentMacros;
 
 class Main {
 	public static function main() {
+		#if debug
+			#if cpp
+				new debugger.Local(true);
+			#end
+		#end
+
 		Toolkit.init();
 		
 		var app = new HaxeUIApp();
