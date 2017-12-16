@@ -25,7 +25,7 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
   * [1.2.6 - Additional functionality and class Lambda](./1_Generic/1.2_DataSets/1.2.6_Lambda/Source/Main.hx)
 * [1.3 - Custom data types and OOP](./1_Generic/1.3_CustomDataTypes)
   * [1.3.1 - Enumerations](./1_Generic/1.3_CustomDataTypes/1.3.1_Enumerations/Source/Main.hx)
-  * [1.3.2 - Structures](./1_Generic/1.3_CustomDataTypes/1.3.2_DataStructures)
+  * [1.3.2 - Structures](./1_Generic/1.3_CustomDataTypes/1.3.2_Structures)
   * [1.3.3 - Classes](./1_Generic/1.3_CustomDataTypes/1.3.3_Classes)
   * [1.3.4 - Abstractions](./1_Generic/1.3_CustomDataTypes/1.3.4_Abstractions)
 * [1.4 - Operations with data types and metaprogramming](./1_Generic/1.4_Metaprogramming)
