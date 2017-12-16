@@ -5,7 +5,7 @@ package;
 // https://stackoverflow.com/questions/27579587/iterate-enum-abstracts-in-haxe
 
 @:enum
-abstract OperationStatus(Int) {
+abstract OperationStatus(Int) from Int to Int {
 	var Error   = 0;
 	var Success = 1;
 }
@@ -19,11 +19,26 @@ abstract StatusColor(String) {
 
 class Main {
 	public static function main () {
-		trace ( 'Error:   code = ${OperationStatus.Error}, color = ${getStatusColor(OperationStatus.Error)}' );
-		trace ( 'Success: code = ${OperationStatus.Success}, color = ${getStatusColor(OperationStatus.Success)}' );
+		var opState = OperationStatus.Error;
+		trace ( 'Error:   code = ${opState}, color = ${getStatusColor(opState)}' );
 
-		var state = cast(42, OperationStatus);
-		trace ( 'Unknown: code = ${state}, color = ${getStatusColor(state)}' );
+		opState = OperationStatus.Success;
+		trace ( 'Success: code = ${opState}, color = ${getStatusColor(opState)}' );
+
+		opState = 42;
+		trace ( 'Unknown: code = ${opState}, color = ${getStatusColor(opState)}' );
+
+		// ---------------------------------------------------------------------------------------------------------------
+		trace("");
+
+		var intState:Int = 0;
+		trace ( 'Error:   code = ${intState}, color = ${getStatusColor(intState)}' );
+
+		intState = 1;
+		trace ( 'Success: code = ${intState}, color = ${getStatusColor(intState)}' );
+		
+		intState = 42;
+		trace ( 'Unknown: code = ${intState}, color = ${getStatusColor(intState)}' );
 	}
 
 	static function getStatusColor (status) return switch (status) {
