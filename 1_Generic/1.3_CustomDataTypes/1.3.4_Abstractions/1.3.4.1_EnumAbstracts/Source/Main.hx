@@ -24,12 +24,9 @@ class Main {
 		trace ( 'Unknown: code = ${state}, color = ${getStatusColor(state)}' );
 	}
 
-	public static function getStatusColor (status:OperationStatus) return switch (status) {
-		case OperationStatus.Error:
-			StatusColor.Red;
-		case OperationStatus.Success:
-			StatusColor.Green;
-		default:
-			StatusColor.Black;
+	static function getStatusColor (status) return switch (status) {
+		case OperationStatus.Error: StatusColor.Red;
+		case OperationStatus.Success: StatusColor.Green;
+		default: StatusColor.Black;
 	}
 }
