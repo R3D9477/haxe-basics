@@ -1,27 +1,36 @@
 package;
 
+// https://haxe.org/manual/types-abstract-enum.html
 
+@:enum
+abstract OperationStatus(Int) {
+	var Error   = 0;
+	var Success = 1;
+	var Unknown = 2;
+}
+
+@:enum
+abstract StatusColor(String) {
+	var Red   = "#FF1D00";
+	var Green = "#15FF00";
+	var Black = "#000000";
+}
 
 class Main {
 	public static function main () {
-		//----------------------------------------------------------------------
-		trace("--- MAKE A TWO OBJECTS OF ABSTRATIONS ---");
-		
-		var a : A2 = new A2(10, 20);
-		trace(a);
-		
-		var b : A2 = new A2(3, 44);
-		trace(b);
-		
-		//----------------------------------------------------------------------
-		trace("--- Summ of two objects ---");
-		
-		var c : A2 = a + b;
-		trace(c);
-		
-		//----------------------------------------------------------------------
-		trace("--- Call method who was defined in class ---");
-		
-		c.classMethod();
+		trace ( 'Error:   code = ${OperationStatus.Error}, color = ${getStatusColor(OperationStatus.Error)}' );
+		trace ( 'Success: code = ${OperationStatus.Success}, color = ${getStatusColor(OperationStatus.Success)}' );
+
+		var state = cast(4, OperationStatus);
+		trace ( 'Unknown: code = ${state}, color = ${getStatusColor(state)}' );
+	}
+
+	public static function getStatusColor (status:OperationStatus) return switch (status) {
+		case OperationStatus.Error:
+			StatusColor.Red;
+		case OperationStatus.Success:
+			StatusColor.Green;
+		default:
+			StatusColor.Black;
 	}
 }

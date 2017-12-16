@@ -1,7 +1,5 @@
 package;
 
-typedef Point = { x : Int, y : Int }
-
 class Main {
 	public static function main () {
 		//----------------------------------------------------------------------
@@ -18,13 +16,5 @@ class Main {
 		
 		var s2 = { x: 10, y: 15 };
 		trace(s2);
-		
-		//----------------------------------------------------------------------
-		trace("--- STRUCTURE WITH TYPE DEFINITION ---");
-		
-		// http://old.haxe.org/manual/struct
-		
-		var s3 : Point = s2;
-		trace(s3);
 	}
 }
