@@ -6,7 +6,6 @@ package;
 abstract OperationStatus(Int) {
 	var Error   = 0;
 	var Success = 1;
-	var Unknown = 2;
 }
 
 @:enum
@@ -21,7 +20,7 @@ class Main {
 		trace ( 'Error:   code = ${OperationStatus.Error}, color = ${getStatusColor(OperationStatus.Error)}' );
 		trace ( 'Success: code = ${OperationStatus.Success}, color = ${getStatusColor(OperationStatus.Success)}' );
 
-		var state = cast(4, OperationStatus);
+		var state = cast(42, OperationStatus);
 		trace ( 'Unknown: code = ${state}, color = ${getStatusColor(state)}' );
 	}
 
