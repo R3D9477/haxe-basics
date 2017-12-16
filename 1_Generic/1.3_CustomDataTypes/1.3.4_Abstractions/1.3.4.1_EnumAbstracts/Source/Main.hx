@@ -1,6 +1,8 @@
 package;
 
 // https://haxe.org/manual/types-abstract-enum.html
+// https://code.haxe.org/category/macros/enum-abstract-values.html
+// https://stackoverflow.com/questions/27579587/iterate-enum-abstracts-in-haxe
 
 @:enum
 abstract OperationStatus(Int) {
