@@ -1,4 +1,4 @@
-// http://old.haxe.org/ref/packages?lang=ru
+// https://haxe.org/manual/type-system-import.html
 
 package;
 
