@@ -33,7 +33,7 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
   * [1.4.2 - Class Reflect](./1_Generic/1.4_Metaprogramming/1.4.2_Reflect)
     * [1.4.2.1 - Access to fields of class at runtime](./1_Generic/1.4_Metaprogramming/1.4.2_Reflect/1.4.2.1_AccessToClsFields/Source/Main.hx)
     * [1.4.2.2 - Modify methods of class at runtime](./1_Generic/1.4_Metaprogramming/1.4.2_Reflect/1.4.2.2_RTClsMod/Source/Main.hx)
-* [1.5 - Variable with dynamic type](./1_Generic/1.5_DynamicType)
+* [1.5 - Variable with dynamic type](./1_Generic/1.5_VarDynType)
   * [1.5.1 - Type Dynamic](./1_Generic/1.5_VarDynType/1.5.1_Dynamic/Source/Main.hx)
   * [1.5.2 - Type Any](./1_Generic/1.5_VarDynType/1.5.2_Any/Source/Main.hx)
 
