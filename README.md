@@ -92,10 +92,6 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
     * [3.7.2.1 - Connect/Disconnect](./3_StdLibExtraFeatures/3.7_DataBase/3.7.2_SQLite/3.7.2.1_DBConnection/Source/Main.hx)
     * [3.7.2.2 - Usage a simple data](./3_StdLibExtraFeatures/3.7_DataBase/3.7.2_SQLite/3.7.2.2_UsageSimpleData/Source/Main.hx)
     * [3.7.2.3 - Usage an unique ID field](./3_StdLibExtraFeatures/3.7_DataBase/3.7.2_SQLite/3.7.2.3_UsageIdField/Source/Main.hx)
-* [3.8 - Plug-ins, extensions, external modules and dynamic libraries](./3_StdLibExtraFeatures/3.8_ExternalModules)
-  * [3.8.1 - Usage a pre-compiled NekoVM-modules](./3_StdLibExtraFeatures/3.8_ExternalModules/3.8.1_NekoVmModules/Source/Main.hx)
-  * [3.8.2 - Usage a C dynamic library](./3_StdLibExtraFeatures/3.8_ExternalModules/3.8.2_Cdll)
-    * [3.8.2.1 - Implementation of C-FFI regular means](./3_StdLibExtraFeatures/3.8_ExternalModules/3.8.2_Cdll/3.8.2.1_C-FFI/Source/Main.hx)
 
 #### [4 - Additional libraries](./4_ExtLib)
 * [4.1 - Create a library for **haxelib**](./4_ExtLib/4.1_Haxelib)
@@ -109,6 +105,16 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
 * [4.4 - GUI Frameworks (Graphical User Interface)](./4_ExtLib/4.4_GuiFrameworks)
   * [4.4.1 - Library **StablexUI**](./4_ExtLib/4.4_GuiFrameworks/4.4.1_StablexUI#contain)
   * [4.4.2 - Library **HaxeUI v2**](./4_ExtLib/4.4_GuiFrameworks/4.4.2_HaxeUI#contain)
+
+#### [5 - Backends](./5_Backends)
+* [5.1 - C++](./5_Backends/5.1_CPP)
+  * [5.1.1 - Simple C++ application](./5_Backends/5.1_CPP/5.1.1_SimpleApplication/Source/Main.hx)
+  * [5.1.2 - Usage a shared/dynamic library (C-FFI)](./5_Backends/5.1_CPP/5.1.2_C-FFI/Source/Main.hx)
+  * [5.1.3 - Shared/dynamic library with test application](./5_Backends/5.1_CPP/5.1.3_SharedLibraryWithTest/Source/Main.hx)
+* [5.2 - NekoVM](./5_Backends/5.2_NekoVM)
+  * [5.2.1 - Simple application for NekoVM](./5_Backends/5.2_NekoVM/5.2.1_SimpleApplication/Source/Main.hx)
+  * [5.2.2 - Usage a pre-compiled NekoVM-modules](./5_Backends/5.2_NekoVM/5.2.2_NekoVmModules/Source/Main.hx)
+  * [5.2.3 - Usage a shared/dynamic library (C-FFI)](./5_Backends/5.2_NekoVM/5.2.3_C-FFI/Source/Main.hx)
 
 ## An additional links
 * [Haxe Manual](http://haxe.org/manual/introduction.html)

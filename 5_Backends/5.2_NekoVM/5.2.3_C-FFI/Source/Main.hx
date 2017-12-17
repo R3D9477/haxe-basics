@@ -1,12 +1,8 @@
 package;
 
-// http://old.haxe.org/doc/cpp/ffi
 // http://nekovm.org/doc/ffi
-// http://stackoverflow.com/questions/10417589/neko-dlls-in-haxe-c-target
 
-#if cpp
-	import cpp.Lib;
-#elseif neko
+#if neko
 	import neko.Lib;
 #end
 

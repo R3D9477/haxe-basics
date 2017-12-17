@@ -7,7 +7,7 @@ class Main {
 	public static function main () {
 		var loader = Loader.local();
 		
-		var module = loader.loadModule("DynModule_Prg");
+		var module:Module = loader.loadModule("DynModule_Prg");
 		var classes:Dynamic = module.exportsTable().__classes;
 		var classesTypes = Reflect.fields(classes);
 		
