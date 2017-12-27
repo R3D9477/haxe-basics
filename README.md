@@ -47,6 +47,7 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
   * [2.6.1 - Initialization macros (macro from the command line)](./2_LangExtraFeatures/2.6_Macros/2.6.1_InitializationMacros/Source/Main.hx)
   * [2.6.2 - Automatic insertion of resources](./2_LangExtraFeatures/2.6_Macros/2.6.2_ResourcesInsertion/Source/Main.hx)
   * [2.6.3 - Simultaneous use of macros and static extensions](./2_LangExtraFeatures/2.6_Macros/2.6.3_MacrosAndStaticExtensions/Source/Main.hx)
+* [2.7 - Module level functions and variables](./2_LangExtraFeatures/2.7_ModuleLevelFuncVar)
 
 #### [3 - Standard library extra features](./3_StdLibExtraFeatures)
 * [3.1 - Data serialization](./3_StdLibExtraFeatures/3.1_DataSerialization)
@@ -92,6 +93,10 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
     * [3.7.2.1 - Connect/Disconnect](./3_StdLibExtraFeatures/3.7_DataBase/3.7.2_SQLite/3.7.2.1_DBConnection/Source/Main.hx)
     * [3.7.2.2 - Usage a simple data](./3_StdLibExtraFeatures/3.7_DataBase/3.7.2_SQLite/3.7.2.2_UsageSimpleData/Source/Main.hx)
     * [3.7.2.3 - Usage an unique ID field](./3_StdLibExtraFeatures/3.7_DataBase/3.7.2_SQLite/3.7.2.3_UsageIdField/Source/Main.hx)
+* [3.8 - Debugging](./3_StdLibExtraFeatures/3.8_Debugging)
+  * [3.8.1 - Code position](./3_StdLibExtraFeatures/3.8_Debugging/3.8.1_PosInfoParam)
+  * [3.8.2 - Override tracing function](./3_StdLibExtraFeatures/3.8_Debugging/3.8.2_OverrideTraceFunc)
+  * [3.8.3 - Trace type of value](./3_StdLibExtraFeatures/3.8_Debugging/3.8.3_TraceType)
 
 #### [4 - Additional libraries](./4_ExtLib)
 * [4.1 - Create a library for **haxelib**](./4_ExtLib/4.1_Haxelib)

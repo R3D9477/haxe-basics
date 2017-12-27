@@ -67,6 +67,13 @@ class Main {
 		trace(s3.toLowerCase()); // set all symbols of string to lower register and displays result
 		trace(s3.toUpperCase()); // set all symbols of string to upper register and displays result
 		
+		// display char codes
+		trace("Code of new line: " + "\n".code); // display code of symbol "new line"
+		trace("Code of space: " + " ".code); // display code of "space"
+
+		var s4:String = "a";
+		trace("Code of a: " + s4.charCodeAt(0)); // display code of symbol "a"
+
 		trace("--------------------------------------------------------------");
 		trace("--- OPERATIONS WITH BOOLEAN ---");
 		
