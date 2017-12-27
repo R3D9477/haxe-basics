@@ -98,7 +98,7 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
   * [3.8.1 - Code position](./3_StdLibExtraFeatures/3.8_Debugging/3.8.1_PosInfoParam)
   * [3.8.2 - Override tracing function](./3_StdLibExtraFeatures/3.8_Debugging/3.8.2_OverrideTraceFunc)
   * [3.8.3 - Trace type of value](./3_StdLibExtraFeatures/3.8_Debugging/3.8.3_TraceType)
-* [3.9 - C-FFI]
+* [3.9 - C-FFI](./3_StdLibExtraFeatures/3.9_C-FFI)
   * [3.9.1 - C-FFI in C++](./3_StdLibExtraFeatures/3.9_C-FFI/3.9.1_CPP/Source/Main.hx)
   * [3.9.2 - C-FFI in NekoVM](./3_StdLibExtraFeatures/3.9_C-FFI/3.9.2_NekoVM/Source/Main.hx)
 
