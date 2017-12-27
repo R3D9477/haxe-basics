@@ -121,7 +121,7 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
   * [5.1.2 - Shared/dynamic library with test application](./5_Backends/5.1_CPP/5.1.2_SharedLibraryWithTest/Source/Main.hx)
 * [5.2 - NekoVM](./5_Backends/5.2_NekoVM)
   * [5.2.1 - Simple application for NekoVM](./5_Backends/5.2_NekoVM/5.2.1_SimpleApplication/Source/Main.hx)
-  * [5.2.2 - Usage a shared/dynamic library (C-FFI)](./5_Backends/5.2_NekoVM/5.2.3_C-FFI/Source/Main.hx)
+  * [5.2.2 - Usage a pre-compiled NekoVM modules](./5_Backends/5.2_NekoVM/5.2.2_NekoVmModules/Source/Main.hx)
 
 ## An additional links
 * [Haxe Manual](http://haxe.org/manual/introduction.html)
