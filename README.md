@@ -98,6 +98,9 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
   * [3.8.1 - Code position](./3_StdLibExtraFeatures/3.8_Debugging/3.8.1_PosInfoParam)
   * [3.8.2 - Override tracing function](./3_StdLibExtraFeatures/3.8_Debugging/3.8.2_OverrideTraceFunc)
   * [3.8.3 - Trace type of value](./3_StdLibExtraFeatures/3.8_Debugging/3.8.3_TraceType)
+* [3.9 - C-FFI]
+  * [3.9.1 - C-FFI in C++](./3_StdLibExtraFeatures/3.9_C-FFI/3.9.1_CPP/Source/Main.hx)
+  * [3.9.2 - C-FFI in NekoVM](./3_StdLibExtraFeatures/3.9_C-FFI/3.9.2_NekoVM/Source/Main.hx)
 
 #### [4 - Additional libraries](./4_ExtLib)
 * [4.1 - Create a library for **haxelib**](./4_ExtLib/4.1_Haxelib)
@@ -115,12 +118,10 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
 #### [5 - Backends](./5_Backends)
 * [5.1 - C++](./5_Backends/5.1_CPP)
   * [5.1.1 - Simple C++ application](./5_Backends/5.1_CPP/5.1.1_SimpleApplication/Source/Main.hx)
-  * [5.1.2 - Usage a shared/dynamic library (C-FFI)](./5_Backends/5.1_CPP/5.1.2_C-FFI/Source/Main.hx)
-  * [5.1.3 - Shared/dynamic library with test application](./5_Backends/5.1_CPP/5.1.3_SharedLibraryWithTest/Source/Main.hx)
+  * [5.1.2 - Shared/dynamic library with test application](./5_Backends/5.1_CPP/5.1.2_SharedLibraryWithTest/Source/Main.hx)
 * [5.2 - NekoVM](./5_Backends/5.2_NekoVM)
   * [5.2.1 - Simple application for NekoVM](./5_Backends/5.2_NekoVM/5.2.1_SimpleApplication/Source/Main.hx)
-  * [5.2.2 - Usage a pre-compiled NekoVM-modules](./5_Backends/5.2_NekoVM/5.2.2_NekoVmModules/Source/Main.hx)
-  * [5.2.3 - Usage a shared/dynamic library (C-FFI)](./5_Backends/5.2_NekoVM/5.2.3_C-FFI/Source/Main.hx)
+  * [5.2.2 - Usage a shared/dynamic library (C-FFI)](./5_Backends/5.2_NekoVM/5.2.3_C-FFI/Source/Main.hx)
 
 ## An additional links
 * [Haxe Manual](http://haxe.org/manual/introduction.html)
