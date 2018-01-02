@@ -1,8 +1,8 @@
 -cmd rm -rf Bin && mkdir Bin
--cmd rm -rf Bin && mkdir Obj
+-cmd rm -rf Obj && mkdir Obj
 
 --next
 build.hxml
 
 --next
--cmd cd Bin && neko Main.n
+-cmd cd Bin && ./Main

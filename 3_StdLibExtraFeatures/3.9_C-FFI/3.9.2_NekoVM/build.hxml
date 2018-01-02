@@ -1,14 +1,7 @@
--cmd rm -rf Bin && mkdir Bin
--cmd rm -rf Obj && mkdir Obj
-
 -cmd gcc -c -Wall -Werror -fpic Source/foo.c -o Obj/foo.o
 -cmd gcc -shared -o Bin/libfoo.ndll Obj/foo.o
 
 --next
 -main Main
 -cp Source
--cpp Bin
-
---next
--cmd cd Bin
--cmd ./Main
+-neko Bin/Main.n
