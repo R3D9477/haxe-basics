@@ -119,7 +119,7 @@ The collection of easy samples and hello-worlds for [Haxe](http://haxe.org/).
 * [5.1 - C++](./5_Backends/5.1_CPP)
   * [5.1.1 - Simple C++ application](./5_Backends/5.1_CPP/5.1.1_SimpleApplication/Source/Main.hx)
   * [5.1.2 - Shared library with test application](./5_Backends/5.1_CPP/5.1.2_SharedLibraryWithTest)
-    * [5.1.2.1 - Dynamic library (*.dso) with main entry point](./5_Backends/5.1_CPP/5.1.2_SharedLibraryWithTest/5.1.2.1_DllWithMainEP): [library](./5_Backends/5.1_CPP/5.1.2_SharedLibraryWithTest/5.1.2.1_DllWithMainEP/Lib/Source/Main.hx), [test application](./5_Backends/5.1_CPP/5.1.2_SharedLibraryWithTest/5.1.2.1_DllWithMainEP/LibTestApp/Source/Main.hx)
+    * [5.1.2.1 - Dynamic library **(*.dso)** with main entry point](./5_Backends/5.1_CPP/5.1.2_SharedLibraryWithTest/5.1.2.1_DllWithMainEP): [library](./5_Backends/5.1_CPP/5.1.2_SharedLibraryWithTest/5.1.2.1_DllWithMainEP/Lib/Source/Main.hx), [test application](./5_Backends/5.1_CPP/5.1.2_SharedLibraryWithTest/5.1.2.1_DllWithMainEP/LibTestApp/Source/Main.hx)
 * [5.2 - NekoVM](./5_Backends/5.2_NekoVM)
   * [5.2.1 - Simple application for NekoVM](./5_Backends/5.2_NekoVM/5.2.1_SimpleApplication/Source/Main.hx)
   * [5.2.2 - Usage a pre-compiled NekoVM modules](./5_Backends/5.2_NekoVM/5.2.2_NekoVmModules/Source/Main.hx)
