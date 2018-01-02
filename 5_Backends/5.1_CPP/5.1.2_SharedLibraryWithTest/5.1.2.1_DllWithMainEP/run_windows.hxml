@@ -1,0 +1,14 @@
+-cmd cd Lib
+
+--next
+build.hxml
+
+--next
+-cmd cd ../LibTestApp
+
+--next
+build.hxml
+
+--next
+-cmd cd Bin
+-cmd ./Main.exe
