@@ -1,0 +1,7 @@
+-cmd g++ -c -I/home/r3d9u11/.haxelib_repo/hxcpp/3,4,188/include -Wall -Werror -fpic Source/foo.cpp -o Obj/foo.o
+-cmd g++ -shared -o Bin/libfoo.ndll Obj/foo.o
+
+--next
+-main Main
+-cp Source
+-cpp Bin
