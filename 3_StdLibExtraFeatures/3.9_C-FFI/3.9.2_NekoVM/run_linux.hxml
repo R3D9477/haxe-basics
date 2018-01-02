@@ -1,3 +1,6 @@
+-cmd rm -rf Bin && mkdir Bin
+-cmd rm -rf Bin && mkdir Obj
+
 -cmd gcc -c -Wall -Werror -fpic Source/foo.c -o Obj/foo.o
 -cmd gcc -shared -o Bin/libfoo.ndll Obj/foo.o
 

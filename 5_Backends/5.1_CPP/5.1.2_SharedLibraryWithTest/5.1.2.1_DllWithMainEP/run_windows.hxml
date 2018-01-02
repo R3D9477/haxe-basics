@@ -1,0 +1,8 @@
+Lib/build.hxml
+
+--next
+LibTestApp/build.hxml
+
+--next
+-cmd cd LibTestApp/Bin
+-cmd ./Main.exe

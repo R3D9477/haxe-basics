@@ -1,0 +1,5 @@
+-main Main
+-cp Source
+-cpp Bin
+
+-D dll_link
