@@ -1,0 +1,7 @@
+-main Main
+-cp Source
+-cpp Bin
+
+--next
+-cmd cd Bin
+-cmd ./Main
