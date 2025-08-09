@@ -1,6 +1,0 @@
-// GeneratedByHaxe
-namespace hx {
-unsigned char __res_28[] = {
-0xff, 0xff, 0xff, 0xff,
-0x00 };
-}

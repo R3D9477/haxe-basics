@@ -1,3 +1,0 @@
-hxcpp=3.4.188
-hxcpp_api_level=331
-hxcpp=/home/r3d9u11/.haxelib_repo/hxcpp/3,4,188/
